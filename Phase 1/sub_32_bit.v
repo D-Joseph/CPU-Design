@@ -1,8 +1,15 @@
 module  sub_32_bit (
-    input [31:0] 
+    input wire [31:0] a , b,
+    input wire cin,
+    output wire cout,
+    output wire [31:0] sum
 );
 //to subtract, you need to negate the second number, then add it to first
-//To negate a number, you need the two's compliment, which is done by
-//taking the inverse of the number, then adding 1 to it.
+wire [31:0] temp;
+
+negate_32_bit NEG(.a(b),.y(temp));
+adder_32_bit ADD(.a(a),.b(temp),.cin(cin),.cout(cout),.sum(sum))
+
+
     
 endmodule
