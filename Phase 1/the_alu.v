@@ -7,8 +7,6 @@ module the_alu (
   
   output wire [63:0] C;
 
-
-  
   input [4:0] opcode
 
 );
@@ -47,12 +45,13 @@ always @(*) begin
     C[31:0] <= adder_sum;
     C[63:32] <= 32'b0;
   end
+  mul
   endcase
 end
 
 
 adder_32_bit adder(.a(A),.b(B),.cin(1'b0),.cout(adder_cout),.sum(adder_sum));
 sub_32_bit subtraction(.a(A),.b(B),.cin(1'b0),.cout(sub_cout),.sum(sub_sum));
-
+multiplication_32_bit mutlipication(.a(A), .b(B), )
 
 endmodule

@@ -6,8 +6,8 @@ module CPUProject (
 
 //General System Signals
 
-wire HIin; HIout; LOin; LOout; PCin, PCout; IRin;
-Zin; Zhighout, Zlowout; Yin; MARin; MDRin, MDRout; read; Mdatain[31..0];
+wire HIin,HIout, LOin, LOout, PCin, PCout, IRin,
+Zin, Zhighout, Zlowout, Yin, MARin, MDRin, MDRout, read, Mdatain[31.0];
 
 
 wire [31:0] BusMuxIn-MDR;
@@ -38,6 +38,7 @@ wire [31:0] LO_data_out;
 
 
 wire [31:0] MDMux_out;
+
 mux_2_to_1 MDMux(read,bus_contents,Mdatain,MDMux_out);
 reg_32_bit MDR(clk,rst,MDRin,MDMux_out,BusMuxIn_MDR);
 

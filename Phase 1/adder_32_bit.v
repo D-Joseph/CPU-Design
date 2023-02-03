@@ -8,7 +8,7 @@ module adder_32_bit (
     wire cout1;
 
     CLA16 adder1(.a(a[15:0]), .b(b[15:0]), .cin(cin), .cout(cout1), .sum(sum[15:0]));
-    CLA16 adder1(.a(a[31:16]), .b(b[31:16]), .cin(cin), .cout(cout), .sum(sum[31:16]));
+    CLA16 adder2(.a(a[31:16]), .b(b[31:16]), .cin(cout1), .cout(cout), .sum(sum[31:16]));
 
 endmodule
 
@@ -23,9 +23,9 @@ module CLA16Bit (
 
     //We will now instantiate 4 of the 4 bit CLA adders that we just created below to create a 16 bit adder
     CLA4 adder1(.a(a[3:0]), .b(b[3:0]), .cin(cin), .cout(cout1), .sum(sum[3:0]));
-    CLA4 adder2(.a(a[7:4]), .b(b[7:4]), .cin(cin), .cout(cout2), .sum(sum[7:4]));
-    CLA4 adder3(.a(a[11:8]), .b(b[11:8]), .cin(cin), .cout(cout3), .sum(sum[11:8]));
-    CLA4 adder4(.a(a[15:12]), .b(b[15:12]), .cin(cin), .cout(cout), .sum(sum[15:12]));
+    CLA4 adder2(.a(a[7:4]), .b(b[7:4]), .cin(cout1), .cout(cout2), .sum(sum[7:4]));
+    CLA4 adder3(.a(a[11:8]), .b(b[11:8]), .cin(cout2), .cout(cout3), .sum(sum[11:8]));
+    CLA4 adder4(.a(a[15:12]), .b(b[15:12]), .cin(cout3), .cout(cout), .sum(sum[15:12]));
   
 endmodule
 
