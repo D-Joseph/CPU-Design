@@ -55,13 +55,16 @@ always @(*) begin
     Y = A << B;
   end 
   ror : begin
-    
+    C[31:0] <= ror_out;
+    C[63:32] <= 32'b0;
   end
   rol : begin
-    
+    C[31:0] <= rol_out;
+    C[63:32] <= 32'b0;
   end
   neg : begin
-    
+    C[63:32] <= 32'b0;
+    C[31:0] <= neg_out;
   end
   logicalNot : begin
     Y = ~A;
@@ -73,5 +76,9 @@ end
 adder_32_bit adder(.a(A),.b(B),.cin(1'b0),.cout(adder_cout),.sum(adder_sum));
 sub_32_bit subtraction(.a(A),.b(B),.cin(1'b0),.cout(sub_cout),.sum(sub_sum));
 multiplication_32_bit mutlipication(.a(A), .b(B), .product(mul_out));
+negate_32_bit negation(.a(A), .y(neg_out));
+rotate_left_32_bit rotateR(y,a,rol_out);
+rotate_right_32_bit rotateL(y,b,ror_out);
+
 
 endmodule
