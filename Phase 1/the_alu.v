@@ -16,6 +16,7 @@ parameter add = 00011, sub = 00100, logicalAnd = 00101, logicalOr = 00110, shr =
           jr = 10100, jal = 10101, in = 10110, out = 10111, mfhi = 11000, mflo = 11001, nop = 11010, halt = 11011;
 
 wire [31:0] neg_out, not_out, adder_sum, adder_cout, sub_sum, sub_cout, rol_out, ror_out;
+wire [63:0] mul_out , div_out;
   
 always @(*) begin
   case(opcode)
@@ -25,9 +26,25 @@ always @(*) begin
   logicalOr : begin
     Y = A | B;
   end
-  logicalNot : begin
-    Y = ~A;
-   end
+  add : begin
+    C[31:0] <= adder_sum;
+    C[63:32] <= 32'b0;
+  end
+  addi : begin
+    C[31:0] <= adder_sum;
+    C[63:32] <= 32'b0;
+  end
+  sub : begin
+    C[31:0] <= sub_sum;
+    C[63:32] <= 32'b0;
+  end
+  mul : begin
+    C[63:32] <= ~mul_out;
+    C[31:0] <= mul_out;
+  end
+  div : begin
+    C[63:0] <= div_out;
+  end
   shr : begin
     Y = A >> B;
   end
@@ -37,21 +54,24 @@ always @(*) begin
   shl : begin
     Y = A << B;
   end 
-  add : begin
-    C[31:0] <= adder_sum;
-    C[63:32] <= 32'b0;
+  ror : begin
+    
   end
-  addi : begin
-    C[31:0] <= adder_sum;
-    C[63:32] <= 32'b0;
+  rol : begin
+    
   end
-  mul
+  neg : begin
+    
+  end
+  logicalNot : begin
+    Y = ~A;
+  end
   endcase
 end
 
 
 adder_32_bit adder(.a(A),.b(B),.cin(1'b0),.cout(adder_cout),.sum(adder_sum));
 sub_32_bit subtraction(.a(A),.b(B),.cin(1'b0),.cout(sub_cout),.sum(sub_sum));
-multiplication_32_bit mutlipication(.a(A), .b(B), )
+multiplication_32_bit mutlipication(.a(A), .b(B), .product(mul_out));
 
 endmodule
