@@ -1,0 +1,24 @@
+`timescale 1ns/10ps
+module ALU_tb;
+
+	reg[31:0] input_a, input_b, input_c,
+	reg[4:0] opcode;
+	
+	wire[63:0] ALU_result;
+	
+	alu ALU_instance(
+		input_a, input_b,input_c, opcode, ALU_result                             
+	);			
+	
+	
+	initial
+		begin
+			input_a <= 2;
+			input_b <= 3;
+			opcode <= 00101;
+			
+		#200 
+			opcode <= 00011;
+		end
+	
+endmodule
