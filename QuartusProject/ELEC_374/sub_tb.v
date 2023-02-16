@@ -94,16 +94,16 @@ begin
 					 #15 MDRout <= 0; IRin <= 0;
             end
             T3: begin
-                #15 R2out<= 1; Yin <= 1;
-					 #15 R2out <= 0; Yin <= 0;
+                #15 R4out<= 1; Yin <= 1;
+					 #15 R4out <= 0; Yin <= 0;
             end
             T4: begin
-                #15 R3out<= 1; SUB <= 5'00011; ZLowIn <= 1;
-					 #15 R3out<= 0; ZLowIn <= 0;
+                #15 R5out<= 1; SUB <= 5'b00011; ZLowIn <= 1;
+					 #15 R5out<= 0; ZLowIn <= 0;
             end
             T5: begin
-                #15 Zlowout<= 1; R1in <= 1; 
-					 #50 Zlowout<= 0; R1in <= 0;
+                #15 Zlowout<= 1; R0in <= 1; 
+					 #50 Zlowout<= 0; R0in <= 0;
 				end
     endcase 
 end 

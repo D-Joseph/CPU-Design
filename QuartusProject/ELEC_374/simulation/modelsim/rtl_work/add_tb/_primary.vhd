@@ -1,6 +1,6 @@
 library verilog;
 use verilog.vl_types.all;
-entity or_tb is
+entity add_tb is
     generic(
         Default         : vl_logic_vector(0 to 3) := (Hi0, Hi0, Hi0, Hi0);
         Reg_load1a      : vl_logic_vector(0 to 3) := (Hi0, Hi0, Hi0, Hi1);
@@ -30,4 +30,4 @@ entity or_tb is
     attribute mti_svvh_generic_type of T3 : constant is 1;
     attribute mti_svvh_generic_type of T4 : constant is 1;
     attribute mti_svvh_generic_type of T5 : constant is 1;
-end or_tb;
+end add_tb;

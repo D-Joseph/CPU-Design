@@ -1,23 +1,23 @@
 `timescale 1ns/10ps
 
 module CPUDesignProject(
-	input PCout, ZLowout, MDRout,R2out, R3out, MARin, ZLowIn, PCin, MDRin, IRin, Yin, IncPC, Read,
+	input PCout,ZHighout, ZLowout, MDRout,R6out, R7out, MARin, ZLowIn,ZHighIn,PCin, MDRin, IRin, Yin, IncPC, Read, HIin, LOin,
    input [4:0] operation,
-	input R1in, R2in, R3in,
-	input clk,
+	input R6in, R7in,
+	input clk, clr,
 	input [31:0] MDatain,
-	output [31:0] ZLow_data_out
+	output [31:0] ZHigh_data_out
 );
 
 	// Wires being used as inputs to the bus's encoder. Originally they are all initialized to 0.
 	wire R0out = 0;
 	wire R1out = 0;
-	//wire R2out = 0;
-	//wire R3out = 0;
+	wire R2out = 0;
+	wire R3out = 0;
 	wire R4out = 0;
 	wire R5out = 0;
-	wire R6out = 0;
-	wire R7out = 0;
+	//wire R6out = 0;
+	//wire R7out = 0;
 	wire R8out = 0;
 	wire R9out = 0;
 	wire R10out = 0;
@@ -31,6 +31,7 @@ module CPUDesignProject(
 	wire InPortout = 0;
 	wire Cout = 0;
 	wire ZHighout = 0;
+	//wire ZLowout = 0;
 
 	// Encoder input and output wires
 	wire [31:0]	encoder_in;
@@ -90,8 +91,8 @@ module CPUDesignProject(
 	wire [31:0] R15_data_out;
 	wire [31:0] HI_data_out;
 	wire [31:0] LO_data_out;
-	wire [31:0] ZHigh_data_out;
-	//wire [31:0] ZLow_data_out;
+	//wire [31:0] ZHigh_data_out;
+	wire [31:0] ZLow_data_out;
 	wire [31:0] PC_data_out;
 	wire [31:0] MDR_data_out;
 	wire [31:0] InPort_data_out;
@@ -128,7 +129,7 @@ module CPUDesignProject(
 	reg_32_bit LO_reg(clk, clr, LOin, bus_contents, LO_data_out);
 	reg_32_bit ZHigh_reg(clk, clr, ZHighIn, C_data_out[63:32], ZHigh_data_out);	
 	reg_32_bit ZLow_reg(clk, clr, ZLowIn, C_data_out[31:0], ZLow_data_out);
-	reg_32_bit IR(clk, rst, IRin, bus_contents, IR_data_out);
+	reg_32_bit IR(clk, clr, IRin, bus_contents, IR_data_out);
 
 	IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
 	// Creating the MDR
