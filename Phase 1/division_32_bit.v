@@ -1,8 +1,9 @@
-module division(input signed [31:0] dividend,
-                divisor,
-                output reg [63:0] z);
+module division(
+	input signed [31:0] dividend, divisor,
+   output reg [63:0] z
+);
 
-    reg [63:32] high, 
+    reg [63:32] high;
     reg [31:0] low;
 
     always @ (*) //any signal change

@@ -2,7 +2,7 @@ module adder_32_bit (
     input wire [31:0] a, b,
     input wire cin,
     output wire cout,
-    output wire [31:0] sum;
+    output wire [31:0] sum
 );
 
     wire cout1;
@@ -12,7 +12,7 @@ module adder_32_bit (
 
 endmodule
 
-module CLA16Bit (
+module CLA16 (
     input wire [15:0] a, b,
     input wire cin,
     output wire cout,
@@ -33,7 +33,7 @@ endmodule
 module CLA4 (
     input wire [3:0] a, b,
     input wire cin,
-    output wire [3:0] sum
+    output wire [3:0] sum,
     output wire cout
 );
 

@@ -7,9 +7,8 @@ module  sub_32_bit (
 //to subtract, you need to negate the second number, then add it to first
 wire [31:0] temp;
 
-negate_32_bit NEG(.a(b),.y(temp));
-adder_32_bit ADD(.a(a),.b(temp),.cin(cin),.cout(cout),.sum(sum))
-
+negate_32_bit NEG(.a(b),.neg_a(temp));
+adder_32_bit ADD(.a(a),.b(temp),.cin(cin),.cout(cout),.sum(sum));
 
     
 endmodule

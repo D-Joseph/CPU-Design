@@ -1,21 +1,20 @@
-module the_alu (
-  input clk, clear,
+module alu (
+  input clk, clr, IncPC,
 
   input wire [31:0] A,
   input wire [31:0] B,
-  input wire [31:0] Y, //output
-  
-  output reg [63:0] C,
 
-  input [4:0] opcode
+  input [4:0] opcode,
+  
+  output reg [63:0] C
 
 );
 
-parameter add = 00011, sub = 00100, logicalAnd = 00101, logicalOr = 00110, shr = 00111, shra = 01000, shl = 01001, ror = 01010, 
-          rol = 01011, addi = 01100, andi = 01101, ori = 01110, mul = 01111, div = 10000, neg = 10001, logicalNot = 10010, br = 10011,
-          jr = 10100, jal = 10101, in = 10110, out = 10111, mfhi = 11000, mflo = 11001, nop = 11010, halt = 11011;
+parameter add = 5'b00011, sub = 5'b00100, logicalAnd = 5'b00101, logicalOr = 5'b00110, shr = 5'b00111, shra = 5'b01000, shl = 5'b01001, ror = 5'b01010, 
+          rol = 5'b01011, addi = 5'b01100, andi = 5'b01101, ori = 5'b01110, mul = 5'b01111, div = 5'b10000, neg = 5'b10001, logicalNot = 5'b10010, br = 5'b10011,
+          jr = 5'b10100, jal = 5'b10101, in = 5'b10110, out = 5'b10111, mfhi = 5'b11000, mflo = 5'b11001, nop = 5'b11010, halt = 5'b11011;
 
-wire [31:0] neg_out, not_out, adder_sum, adder_cout, sub_sum, sub_cout, rol_out, ror_out;
+wire [31:0] IncPC_out, neg_out, not_out, adder_sum, adder_cout, sub_sum, sub_cout, rol_out, ror_out;
 wire [63:0] mul_out , div_out;
   
 always @(*) begin
@@ -41,8 +40,8 @@ always @(*) begin
     C[63:32] <= 32'b0;
   end
   mul : begin
-    C[63:32] <= ~mul_out;
-    C[31:0] <= mul_out;
+    C[63:32] <= mul_out[63:32];
+    C[31:0] <= mul_out[31:0];
   end
   div : begin
     C[63:0] <= div_out;
@@ -81,10 +80,12 @@ end
 
 adder_32_bit adder(.a(A),.b(B),.cin(1'b0),.cout(adder_cout),.sum(adder_sum));
 sub_32_bit subtraction(.a(A),.b(B),.cin(1'b0),.cout(sub_cout),.sum(sub_sum));
-multiplication_32_bit mutlipication(.a(A), .b(B), .product(mul_out));
-negate_32_bit negation(.a(A), .y(neg_out));
-rotate_left_32_bit rotateR(y,a,rol_out);
-rotate_right_32_bit rotateL(y,b,ror_out);
+multiplication_32_bit mutlipication(.a(A), .b(B), .result(mul_out));
+negate_32_bit negation(.a(A), .neg_a(neg_out));
+rol_32_bit rotateR(a,b,rol_out);
+rotate_right_32_bit rotateL(a,b,ror_out);
+IncPC_32_bit incPC(IncPC, RPC, PC_out);
+
 
 
 endmodule

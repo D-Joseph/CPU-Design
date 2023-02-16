@@ -1,8 +1,8 @@
 module not_32_bit (
   input wire [31:0] a,
-  output wire [31:0] y
+  output wire [31:0] nota
 );
 
-assign y = !a;
+assign nota = !a;
   
 endmodule

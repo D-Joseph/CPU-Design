@@ -23,7 +23,7 @@ module mux_32_to_1 (
   input [31:0] BusMuxIn_MDR,
   input [31:0] BusMuxIn_In_Port,
   input [31:0] C_Sign_Extended,
-  output [31:0] BusMuxOut,
+  output reg [31:0] BusMuxOut,
   input wire [4:0] select
 );
   
