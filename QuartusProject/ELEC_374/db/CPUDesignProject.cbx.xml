@@ -1,11 +1,5 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CPUDesignProject">
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_01p.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_01p.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_3po.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_01p.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_3po.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_3po.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

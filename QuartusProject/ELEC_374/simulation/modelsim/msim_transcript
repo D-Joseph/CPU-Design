@@ -5,87 +5,90 @@
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
+# Copying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sub_32_bit
 # 
 # Top level modules:
 # 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module rotate_right_32_bit
 # 
 # Top level modules:
 # 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
+# -- Compiling module rotate_left_32_bit
 # 
 # Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
+# 	rotate_left_32_bit
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module reg_32_bit
 # 
 # Top level modules:
 # 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module not_32_bit
 # 
 # Top level modules:
 # 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module negate_32_bit
 # 
 # Top level modules:
 # 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux_32_to_1
 # 
 # Top level modules:
 # 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux_2_to_1
 # 
 # Top level modules:
 # 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module multiplication_32_bit
 # 
 # Top level modules:
 # 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module encoder_32_to_5
 # 
 # Top level modules:
 # 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module division_32_bit
 # 
 # Top level modules:
 # 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module CPUDesignProject
 # 
 # Top level modules:
 # 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module adder_32_bit
 # -- Compiling module CLA16
@@ -93,22 +96,22 @@
 # 
 # Top level modules:
 # 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module IncPC_32_bit
 # 
 # Top level modules:
 # 	IncPC_32_bit
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mul_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
+# -- Compiling module mul_tb
 # 
 # Top level modules:
-# 	div_tb
+# 	mul_tb
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  mul_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mul_tb 
 # //  ModelSim ALTERA 10.1d Nov  2 2012 
 # //
 # //  Copyright 1991-2012 Mentor Graphics Corporation
@@ -118,7 +121,7 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Loading work.div_tb
+# Loading work.mul_tb
 # Loading work.CPUDesignProject
 # Loading work.encoder_32_to_5
 # Loading work.reg_32_bit
@@ -134,55 +137,49 @@
 # Loading work.not_32_bit
 # Loading work.multiplication_32_bit
 # Loading work.division_32_bit
-# Loading work.rol_32_bit
+# Loading work.rotate_left_32_bit
 # Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v(8).
 # 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
+#         Region: /mul_tb/DUT/IR
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v(24).
 # 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
+#         Region: /mul_tb/DUT/BusMux
+# ** Warning: (vsim-3017) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
 # 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
+#         Region: /mul_tb/DUT/the_alu
+# ** Warning: (vsim-3722) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
 # 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v(4).
 # 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
+#         Region: /mul_tb/DUT/the_alu/adder
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v(4).
 # 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
+#         Region: /mul_tb/DUT/the_alu/subtraction
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v(3).
 # 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
+#         Region: /mul_tb/DUT/the_alu/subtraction/NEG/NOT
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v(2).
 # 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
+#         Region: /mul_tb/DUT/the_alu/subtraction/NEG/ADD
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v(3).
 # 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
+#         Region: /mul_tb/DUT/the_alu/negation/NOT
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v(2).
 # 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/negation/ADD
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
 # 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/rotateL
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
 # 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/rotateR
+# ** Warning: (vsim-3017) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
 # 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/incPC
+# ** Warning: (vsim-3722) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
 # 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
+# ** Warning: (vsim-3722) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
 # 
 # 
 # add wave *
@@ -190,10 +187,10 @@
 # 
 #           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
 # 
-#           Attempting to use alternate WLF file "./wlfte6bein".
+#           Attempting to use alternate WLF file "./wlfth1a10w".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlfte6bein
+#           Using alternate file: ./wlfth1a10w
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
@@ -206,87 +203,87 @@ do CPUDesignProject_run_msim_rtl_verilog.do
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
+# Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module sub_32_bit
 # 
 # Top level modules:
 # 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module rotate_right_32_bit
 # 
 # Top level modules:
 # 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
+# -- Compiling module rotate_left_32_bit
 # 
 # Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
+# 	rotate_left_32_bit
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module reg_32_bit
 # 
 # Top level modules:
 # 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module not_32_bit
 # 
 # Top level modules:
 # 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module negate_32_bit
 # 
 # Top level modules:
 # 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux_32_to_1
 # 
 # Top level modules:
 # 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux_2_to_1
 # 
 # Top level modules:
 # 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module multiplication_32_bit
 # 
 # Top level modules:
 # 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module encoder_32_to_5
 # 
 # Top level modules:
 # 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module division_32_bit
 # 
 # Top level modules:
 # 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module CPUDesignProject
 # 
 # Top level modules:
 # 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module adder_32_bit
 # -- Compiling module CLA16
@@ -294,23 +291,23 @@ do CPUDesignProject_run_msim_rtl_verilog.do
 # 
 # Top level modules:
 # 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module IncPC_32_bit
 # 
 # Top level modules:
 # 	IncPC_32_bit
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 {C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mul_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
+# -- Compiling module mul_tb
 # 
 # Top level modules:
-# 	div_tb
+# 	mul_tb
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  mul_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mul_tb 
+# Loading work.mul_tb
 # Loading work.CPUDesignProject
 # Loading work.encoder_32_to_5
 # Loading work.reg_32_bit
@@ -326,55 +323,49 @@ do CPUDesignProject_run_msim_rtl_verilog.do
 # Loading work.not_32_bit
 # Loading work.multiplication_32_bit
 # Loading work.division_32_bit
-# Loading work.rol_32_bit
+# Loading work.rotate_left_32_bit
 # Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v(8).
 # 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
+#         Region: /mul_tb/DUT/IR
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v(24).
 # 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
+#         Region: /mul_tb/DUT/BusMux
+# ** Warning: (vsim-3017) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
 # 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
+#         Region: /mul_tb/DUT/the_alu
+# ** Warning: (vsim-3722) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
 # 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v(4).
 # 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
+#         Region: /mul_tb/DUT/the_alu/adder
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v(4).
 # 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
+#         Region: /mul_tb/DUT/the_alu/subtraction
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v(3).
 # 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
+#         Region: /mul_tb/DUT/the_alu/subtraction/NEG/NOT
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v(2).
 # 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
+#         Region: /mul_tb/DUT/the_alu/subtraction/NEG/ADD
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v(3).
 # 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
+#         Region: /mul_tb/DUT/the_alu/negation/NOT
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v(2).
 # 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/negation/ADD
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
 # 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/rotateL
+# ** Warning: (vsim-3015) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
 # 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/rotateR
+# ** Warning: (vsim-3017) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
 # 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
+#         Region: /mul_tb/DUT/the_alu/incPC
+# ** Warning: (vsim-3722) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
 # 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
+# ** Warning: (vsim-3722) C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
 # 
 # 
 # add wave *
@@ -382,2122 +373,10 @@ do CPUDesignProject_run_msim_rtl_verilog.do
 # 
 #           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
 # 
-#           Attempting to use alternate WLF file "./wlftys1vsf".
+#           Attempting to use alternate WLF file "./wlft1wy3y3".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftys1vsf
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlftkjvc05".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftkjvc05
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlft0w6416".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft0w6416
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlftc1vwjy".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftc1vwjy
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlftcy7iq7".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftcy7iq7
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlft9nhi1y".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft9nhi1y
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlftq6mmcw".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftq6mmcw
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlft1ddyyf".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft1ddyyf
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlftnc4kfk".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftnc4kfk
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlftrarezb".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftrarezb
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlft8mr0j5".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft8mr0j5
-# 
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run 1500 ns
-do CPUDesignProject_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sub_32_bit
-# 
-# Top level modules:
-# 	sub_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rotate_right_32_bit
-# 
-# Top level modules:
-# 	rotate_right_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module rol_32_bit
-# 
-# Top level modules:
-# 	rol_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module reg_32_bit
-# 
-# Top level modules:
-# 	reg_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module not_32_bit
-# 
-# Top level modules:
-# 	not_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module negate_32_bit
-# 
-# Top level modules:
-# 	negate_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_32_to_1
-# 
-# Top level modules:
-# 	mux_32_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module mux_2_to_1
-# 
-# Top level modules:
-# 	mux_2_to_1
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module multiplication_32_bit
-# 
-# Top level modules:
-# 	multiplication_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module encoder_32_to_5
-# 
-# Top level modules:
-# 	encoder_32_to_5
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module division_32_bit
-# 
-# Top level modules:
-# 	division_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module CPUDesignProject
-# 
-# Top level modules:
-# 	CPUDesignProject
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module alu
-# 
-# Top level modules:
-# 	alu
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module adder_32_bit
-# -- Compiling module CLA16
-# -- Compiling module CLA4
-# 
-# Top level modules:
-# 	adder_32_bit
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module IncPC_32_bit
-# 
-# Top level modules:
-# 	IncPC_32_bit
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/div_tb.v}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module div_tb
-# 
-# Top level modules:
-# 	div_tb
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  div_tb
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps div_tb 
-# Loading work.div_tb
-# Loading work.CPUDesignProject
-# Loading work.encoder_32_to_5
-# Loading work.reg_32_bit
-# Loading work.IncPC_32_bit
-# Loading work.mux_2_to_1
-# Loading work.mux_32_to_1
-# Loading work.alu
-# Loading work.adder_32_bit
-# Loading work.CLA16
-# Loading work.CLA4
-# Loading work.sub_32_bit
-# Loading work.negate_32_bit
-# Loading work.not_32_bit
-# Loading work.multiplication_32_bit
-# Loading work.division_32_bit
-# Loading work.rol_32_bit
-# Loading work.rotate_right_32_bit
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(132): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v(8).
-# 
-#         Region: /div_tb/DUT/IR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(171): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'BusMuxIn_In_Port'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v(24).
-# 
-#         Region: /div_tb/DUT/BusMux
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Too few port connections. Expected 7, found 6.
-# 
-#         Region: /div_tb/DUT/the_alu
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v(183): [TFMPC] - Missing connection for port 'IncPC'.
-# 
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(81): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/adder
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(82): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'cout'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v(4).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/subtraction/NEG/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(11): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'nota'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v(3).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/NOT
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v(12): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'a'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v(2).
-# 
-#         Region: /div_tb/DUT/the_alu/negation/ADD
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(86): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateR
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3015) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(87): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'numRotateBits'. The port definition is at: C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v(1).
-# 
-#         Region: /div_tb/DUT/the_alu/rotateL
-# ** Warning: (vsim-3017) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Too few port connections. Expected 5, found 3.
-# 
-#         Region: /div_tb/DUT/the_alu/incPC
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'inputPC'.
-# 
-# ** Warning: (vsim-3722) C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v(88): [TFMPC] - Missing connection for port 'newPC'.
-# 
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Luka  Hostname: LAPTOP-B399UHJN  ProcessID: 24208
-# 
-#           Attempting to use alternate WLF file "./wlft4kcnik".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlft4kcnik
+#           Using alternate file: ./wlft1wy3y3
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct

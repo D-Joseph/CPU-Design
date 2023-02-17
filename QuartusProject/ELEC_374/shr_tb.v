@@ -1,8 +1,8 @@
 `timescale 1ns / 10ps
 module shr_tb; 	
-	reg PCout, Zlowout, MDRout, R2out, R3out, MARin, ZLowIn, PCin, MDRin, IRin, Yin, IncPC, Read;
+	reg PCout, Zlowout, MDRout, R3out, R5out, MARin, ZLowIn, PCin, MDRin, IRin, Yin, IncPC, Read;
    reg [4:0] SHR;
-	reg R1in, R2in, R3in;
+	reg R1in, R3in, R5in;
 	reg Clock;
 	reg [31:0] Mdatain;
 	wire [31:0] MDR_output;
@@ -13,8 +13,8 @@ parameter	Default = 4'b0000, Reg_load1a= 4'b0001, Reg_load1b= 4'b0010,
 reg	[3:0] Present_state= Default;
 
 
-CPUDesignProject DUT(PCout, Zlowout, MDRout,R2out, R3out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
-			SHR, R1in, R2in, R3in,Clock, Mdatain,MDR_output);
+CPUDesignProject DUT(PCout, Zlowout, MDRout,R3out, R5out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
+			SHR, R1in, R3in, R5in,Clock, Mdatain,MDR_output);
 // add test logic here 
 initial  
     begin 
@@ -45,29 +45,29 @@ begin
     case (Present_state)               // assert the required signals in each clock cycle 
         Default: begin 
               		PCout <= 0;   Zlowout <= 0;   MDRout<= 0;   //initialize the signals
-					   R2out <= 0;   R3out <= 0;   MARin <= 0;   ZLowIn <= 0;  
+					   R3out <= 0;   R5out <= 0;   MARin <= 0;   ZLowIn <= 0;  
 						PCin <=0;   MDRin <= 0;   IRin  <= 0;   Yin <= 0;  
 						IncPC <= 0;   Read <= 0;   SHR <= 0;  
-						R1in <= 0; R2in <= 0; R3in <= 0; Mdatain <= 32'h00000000;
+						R1in <= 0; R3in <= 0; R5in <= 0; Mdatain <= 32'h00000000;
         end 
         Reg_load1a: begin   
-                        Mdatain <= 32'h00000012; 
+                        Mdatain <= 32'd25; 
                         Read = 0; MDRin = 0;                   // the first zero is there for completeness 
                         #10 Read <= 1; MDRin <= 1;   
                         #15 Read <= 0; MDRin <= 0;    
         end          
         Reg_load1b: begin  
-                        #10 MDRout <= 1; R2in <= 1;   
-                        #15 MDRout <= 0; R2in <= 0;     // initialize R2 with the value $12          
+                        #10 MDRout <= 1; R3in <= 1;   
+                        #15 MDRout <= 0; R3in <= 0;     // initialize R2 with the value $12          
         end 
         Reg_load2a: begin   
-                       Mdatain <= 32'h00000014; 
+                       Mdatain <= 32'd3; 
 								#10 Read <= 1; MDRin <= 1;   
 								#15 Read <= 0; MDRin <= 0;       
         end 
         Reg_load2b: begin  
-                       #10 MDRout <= 1; R3in <= 1;   
-                       #15 MDRout <= 0; R3in <= 0;  // initialize R3 with the value $14         
+                       #10 MDRout <= 1; R5in <= 1;   
+                       #15 MDRout <= 0; R5in <= 0;  // initialize R3 with the value $14         
         end 
         Reg_load3a: begin   
                        Mdatain <= 32'h00000018; 
@@ -99,7 +99,7 @@ begin
 					 #15 R3out <= 0; Yin <= 0;
             end
             T4: begin
-                #15 R5out<= 1; SHR <= 5'b00101; ZLowIn <= 1;
+                #15 R5out<= 1; SHR <= 5'b00111; ZLowIn <= 1;
 					 #15 R5out<= 0; ZLowIn <= 0;
             end
             T5: begin

@@ -1,6 +1,6 @@
-module rotate_right_32_bit(input wire [31:0] in, input wire [4:0] numRotateBits, output reg [31:0] out);
+module rotate_right_32_bit(input wire [31:0] in, input wire [4:0] b, output reg [31:0] out);
 	always@(*) begin
-		case(numRotateBits)
+		case(b)
 				5'd31: 	out <= {in[30:0], in[31]};
 				5'd30: 	out <= {in[29:0], in[31:30]};
 				5'd29: 	out <= {in[28:0], in[31:29]};
@@ -30,8 +30,8 @@ module rotate_right_32_bit(input wire [31:0] in, input wire [4:0] numRotateBits,
 				5'd5:   out <= {in[4:0], in[31:5]};
 				5'd4:   out <= {in[3:0], in[31:4]};
 				5'd3:   out <= {in[2:0], in[31:3]};
-				5'd2:	out <= {in[1:0], in[31:2]};
-				5'd1:	out <= {in[0], in[31:1]};
+				5'd2:	 out <= {in[1:0], in[31:2]};
+				5'd1:	  out <= {in[0], in[31:1]};
 				default: out <= in;
 		endcase
 	end   
