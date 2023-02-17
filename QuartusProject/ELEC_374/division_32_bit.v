@@ -1,18 +1,31 @@
-module division(
-	input signed [31:0] dividend, divisor,
-   output reg [63:0] z
+module division_32_bit(
+    input signed [31:0] a,
+    input signed [31:0] b,
+    output [63:0] z
 );
 
-    reg [63:32] high;
-    reg [31:0] low;
+reg signed [31:0] absA, absB;
+reg signed [31:0] q;
+reg signed [31:0] r;
 
-    always @ (*) //any signal change
-    begin
-        high = dividend % divisor; //store the remainder in the high register
-        low  = (dividend - high) / divisor;   // subtract the remainder from the dividend, then divide it by the divisor
-        begin
-          z = {high, low}; // concatenate the high and low registers into a 64 bit output reg
-        end
-    end
-    
+always @ (*) begin
+    if(a[31] == 1'b1) begin
+		absA = -a;
+		q = absA / b;
+		q = -q;
+		r = absA % b;
+	 end else if(b[31] == 1'b1) begin
+		absB = -b;
+		q = absA / b;
+		q = -q;
+		r = absA % b;
+	  end
+	  else begin
+		q = a / b;
+		r = a % b;
+	  end
+end
+
+assign z = {r, q};
+
 endmodule

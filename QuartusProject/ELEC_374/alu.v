@@ -80,7 +80,8 @@ end
 
 adder_32_bit adder(.a(A),.b(B),.cin(1'b0),.cout(adder_cout),.sum(adder_sum));
 sub_32_bit subtraction(.a(A),.b(B),.cin(1'b0),.cout(sub_cout),.sum(sub_sum));
-multiplication_32_bit mutlipication(.a(A), .b(B), .result(mul_out));
+multiplication_32_bit mutlipication(.a(A), .b(B), .z(mul_out));
+division_32_bit divison(.a(A), .b(B), .z(div_out));
 negate_32_bit negation(.a(A), .neg_a(neg_out));
 rol_32_bit rotateR(a,b,rol_out);
 rotate_right_32_bit rotateL(a,b,ror_out);
