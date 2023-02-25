@@ -1,8 +1,8 @@
 `timescale 1ns / 10ps
 module ror_tb; 	
-	reg PCout, Zlowout, MDRout, R3out, R5out, MARin, ZLowIn, PCin, MDRin, IRin, Yin, IncPC, Read;
+	reg PCout, Zlowout, MDRout, R6out, R4out, MARin, ZLowIn, PCin, MDRin, IRin, Yin, IncPC, Read;
    reg [4:0] ROR;
-	reg R1in, R3in, R5in;
+	reg R6in, R4in;
 	reg Clock;
 	reg [31:0] Mdatain;
 	wire [31:0] MDR_output;
@@ -13,8 +13,8 @@ parameter	Default = 4'b0000, Reg_load1a= 4'b0001, Reg_load1b= 4'b0010,
 reg	[3:0] Present_state= Default;
 
 
-CPUDesignProject DUT(PCout, Zlowout, MDRout,R3out, R5out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
-			ROR, R1in, R3in, R5in,Clock, Mdatain,MDR_output);
+CPUDesignProject DUT(PCout, Zlowout, MDRout,R6out, R4out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
+			ROR, R6in, R4in,Clock, Mdatain,MDR_output);
 // add test logic here 
 initial  
     begin 
@@ -45,38 +45,38 @@ begin
     case (Present_state)               // assert the required signals in each clock cycle 
         Default: begin 
               		PCout <= 0;   Zlowout <= 0;   MDRout<= 0;   //initialize the signals
-					   R3out <= 0;   R5out <= 0;   MARin <= 0;   ZLowIn <= 0;  
+					   R6out <= 0;   R4out <= 0;   MARin <= 0;   ZLowIn <= 0;  
 						PCin <=0;   MDRin <= 0;   IRin  <= 0;   Yin <= 0;  
 						IncPC <= 0;   Read <= 0;   ROR <= 0;  
-						R1in <= 0; R3in <= 0; R5in <= 0; Mdatain <= 32'h00000000;
+						R6in <= 0; R4in <= 0; Mdatain <= 32'h00000000;
         end 
         Reg_load1a: begin   
-                        Mdatain <= 32'd25; 
+                        Mdatain <= 32'b00010111; 
                         Read = 0; MDRin = 0;                   // the first zero is there for completeness 
                         #10 Read <= 1; MDRin <= 1;   
                         #15 Read <= 0; MDRin <= 0;    
         end          
         Reg_load1b: begin  
-                        #10 MDRout <= 1; R3in <= 1;   
-                        #15 MDRout <= 0; R3in <= 0;     // initialize R2 with the value $12          
+                        #10 MDRout <= 1; R6in <= 1;   
+                        #15 MDRout <= 0; R6in <= 0;     // initialize R2 with the value $12          
         end 
         Reg_load2a: begin   
-                       Mdatain <= 32'd3; 
-								#10 Read <= 1; MDRin <= 1;   
-								#15 Read <= 0; MDRin <= 0;       
+                       Mdatain <= 1; 
+						#10 Read <= 1; MDRin <= 1;   
+						#15 Read <= 0; MDRin <= 0;       
         end 
         Reg_load2b: begin  
-                       #10 MDRout <= 1; R5in <= 1;   
-                       #15 MDRout <= 0; R5in <= 0;  // initialize R3 with the value $14         
+                       #10 MDRout <= 1; R4in <= 1;   
+                       #15 MDRout <= 0; R4in <= 0;  // initialize R3 with the value $14         
         end 
         Reg_load3a: begin   
-                       Mdatain <= 32'h00000018; 
-                       #10 Read <= 1; MDRin <= 1;   
-                       #15 Read <= 0; MDRin <= 0; 
+                      // Mdatain <= 32'h00000018; 
+                       //#10 Read <= 1; MDRin <= 1;   
+                       //#15 Read <= 0; MDRin <= 0; 
         end 
         Reg_load3b: begin  
-                       #10 MDRout <= 1; R1in <= 1;   
-                       #15 MDRout <= 0; R1in <= 0;  // initialize R1 with the value $18           
+                       //#10 MDRout <= 1; R6in <= 1;   
+                       //#15 MDRout <= 0; R6in <= 0;  // initialize R1 with the value $18           
         end 
  
          T0: begin                                                                                  // see if you need to de-assert these signals 
@@ -87,7 +87,7 @@ begin
         end 
 			T1: begin
                 Zlowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32'h28918000; //opcode for “and R5, R2, R4”
+                Mdatain <= 32'h28918000; //opcode for Ã¢â‚¬Å“and R5, R2, R4Ã¢â‚¬Â
 					 #15 Zlowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
             end
             T2: begin
@@ -95,16 +95,16 @@ begin
 					 #15 MDRout <= 0; IRin <= 0;
             end
             T3: begin
-                #15 R3out<= 1; Yin <= 1;
-					 #15 R3out <= 0; Yin <= 0;
+                #15 R6out<= 1; Yin <= 1;
+					 #15 R6out <= 0; Yin <= 0;
             end
             T4: begin
-                #15 R5out<= 1; ROR <= 5'b01010; ZLowIn <= 1;
-					 #15 R5out<= 0; ZLowIn <= 0;
+                #15 R4out<= 1; ROR <= 5'b01010; ZLowIn <= 1;
+				    #15 R4out<= 0; ZLowIn <= 0;
             end
             T5: begin
-                #15 Zlowout<= 1; R1in <= 1; 
-					 #50 Zlowout<= 0; R1in <= 0;
+                #15 Zlowout<= 1; R6in <= 1; 
+					 #50 Zlowout<= 0; R6in <= 0;
 				end
     endcase 
 end 

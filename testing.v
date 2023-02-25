@@ -1,112 +1,131 @@
-`timescale 1ns / 10ps
-module and_tb; 	
-	reg PCout, Zlowout, MDRout,R1out, R2out, R3out, MARin, ZLowIn, PCin, MDRin, IRin, Yin, IncPC, Read;
-   reg [4:0] AND;
-	reg R1in, R2in, R3in;
-	reg Clock;
-	reg [31:0] Mdatain;
-	wire [31:0] BusMuxOut_output;
-
-parameter	Default = 4'b0000, Reg_load1a= 4'b0001, Reg_load1b= 4'b0010,
-					Reg_load2a= 4'b0011, Reg_load2b = 4'b0100, Reg_load3a = 4'b0101,
-					Reg_load3b = 4'b0110, T0= 4'b0111, T1= 4'b1000,T2= 4'b1001, T3= 4'b1010, T4= 4'b1011, T5= 4'b1100;
-reg	[3:0] Present_state= Default;
+module multiplication_32_bit (
+  input wire signed [31:0] a,
+  input wire signed [31:0] b,
+  output wire[63:0] z
+);
 
 
-CPUDesignProject DUT(PCout, Zlowout, MDRout,R1out,R2out, R3out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
-			AND, R1in, R2in, R3in,Clock, Mdatain,BusMuxOut_output);
-// add test logic here 
-initial  
-    begin 
-       Clock = 0; 
-		 //BusMuxOut_output = 0;
-       forever #10 Clock = ~ Clock; 
+integer i,j;
+reg [2:0] groupedBits[15:0];
+reg  [32:0] partialProduct[15:0];
+reg  [63:0] shiftedPartialProduct[15:0];
+reg  [63:0] product;
+reg [31:0] absA, absB;
+
+always@(a or b) begin
+if(a[31] == 1'b1) begin
+	absA = -a;
+	end
+else if(b[31] == 1'b1) begin
+	absB = -b;
+	end
+ else begin
+	absA = a;
+	absB = b;
 end 
- 
-always @(posedge Clock)  // finite state machine; if clock rising-edge 
-   begin 
-      case (Present_state) 
-       Default			:	#40 Present_state = Reg_load1a;
-		Reg_load1a		:	#40 Present_state = Reg_load1b;
-		Reg_load1b		:	#40 Present_state = Reg_load2a;
-		Reg_load2a		:	#40 Present_state = Reg_load2b;
-		Reg_load2b		:	#40 Present_state = Reg_load3a;
-		Reg_load3a		:	#40 Present_state = Reg_load3b;
-		Reg_load3b		:	#40 Present_state = T0;
-		T0					:	#40  Present_state = T1;
-		T1					:	 #40 Present_state = T2;
-		T2					:	#40  Present_state = T3;
-		T3					:	#40  Present_state = T4;
-		T4					:	 #40 Present_state = T5;
-       endcase 
-   end   
-                                                          
-always @(Present_state)  // do the required job in each state 
-begin 
-    case (Present_state)               // assert the required signals in each clock cycle 
-        Default: begin 
-              		PCout <= 0;   Zlowout <= 0;   MDRout<= 0;   //initialize the signals
-					   R1out <= 0; R2out <= 0;   R3out <= 0;   MARin <= 0;   ZLowIn <= 0;  
-						PCin <=0;   MDRin <= 0;   IRin  <= 0;   Yin <= 0;  
-						IncPC <= 0;   Read <= 0;   AND <= 0;  
-						R1in <= 0; R2in <= 0; R3in <= 0; Mdatain <= 32'h00000000;
-        end 
-        Reg_load1a: begin   
-                        Mdatain <= 32'h00000012; 
-                        Read = 0; MDRin = 0;                   // the first zero is there for completeness 
-                        #10 Read <= 1; MDRin <= 1;   
-                        #15 Read <= 0; MDRin <= 0;    
-        end          
-        Reg_load1b: begin  
-                        #10 MDRout <= 1; R2in <= 1;   
-                        #15 MDRout <= 0; R2in <= 0;     // initialize R2 with the value $12          
-        end 
-        Reg_load2a: begin   
-                       Mdatain <= 32'h00000014; 
-								#10 Read <= 1; MDRin <= 1;   
-								#15 Read <= 0; MDRin <= 0;       
-        end 
-        Reg_load2b: begin  
-                       #10 MDRout <= 1; R3in <= 1;   
-                       #15 MDRout <= 0; R3in <= 0;  // initialize R3 with the value $14         
-        end 
-        Reg_load3a: begin   
-                       Mdatain <= 32'h00000018; 
-                       #10 Read <= 1; MDRin <= 1;   
-                       #15 Read <= 0; MDRin <= 0; 
-        end 
-        Reg_load3b: begin  
-                       #10 MDRout <= 1; R1in <= 1;   
-                       #15 MDRout <= 0; R1in <= 0;  // initialize R1 with the value $18           
-        end 
- 
-        T0: begin                                                                                  // see if you need to de-assert these signals 
+end
 
-				  #10 PCout <= 1; MARin <= 1; IncPC <= 1; //ZLowIn <= 1; 
-				  #15 PCout <= 0; MARin <= 0; IncPC <= 0; //ZLowIn <= 0;
-				  //Deassert the signals before the next step
-        end 
-          T1: begin
-                Zlowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
-                Mdatain <= 32'h28918000; //opcode for “and R5, R2, R4”
-					 #15 Zlowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
-            end
-            T2: begin
-                #15 MDRout<= 1; IRin <= 1;
-					 #15 MDRout <= 0; IRin <= 0;
-            end
-            T3: begin
-                #15 R2out<= 1; Yin <= 1;
-					 #15 R2out <= 0; Yin <= 0;
-            end
-            T4: begin
-                R3out<= 1; AND <= 1; ZLowIn <= 1;
-					 #15 R3out<= 0; ZLowIn <= 0;
-            end
-            T5: begin
-                #15 Zlowout<= 1; R1in <= 1; 
-					 ;#50 Zlowout<= 0; R1in <= 0 R1out <= 1; 
-				end
-    endcase 
+wire [32:0] neg_a;
+assign neg_a = -absA; // 2s Complement of a
+
+always @(a or b or neg_a) begin
+  groupedBits[0] = {absB[1], absB[0], 1'b0};
+  
+  for(i=1; i <= 15; i = i + 1) begin
+    groupedBits[i] = {absB[2*i+1], absB[2*i], absB[2*i-1]};
+  end
+  
+  for(i = 0; i <= 15; i = i + 1) begin
+	  case(groupedBits[i])
+		 3'b001 : partialProduct[i] = {absA[31], absA}; 
+		 3'b010 : partialProduct[i] = {absA[31], absA};
+		 3'b101 : partialProduct[i] = neg_a;
+		 3'b110 : partialProduct[i] = neg_a;
+		 3'b011 : partialProduct[i] = {neg_a << 1};
+		 3'b100 : partialProduct[i] = {neg_a << 1};
+		 default : partialProduct[i] = 0;
+	  endcase
+     //shiftedPartialProduct[i] = $signed(partialProduct[i]);
+	  for (i=0 ; i<j ; i = i + 1)
+				spp[j] = {spp[j], 2'b00};
+  end
+	  
+	  product = shiftedPartialProduct[0];
+	  
+	  for(j = 0; j <= 15; j = j + 1) begin
+			product = product + shiftedPartialProduct[j];
+	  end
+	  if(a[31] == 1'b1 || b[31] == 1'b1) begin
+		product = -product;
+	  end 
+end
+
+assign z = product;
+
+endmodule
+
+module multiplication_32_bit (
+  input wire signed [31:0] a,
+  input wire signed [31:0] b,
+  output wire[63:0] z
+);
+
+
+integer i,j;
+reg [2:0] groupedBits[15:0];
+reg  [32:0] partialProduct[15:0];
+reg  [63:0] shiftedPartialProduct[15:0];
+reg  [63:0] product;
+reg [31:0] absA, absB;
+
+always@(a or b) begin
+if(a[31] == 1'b1) begin
+	absA = -a;
+	end
+else if(b[31] == 1'b1) begin
+	absB = -b;
+	end
+ else begin
+	absA = a;
+	absB = b;
 end 
-endmodule  
+end
+
+wire [32:0] neg_a;
+assign neg_a = -absA; // 2s Complement of a
+
+always @(a or b or neg_a) begin
+  groupedBits[0] = {absB[1], absB[0], 1'b0};
+  
+  for(i=1; i <= 15; i = i + 1) begin
+    groupedBits[i] = {absB[2*i+1], absB[2*i], absB[2*i-1]};
+  end
+  
+  for(i = 0; i <= 15; i = i + 1) begin
+	  case(groupedBits[i])
+		 3'b001 : partialProduct[i] = {absA[31], absA}; 
+		 3'b010 : partialProduct[i] = {absA[31], absA};
+		 3'b101 : partialProduct[i] = neg_a;
+		 3'b110 : partialProduct[i] = neg_a;
+		 3'b011 : partialProduct[i] = {neg_a << 1};
+		 3'b100 : partialProduct[i] = {neg_a << 1};
+		 default : partialProduct[i] = 0;
+	  endcase
+     //shiftedPartialProduct[i] = $signed(partialProduct[i]);
+	  for (j=0 ; j<i ; j = j + 1)
+				shiftedPartialProduct[j] = {shiftedPartialProduct[j], 2'b00};
+  end
+	  
+	  product = shiftedPartialProduct[0];
+	  
+	  for(j = 0; j <= 15; j = j + 1) begin
+			product = product + shiftedPartialProduct[j];
+	  end
+	  if(a[31] == 1'b1 || b[31] == 1'b1) begin
+		product = -product;
+	  end 
+end
+
+assign z = product;
+
+endmodule

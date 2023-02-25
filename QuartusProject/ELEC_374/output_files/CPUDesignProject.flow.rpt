@@ -1,6 +1,6 @@
 Flow report for CPUDesignProject
-Fri Feb 17 17:10:33 2023
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+Sat Feb 25 10:50:53 2023
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
 ---------------------
@@ -40,22 +40,22 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Flow Failed - Fri Feb 17 17:10:33 2023           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Flow Status                        ; Successful - Sat Feb 25 10:50:53 2023            ;
+; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; N/A until Partition Merge                        ;
-;     Total combinational functions  ; N/A until Partition Merge                        ;
-;     Dedicated logic registers      ; N/A until Partition Merge                        ;
-; Total registers                    ; N/A until Partition Merge                        ;
-; Total pins                         ; N/A until Partition Merge                        ;
-; Total virtual pins                 ; N/A until Partition Merge                        ;
-; Total memory bits                  ; N/A until Partition Merge                        ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                        ;
-; Total PLLs                         ; N/A until Partition Merge                        ;
+; Total logic elements               ; 4,657                                            ;
+;     Total combinational functions  ; 4,593                                            ;
+;     Dedicated logic registers      ; 192                                              ;
+; Total registers                    ; 192                                              ;
+; Total pins                         ; 86                                               ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 0                                                ;
+; Embedded Multiplier 9-bit elements ; 0                                                ;
+; Total PLLs                         ; 0                                                ;
 +------------------------------------+--------------------------------------------------+
 
 
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/17/2023 17:10:32 ;
+; Start date & time ; 02/25/2023 10:50:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 26830026780586.167667183207688        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 35281975640218.167734023819204        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -89,7 +89,7 @@ applicable agreement for further details.
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; rol_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ror_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; not_tb         ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; mul_tb                                ; --            ; --          ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; ALU_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
@@ -134,7 +134,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_NAME                  ; not_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; and_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; add_tb         ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 500 ns                                ; --            ; --          ; ALU_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 750 ns                                ; --            ; --          ; ALU_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; or_tb          ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; sub_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; mul_tb         ;
@@ -163,8 +163,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 4573 MB             ; 00:00:01                           ;
-; Total                ; 00:00:01     ; --                      ; --                  ; 00:00:01                           ;
+; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 420 MB              ; 00:00:15                           ;
+; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -173,7 +173,7 @@ applicable agreement for further details.
 +----------------------+------------------+-----------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; BMH-212-20       ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis ; LAPTOP-B399UHJN  ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 

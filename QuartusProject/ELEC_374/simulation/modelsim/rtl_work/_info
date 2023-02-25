@@ -2,34 +2,34 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\19lg26\Documents\CPU-Design-main\QuartusProject\ELEC_374\simulation\modelsim
+Z0 dC:\Users\Luka\Documents\Queens\Third Year\ELEC374\CPUProject\CPU-Design\QuartusProject\ELEC_374\simulation\modelsim
 vadder_32_bit
-IMRDPJ;GPCoO]<Vk>5<hHe1
+ILVf41Z5Fl[[2O0mbzG8^=0
 VAlPm@]f?H9gTC1k;Q6:003
-Z1 dC:\Users\19lg26\Documents\CPU-Design-main\QuartusProject\ELEC_374\simulation\modelsim
-Z2 w1676662578
-Z3 8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v
-Z4 FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v
+Z1 dC:\Users\Luka\Documents\Queens\Third Year\ELEC374\CPUProject\CPU-Design\QuartusProject\ELEC_374\simulation\modelsim
+Z2 w1677170301
+Z3 8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v
+Z4 FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v
 L0 1
 Z5 OV;L;10.1d;51
 r1
 31
-Z6 !s108 1676670716.492000
-Z7 !s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v|
-Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v|
+Z6 !s108 1677340266.883000
+Z7 !s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v|
 Z9 o-vlog01compat -work work -O0
-Z10 !s92 -vlog01compat -work work +incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374 -O0
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374} -O0
 !i10b 1
-!s100 UTOHCDo2CSC@@6Q_TC`]a2
+!s100 <c;AR1n8JfY2TBV7j;o:g0
 !s85 0
 !s101 -O0
 valu
-ITcE:b=UhKS`@bPkPWbJDM0
+I4Z:J3E1>S3^GC:;2c<Nmf2
 Vm<7DlX_<hZORV5F`V0bNj0
 R1
-w1676668098
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v
+Z11 w1677338996
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/alu.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/alu.v
 L0 1
 R5
 r1
@@ -37,20 +37,41 @@ r1
 R9
 R10
 !i10b 1
-!s100 =?PLZSUiaJRVmoVMUM9_63
+!s100 [^_aDCAIb;>bENLjK_=l>3
 !s85 0
-!s108 1676670716.430000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v|
+!s108 1677340266.594000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/alu.v|
 !s101 -O0
+vALU_tb
+!i10b 1
+!s100 S5TijJZ>I0Y;Xzn3WjBX?1
+IcZDDa[;7@AVihQ_<n>0QS2
+VE`_QLbcAmOeKZDFMXUl3B3
+R1
+w1677340229
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/ALU_tb.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/ALU_tb.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1677340267.521000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/ALU_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/ALU_tb.v|
+!s101 -O0
+R9
+R10
+n@a@l@u_tb
 vCLA16
-IKA_o:B[=<a@WZ;Ia9=nXh2
+IcA`1d4alMBT2e_=@^9>9Z1
 VzS_KGQOXLPThC22DM[z@A1
 R1
 R2
 R3
 R4
-L0 15
+L0 14
 R5
 r1
 31
@@ -61,17 +82,17 @@ R9
 R10
 n@c@l@a16
 !i10b 1
-!s100 HSa@`Xg2>hRL8I_gZ0oN=0
+!s100 P7mD:]kWZ>U7H2jUBCRn:3
 !s85 0
 !s101 -O0
 vCLA4
-Ia6WK^2P[F]Ig?OfBeI`c]0
+IzCK<=BD7^n@cQkceKBeUX0
 V:MXEPB=daMd5aTX7f_]:>1
 R1
 R2
 R3
 R4
-L0 33
+L0 32
 R5
 r1
 31
@@ -82,16 +103,16 @@ R9
 R10
 n@c@l@a4
 !i10b 1
-!s100 9h_PgT73@LdAbnln2Z4@[2
+!s100 laTBhlN20P8zc5U<G9f2K3
 !s85 0
 !s101 -O0
 vCPUDesignProject
-IOzRJ;BOff8l`]8z6bYk]f0
-V<=U9@ZcT^L5mi8@CEMb0i0
+IiUJ>NhZ[LkijJb::kCSd23
+Vc]?3=EoGU7B0NPQLFB^k[2
 R1
-w1676669939
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v
+R11
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v
 L0 3
 R5
 r1
@@ -100,39 +121,39 @@ R9
 R10
 n@c@p@u@design@project
 !i10b 1
-!s100 >F8FlJR>AZ2TN_g_d3:HF0
+!s100 A;FGVh2m7mDG>UD>c2CkP1
 !s85 0
-!s108 1676670716.368000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v|
+!s108 1677340266.286000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v|
 !s101 -O0
 vdivision_32_bit
-I6EBEEA4C]hY9J<A_Y4Z1d0
-VHHf]dH0U^h>icP@GI`@7:1
+I06]ojTA`AfJh0ZPUCe58G2
+V=fIg3f:SYGkJa4QTIOAHN3
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v
-L0 1
+w1677121007
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v
+L0 3
 R5
 r1
 31
 R9
 R10
 !i10b 1
-!s100 Rz7BkW;la5dCik5f;XMm03
+!s100 E`Bf@R>FL6hL2WQBoQYJG1
 !s85 0
-!s108 1676670716.303000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v|
+!s108 1677340266.019000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v|
 !s101 -O0
 vencoder_32_to_5
-IioXkeCzW^8FEMAY[zIn<c1
+IVkL4I;DWjK2_h8>2]g]NG0
 VbAQaFb`<h@S<0HV]ECTJG1
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v
+Z12 w1676662580
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v
 L0 1
 R5
 r1
@@ -140,19 +161,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 ]Q`a=K;`J8X1De=GK[oCS3
+!s100 laLab>NSN@;I`G2039F6M1
 !s85 0
-!s108 1676670716.237000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v|
+!s108 1677340265.752000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v|
 !s101 -O0
 vIncPC_32_bit
-IJ5z9TJ^eBEfZIhKmF14L^3
+IZHg4W<[C1=P9BVH_ilz1P0
 VS<VO=O?F4CDR7;_E>fcT_1
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v
+R12
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v
 L0 3
 R5
 r1
@@ -161,39 +182,19 @@ R9
 R10
 n@inc@p@c_32_bit
 !i10b 1
-!s100 NcNUYHlYWWVB8co448M9W0
+!s100 MM>^F^UCg3WC`]Ooom0zA1
 !s85 0
-!s108 1676670716.567000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v|
+!s108 1677340267.243000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v|
 !s101 -O0
-vmul_tb
-!i10b 1
-!s100 HHeo2NGB]ceEAhMbj^]L22
-IXOn?mm2iXNCVQnCKQ9Y?03
-V?1W48Y2GgzQYCM]GjkmgD2
-R1
-w1676670641
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mul_tb.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mul_tb.v
-L0 2
-R5
-r1
-!s85 0
-31
-!s108 1676670716.628000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mul_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mul_tb.v|
-!s101 -O0
-R9
-R10
 vmultiplication_32_bit
-IK67dnSC?7_j1=iCX=QXD:1
+I@dicZ565V<a_Ngj_T0@GC0
 V9e=<zgPF68ZzRWLk?:m>c1
 R1
-w1676670695
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v
+w1677167062
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v
 L0 1
 R5
 r1
@@ -201,19 +202,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 b_XLT7g?5abM:T`8KlOzc3
+!s100 SO24nzDnQc90]`Vdd@idi3
 !s85 0
-!s108 1676670716.170000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v|
+!s108 1677340265.476000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v|
 !s101 -O0
 vmux_2_to_1
-IEUL:Z<5MMN3LW8Wc?eNJL1
+ISYZV^4P>BIOgSl:DHKi7;0
 VU[37VYn7dmjZX:aKhV]kB0
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v
+R12
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v
 L0 1
 R5
 r1
@@ -221,19 +222,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 0o?82^oZiVDHLcn8h=ZLb3
+!s100 f2@UdT1E`B;<<2F2ASGm?3
 !s85 0
-!s108 1676670716.105000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v|
+!s108 1677340265.191000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v|
 !s101 -O0
 vmux_32_to_1
-I3?Vk8L1;WBf;0N7K7;2`O3
+IofP0S6`4Ocgem^J2Agomc0
 VdMh9Q23zW`7VMJ1Pee7Q91
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v
+R12
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v
 L0 1
 R5
 r1
@@ -241,19 +242,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 8YXA_oiFmU<L;nlYdhMd=3
+!s100 6WG5;W`GQcGGYle8>[S_o0
 !s85 0
-!s108 1676670716.033000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v|
+!s108 1677340264.929000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v|
 !s101 -O0
 vnegate_32_bit
-IfYg?>_>hShNM<E4YNfhHM1
+IU?B^=nB]Qf@j]:9YiWWdS3
 VVGF[lB[z48b2^Omz@zfKF0
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v
+w1676738789
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v
 L0 1
 R5
 r1
@@ -261,19 +262,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 LJZ_c8B__aMLfgPU_dEU71
+!s100 XY0mXjbbN2h`dCKU2G@4o3
 !s85 0
-!s108 1676670715.968000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v|
+!s108 1677340264.618000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v|
 !s101 -O0
 vnot_32_bit
-IYT^]a5PTd[M0226KQ:RaK1
+IP;bAQ>RTPPoXH:6ifPULF0
 VHzGUKJWWS?FlCO4mdF2Im2
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v
+w1677167728
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v
 L0 1
 R5
 r1
@@ -281,19 +282,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 [UQmzA0SWUIfQIRzNS6O<1
+!s100 eNQgSIh=WFj8R`RJH4e:32
 !s85 0
-!s108 1676670715.908000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v|
+!s108 1677340264.338000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v|
 !s101 -O0
 vreg_32_bit
-I13nL>4=a2AMULEUR=2oU^1
+IGkIgDgDL0o`>FdkXDlN=z1
 V[hV7R<ZT3?dfGl^Gc4neN3
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v
+R12
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v
 L0 3
 R5
 r1
@@ -301,19 +302,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 cORgcDhlFY0FHnW0f9nn53
+!s100 2li]>VaFJo8fdPAW^l2DJ1
 !s85 0
-!s108 1676670715.849000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v|
+!s108 1677340264.052000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v|
 !s101 -O0
 vrotate_left_32_bit
-I^2jafDC=;Q6:Y_o@oz>jU3
+I7Y=UQiS1KHnF;8[oSPJ6`1
 VFzWcS]Q6YJNWi^nAW1n;i2
 R1
-w1676667479
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v
+w1677338995
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v
 L0 1
 R5
 r1
@@ -321,19 +322,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 GC0KQL:=bzeBTLUn21Cl]0
+!s100 fghd`91Hh>K>Ue`6RG[?43
 !s85 0
-!s108 1676670715.790000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v|
+!s108 1677340263.723000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v|
 !s101 -O0
 vrotate_right_32_bit
-ILi[2<TCKg9HYfWcH>`PV;0
+I0JYo8a;og`l0^P8=G<LfT0
 VJVIcVDG<biK72zGlg;W6T2
 R1
-w1676668099
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v
+w1677338994
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v
 L0 1
 R5
 r1
@@ -341,19 +342,19 @@ r1
 R9
 R10
 !i10b 1
-!s100 jJlczPQ7[4zbn]O>PaGRS0
+!s100 NhWU@[1>zV=?6:7>4Q:6;2
 !s85 0
-!s108 1676670715.729000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v|
+!s108 1677340263.443000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v|
 !s101 -O0
 vsub_32_bit
-IdiKFkXYIUB]z_^QmVefTR3
+I1zN@=;6Dic?f37=@j`:`d3
 VL0>LN]^E7^`TeEEbDQo:X2
 R1
-R2
-8C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v
-FC:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v
+R12
+8C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v
+FC:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v
 L0 1
 R5
 r1
@@ -361,9 +362,9 @@ r1
 R9
 R10
 !i10b 1
-!s100 N;PZ6@>^W;]i?LfHJFJCC1
+!s100 4ZfL4fiD<[]_mTFdd4?Je3
 !s85 0
-!s108 1676670715.669000
-!s107 C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374|C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v|
+!s108 1677340263.096000
+!s107 C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374|C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v|
 !s101 -O0

@@ -51,7 +51,7 @@ begin
 						R0in <= 0; R4in <= 0; R5in <= 0; Mdatain <= 32'h00000000;
         end 
         Reg_load1a: begin   
-                        Mdatain <= 32'h00000012; 
+                        Mdatain <= 32'd56; 
                         Read = 0; MDRin = 0;                   // the first zero is there for completeness 
                         #10 Read <= 1; MDRin <= 1;   
                         #15 Read <= 0; MDRin <= 0;    
@@ -61,7 +61,7 @@ begin
                         #15 MDRout <= 0; R4in <= 0;     // initialize R2 with the value $12          
         end 
         Reg_load2a: begin   
-                       Mdatain <= 32'h00000014; 
+                       Mdatain <= 32'd19; 
 								#10 Read <= 1; MDRin <= 1;   
 								#15 Read <= 0; MDRin <= 0;       
         end 
@@ -98,7 +98,7 @@ begin
 					 #15 R4out <= 0; Yin <= 0;
             end
             T4: begin
-                #15 R5out<= 1; SUB <= 5'b00011; ZLowIn <= 1;
+                #15 R5out<= 1; SUB <= 5'b00100; ZLowIn <= 1;
 					 #15 R5out<= 0; ZLowIn <= 0;
             end
             T5: begin

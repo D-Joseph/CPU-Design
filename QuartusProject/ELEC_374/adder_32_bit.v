@@ -1,15 +1,14 @@
 module adder_32_bit (
-    input wire [31:0] a, b,
+    input wire signed [31:0] a, b,
     input wire cin,
     output wire cout,
     output wire [31:0] sum
 );
-
     wire cout1;
 
     CLA16 adder1(.a(a[15:0]), .b(b[15:0]), .cin(cin), .cout(cout1), .sum(sum[15:0]));
     CLA16 adder2(.a(a[31:16]), .b(b[31:16]), .cin(cout1), .cout(cout), .sum(sum[31:16]));
-
+	 
 endmodule
 
 module CLA16 (
@@ -37,7 +36,7 @@ module CLA4 (
     output wire cout
 );
 
-    wire [3:0] p, g, c;
+	 wire [3:0] p, g, c;
 
     //Assign the generate and propogate terms
     assign g = a & b;

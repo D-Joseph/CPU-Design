@@ -5,7 +5,7 @@ Info: NativeLink has detected Verilog design -- Verilog simulation models will b
 
 Sim Mode              :  RTL
 Family                :  cycloneiii
-Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus root          :  c:/altera/13.0sp1/quartus/bin/
 Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
 Simulation Language   :  verilog

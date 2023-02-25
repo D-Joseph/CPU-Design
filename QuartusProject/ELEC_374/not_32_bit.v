@@ -3,6 +3,6 @@ module not_32_bit (
   output wire [31:0] nota
 );
 
-assign nota = !a;
+assign nota = ~a;
   
 endmodule

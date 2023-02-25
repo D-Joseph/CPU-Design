@@ -65,7 +65,7 @@ begin
                         #15 MDRout <= 0; R6in <= 0;     // initialize R2 with the value $12          
         end 
         Reg_load2a: begin   
-                       Mdatain <= 32'h28; 
+                       Mdatain <= 32'd40; 
 								#10 Read <= 1; MDRin <= 1;   
 								#15 Read <= 0; MDRin <= 0;       
         end 
