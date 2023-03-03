@@ -1,6 +1,6 @@
 Analysis & Synthesis report for CPUDesignProject
-Sat Feb 25 10:50:53 2023
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+Thu Mar 02 12:01:36 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
 ---------------------
@@ -88,13 +88,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Feb 25 10:50:53 2023            ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 02 12:01:36 2023            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
-; Total logic elements               ; 4,657                                            ;
-;     Total combinational functions  ; 4,593                                            ;
+; Total logic elements               ; 4,688                                            ;
+;     Total combinational functions  ; 4,624                                            ;
 ;     Dedicated logic registers      ; 192                                              ;
 ; Total registers                    ; 192                                              ;
 ; Total pins                         ; 86                                               ;
@@ -197,7 +197,7 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -206,39 +206,38 @@ applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processors 2-4         ; < 0.1%      ;
-;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                            ; Library ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
-; sub_32_bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v            ;         ;
-; rotate_right_32_bit.v            ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v   ;         ;
-; rotate_left_32_bit.v             ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v    ;         ;
-; reg_32_bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v            ;         ;
-; not_32_bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v            ;         ;
-; negate_32_bit.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v         ;         ;
-; mux_32_to_1.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v           ;         ;
-; mux_2_to_1.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v            ;         ;
-; multiplication_32_bit.v          ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v ;         ;
-; encoder_32_to_5.v                ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v       ;         ;
-; division_32_bit.v                ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v       ;         ;
-; CPUDesignProject.v               ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v      ;         ;
-; alu.v                            ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/alu.v                   ;         ;
-; adder_32_bit.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v          ;         ;
-; IncPC_32_bit.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v          ;         ;
-; lpm_add_sub.tdf                  ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                                       ;         ;
-; addcore.inc                      ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc                                                           ;         ;
-; look_add.inc                     ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc                                                          ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                          ;         ;
-; altshift.inc                     ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                          ;         ;
-; alt_stratix_add_sub.inc          ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                                               ;         ;
-; aglobal130.inc                   ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                                        ;         ;
-; db/add_sub_gui.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/db/add_sub_gui.tdf      ;         ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                      ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                  ; Library ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
+; sub_32_bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v            ;         ;
+; rotate_right_32_bit.v            ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v   ;         ;
+; rotate_left_32_bit.v             ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v    ;         ;
+; reg_32_bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v            ;         ;
+; not_32_bit.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v            ;         ;
+; negate_32_bit.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v         ;         ;
+; mux_32_to_1.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v           ;         ;
+; mux_2_to_1.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v            ;         ;
+; multiplication_32_bit.v          ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v ;         ;
+; encoder_32_to_5.v                ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v       ;         ;
+; division_32_bit.v                ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v       ;         ;
+; CPUDesignProject.v               ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v      ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v                   ;         ;
+; adder_32_bit.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v          ;         ;
+; IncPC_32_bit.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v          ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                             ;         ;
+; addcore.inc                      ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc                                                 ;         ;
+; look_add.inc                     ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc                                                ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                                     ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                              ;         ;
+; db/add_sub_gui.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/add_sub_gui.tdf      ;         ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------------------------+
@@ -246,16 +245,16 @@ applicable agreement for further details.
 +---------------------------------------------+---------------------------------+
 ; Resource                                    ; Usage                           ;
 +---------------------------------------------+---------------------------------+
-; Estimated Total logic elements              ; 4,657                           ;
+; Estimated Total logic elements              ; 4,688                           ;
 ;                                             ;                                 ;
-; Total combinational functions               ; 4593                            ;
+; Total combinational functions               ; 4624                            ;
 ; Logic element usage by number of LUT inputs ;                                 ;
-;     -- 4 input functions                    ; 1426                            ;
-;     -- 3 input functions                    ; 1726                            ;
-;     -- <=2 input functions                  ; 1441                            ;
+;     -- 4 input functions                    ; 1452                            ;
+;     -- 3 input functions                    ; 1729                            ;
+;     -- <=2 input functions                  ; 1443                            ;
 ;                                             ;                                 ;
 ; Logic elements by mode                      ;                                 ;
-;     -- normal mode                          ; 3223                            ;
+;     -- normal mode                          ; 3254                            ;
 ;     -- arithmetic mode                      ; 1370                            ;
 ;                                             ;                                 ;
 ; Total registers                             ; 192                             ;
@@ -266,7 +265,7 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0                               ;
 ; Maximum fan-out node                        ; mux_32_to_1:BusMux|BusMuxOut[1] ;
 ; Maximum fan-out                             ; 265                             ;
-; Total fan-out                               ; 14518                           ;
+; Total fan-out                               ; 14635                           ;
 ; Average fan-out                             ; 2.93                            ;
 +---------------------------------------------+---------------------------------+
 
@@ -276,9 +275,9 @@ applicable agreement for further details.
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Library Name ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPUDesignProject                           ; 4593 (0)          ; 192 (0)      ; 0           ; 0            ; 0       ; 0         ; 86   ; 0            ; |CPUDesignProject                                                                                                ; work         ;
+; |CPUDesignProject                           ; 4624 (0)          ; 192 (0)      ; 0           ; 0            ; 0       ; 0         ; 86   ; 0            ; |CPUDesignProject                                                                                                ; work         ;
 ;    |IncPC_32_bit:PC_reg|                    ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|IncPC_32_bit:PC_reg                                                                            ; work         ;
-;    |alu:the_alu|                            ; 4392 (692)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                                    ; work         ;
+;    |alu:the_alu|                            ; 4389 (688)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                                    ; work         ;
 ;       |adder_32_bit:adder|                  ; 65 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder                                                                 ; work         ;
 ;          |CLA16:adder1|                     ; 29 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1                                                    ; work         ;
 ;             |CLA4:adder1|                   ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1                                        ; work         ;
@@ -362,18 +361,18 @@ applicable agreement for further details.
 ;                |CLA4:adder2|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
 ;                |CLA4:adder3|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3                   ; work         ;
 ;                |CLA4:adder4|                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4                   ; work         ;
-;       |rotate_left_32_bit:rotateL|          ; 140 (140)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                                         ; work         ;
-;       |rotate_right_32_bit:rotateR|         ; 199 (199)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                                        ; work         ;
-;       |sub_32_bit:subtraction|              ; 79 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction                                                             ; work         ;
-;          |adder_32_bit:ADD|                 ; 54 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD                                            ; work         ;
+;       |rotate_left_32_bit:rotateL|          ; 137 (137)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                                         ; work         ;
+;       |rotate_right_32_bit:rotateR|         ; 202 (202)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                                        ; work         ;
+;       |sub_32_bit:subtraction|              ; 80 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction                                                             ; work         ;
+;          |adder_32_bit:ADD|                 ; 55 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD                                            ; work         ;
 ;             |CLA16:adder1|                  ; 22 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1                               ; work         ;
 ;                |CLA4:adder1|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder1                   ; work         ;
 ;                |CLA4:adder2|                ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder2                   ; work         ;
 ;                |CLA4:adder3|                ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder3                   ; work         ;
 ;                |CLA4:adder4|                ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder4                   ; work         ;
-;             |CLA16:adder2|                  ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2                               ; work         ;
+;             |CLA16:adder2|                  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2                               ; work         ;
 ;                |CLA4:adder1|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder1                   ; work         ;
-;                |CLA4:adder2|                ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
+;                |CLA4:adder2|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
 ;                |CLA4:adder3|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3                   ; work         ;
 ;                |CLA4:adder4|                ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4                   ; work         ;
 ;          |negate_32_bit:NEG|                ; 25 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG                                           ; work         ;
@@ -387,12 +386,12 @@ applicable agreement for further details.
 ;                   |CLA4:adder2|             ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2 ; work         ;
 ;                   |CLA4:adder3|             ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3 ; work         ;
 ;                   |CLA4:adder4|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4 ; work         ;
-;    |encoder_32_to_5:encoder|                ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|encoder_32_to_5:encoder                                                                        ; work         ;
+;    |encoder_32_to_5:encoder|                ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|encoder_32_to_5:encoder                                                                        ; work         ;
 ;    |mux_2_to_1:MDMux|                       ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|mux_2_to_1:MDMux                                                                               ; work         ;
-;    |mux_32_to_1:BusMux|                     ; 129 (129)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|mux_32_to_1:BusMux                                                                             ; work         ;
+;    |mux_32_to_1:BusMux|                     ; 161 (161)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|mux_32_to_1:BusMux                                                                             ; work         ;
 ;    |reg_32_bit:MDR|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MDR                                                                                 ; work         ;
-;    |reg_32_bit:R4|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R4                                                                                  ; work         ;
-;    |reg_32_bit:R5|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R5                                                                                  ; work         ;
+;    |reg_32_bit:R2|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R2                                                                                  ; work         ;
+;    |reg_32_bit:R3|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R3                                                                                  ; work         ;
 ;    |reg_32_bit:Y|                           ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:Y                                                                                   ; work         ;
 ;    |reg_32_bit:ZLow_reg|                    ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZLow_reg                                                                            ; work         ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
@@ -478,41 +477,105 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +-----------------------------------------+----------------------------------------+
 ; Register name                           ; Reason for Removal                     ;
 +-----------------------------------------+----------------------------------------+
-; reg_32_bit:R15|q[31]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R6|q[29]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[11]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R6|q[31]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[2]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[0]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:LO_reg|q[19]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[7]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[19]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[9]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[9]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[11]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[21]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[13]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[25]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[15]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[23]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[17]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[11]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[19]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[25]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[21]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:LO_reg|q[21]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[29]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[29]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[0]               ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R5|q[31]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R12|q[31]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[2]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[4]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[0]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:LO_reg|q[23]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[7]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[2]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[9]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[11]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[13]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[27]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[15]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[17]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[19]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[19]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[9]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[21]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:LO_reg|q[25]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[11]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[21]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[29]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[13]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R4|q[31]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R0|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[23]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[2]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[4]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[0]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:LO_reg|q[31]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:LO_reg|q[27]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[7]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[2]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[19]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[9]                      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R14|q[4]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[25]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[11]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[21]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[13]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:ZHigh_reg|q[31]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[29]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[15]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[23]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[17]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R14|q[2]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[19]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[9]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[25]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[21]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:HI_reg|q[4]                  ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:LO_reg|q[29]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[11]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R14|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R15|q[29]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:R11|q[29,31]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R0|q[29]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:ZHigh_reg|q[15]              ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R10|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:ZHigh_reg|q[3,6,14,30]       ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:LO_reg|q[30]                 ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R15|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R11|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
-; reg_32_bit:R1|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[3]               ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:R9|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[4]  ;
 ; reg_32_bit:R14|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[4]  ;
 ; reg_32_bit:R9|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[4]  ;
@@ -612,33 +675,33 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; reg_32_bit:R6|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[4]  ;
 ; reg_32_bit:R15|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[4]  ;
 ; reg_32_bit:R6|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[4]  ;
-; reg_32_bit:R3|q[18]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R5|q[18]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R12|q[26]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R3|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R5|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:ZHigh_reg|q[26]              ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R2|q[3]                      ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R4|q[3]                      ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R11|q[3]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R2|q[10]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R4|q[10]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R15|q[18]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R2|q[18]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R4|q[18]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R11|q[10]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R2|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R4|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:LO_reg|q[26]                 ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R1|q[3]                      ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R11|q[18]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R1|q[10]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R15|q[26]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R1|q[18]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R11|q[26]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R0|q[3]                      ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R1|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R10|q[3]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R11|q[18]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R0|q[10]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R14|q[3]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R15|q[26]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R0|q[18]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R10|q[10]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R11|q[26]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R10|q[5]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R0|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:HI_reg|q[3]                  ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R14|q[5]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R10|q[1]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:HI_reg|q[5]                  ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R10|q[8]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R14|q[1]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R10|q[12]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:LO_reg|q[5]                  ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R10|q[16]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R14|q[8]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R10|q[20]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
@@ -710,168 +773,74 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; reg_32_bit:R12|q[12]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R6|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:ZHigh_reg|q[24]              ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R3|q[5]                      ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
+; reg_32_bit:R5|q[5]                      ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
 ; reg_32_bit:R12|q[16]                    ; Merged with reg_32_bit:ZHigh_reg|q[1]  ;
-; reg_32_bit:R12|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R6|q[29]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:ZHigh_reg|q[11]              ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R6|q[31]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[2]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[0]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:LO_reg|q[19]                 ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[7]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[19]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[9]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[9]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[11]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[21]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[13]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:ZHigh_reg|q[25]              ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[15]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[23]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[17]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[11]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[19]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[25]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[21]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:LO_reg|q[21]                 ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[29]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[29,31]                  ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R12|q[31]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[2]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[4]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[0]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:LO_reg|q[23]                 ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[7]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[2]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[9]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[11]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[13]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:ZHigh_reg|q[27]              ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[15]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[17]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[19]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[19]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[9]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[21]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:LO_reg|q[25]                 ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[11]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[21]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[29]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:ZHigh_reg|q[13]              ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R2|q[31]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[23]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[2]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[0]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:LO_reg|q[27]                 ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[7]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[19]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[9]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[25]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[11]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[21]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[13]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:ZHigh_reg|q[29]              ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[15]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[23]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[17]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[19]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[25]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[21]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:LO_reg|q[29]                 ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[23]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[27]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[25]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R15|q[29]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[27]                     ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[29]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R1|q[29,31]                  ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R11|q[31]                    ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R0|q[4]                      ; Merged with reg_32_bit:ZHigh_reg|q[0]  ;
-; reg_32_bit:R3|q[1]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:ZHigh_reg|q[14,30]           ; Merged with reg_32_bit:ZHigh_reg|q[6]  ;
+; reg_32_bit:LO_reg|q[30]                 ; Merged with reg_32_bit:ZHigh_reg|q[6]  ;
+; reg_32_bit:R15|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[6]  ;
+; reg_32_bit:R11|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[6]  ;
+; reg_32_bit:R0|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[6]  ;
+; reg_32_bit:R5|q[1]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R15|q[8]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R3|q[8]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R5|q[8]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R12|q[20]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R3|q[12]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R5|q[12]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:LO_reg|q[20]                 ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R3|q[16]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R5|q[16]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R12|q[24]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R3|q[20]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R5|q[20]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R15|q[12]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R3|q[24]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R5|q[24]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R12|q[28]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R3|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R5|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:ZHigh_reg|q[12]              ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[5]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[5]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R11|q[5]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[1]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[1]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R15|q[16]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[8]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[8]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R11|q[1]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[12]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[12]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:LO_reg|q[24]                 ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[16]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[16]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R11|q[8]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[20]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[20]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R15|q[20]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[24]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[24]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R11|q[12]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R2|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R4|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:ZHigh_reg|q[28]              ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[5]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R11|q[16]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[1]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R15|q[24]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[8]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R11|q[20]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[12]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:LO_reg|q[28]                 ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[16]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R11|q[24]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[20]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R15|q[28]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[24]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R11|q[28]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[5]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R1|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R10|q[5]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R11|q[16]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[1]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R14|q[5]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R15|q[24]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[8]                      ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R10|q[1]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R11|q[20]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[12]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:HI_reg|q[5]                  ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:LO_reg|q[28]                 ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[16]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R10|q[8]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R11|q[24]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[20]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R14|q[1]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R15|q[28]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R0|q[24]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R10|q[12]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R0|q[28]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:LO_reg|q[5]                  ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
-; reg_32_bit:R0|q[31]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R11|q[28]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R0|q[28,31]                  ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R15|q[31]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[4]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:LO_reg|q[31]                 ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[2]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R14|q[4]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:ZHigh_reg|q[31]              ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R14|q[2]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[9]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:HI_reg|q[4]                  ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[11]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R14|q[0]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[13]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:ZHigh_reg|q[15]              ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
+; reg_32_bit:R10|q[15]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R14|q[7]                     ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:R10|q[17]                    ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
 ; reg_32_bit:HI_reg|q[2]                  ; Merged with reg_32_bit:ZHigh_reg|q[7]  ;
@@ -913,14 +882,14 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; reg_32_bit:R7|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R13|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R10|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R3|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R5|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R14|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R8|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:HI_reg|q[30]                 ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R6|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R12|q[30]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R0|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R2|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R10|q[14]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R4|q[30]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R14|q[14]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R9|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:HI_reg|q[14]                 ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
@@ -930,13 +899,14 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; reg_32_bit:LO_reg|q[14]                 ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R6|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R12|q[14]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R3|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R5|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R15|q[14]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R2|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R4|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R11|q[14]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R10|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R0|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R1|q[14]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R10|q[14,22]                 ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R14|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R10|q[22]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:HI_reg|q[6]                  ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R9|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R14|q[22]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
@@ -954,21 +924,21 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; reg_32_bit:R12|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R6|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R15|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R3|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R5|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R12|q[22]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R3|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R5|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:LO_reg|q[22]                 ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R2|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R4|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R11|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R2|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R4|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R15|q[22]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R1|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R11|q[22]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R0|q[6]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R1|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R10|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R11|q[22]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R10|q[3]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R0|q[22]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R14|q[6]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R14|q[3]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R10|q[10]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:HI_reg|q[3]                  ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R10|q[18]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R14|q[10]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R10|q[26]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
@@ -1004,12 +974,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; reg_32_bit:R12|q[10]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R6|q[26]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:LO_reg|q[18]                 ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R3|q[3]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R5|q[3]                      ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R12|q[18]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:R3|q[10]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
+; reg_32_bit:R5|q[10]                     ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
 ; reg_32_bit:R15|q[10]                    ; Merged with reg_32_bit:ZHigh_reg|q[10] ;
-; reg_32_bit:ZHigh_reg|q[0,1,4,7,10]      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
+; reg_32_bit:ZHigh_reg|q[1,4,6,7,10]      ; Merged with reg_32_bit:ZHigh_reg|q[5]  ;
 ; reg_32_bit:ZHigh_reg|q[5]               ; Stuck at GND due to stuck port data_in ;
+; reg_32_bit:R1|q[0..31]                  ; Lost fanout                            ;
 ; Total Number of Removed Registers = 544 ;                                        ;
 +-----------------------------------------+----------------------------------------+
 
@@ -1035,33 +1006,33 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|IncPC_32_bit:PC_reg|newPC[19]                               ;
-; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector8   ;
+; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector21  ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftRight0                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftRight0                                     ;
 ; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
 ; 5:1                ; 5 bits    ; 15 LEs        ; 15 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
-; 14:1               ; 32 bits   ; 288 LEs       ; 128 LEs              ; 160 LEs                ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux8                                     ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
 ; 6:1                ; 5 bits    ; 20 LEs        ; 15 LEs               ; 5 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector456 ;
-; 6:1                ; 9 bits    ; 36 LEs        ; 27 LEs               ; 9 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector391 ;
-; 6:1                ; 13 bits   ; 52 LEs        ; 39 LEs               ; 13 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector318 ;
+; 6:1                ; 9 bits    ; 36 LEs        ; 27 LEs               ; 9 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector394 ;
+; 6:1                ; 13 bits   ; 52 LEs        ; 39 LEs               ; 13 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector320 ;
 ; 6:1                ; 17 bits   ; 68 LEs        ; 51 LEs               ; 17 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector262 ;
-; 6:1                ; 21 bits   ; 84 LEs        ; 63 LEs               ; 21 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector186 ;
-; 6:1                ; 25 bits   ; 100 LEs       ; 75 LEs               ; 25 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector129 ;
-; 6:1                ; 29 bits   ; 116 LEs       ; 87 LEs               ; 29 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector38  ;
+; 6:1                ; 21 bits   ; 84 LEs        ; 63 LEs               ; 21 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector189 ;
+; 6:1                ; 25 bits   ; 100 LEs       ; 75 LEs               ; 25 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector115 ;
+; 6:1                ; 29 bits   ; 116 LEs       ; 87 LEs               ; 29 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector42  ;
 ; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
+; 24:1               ; 32 bits   ; 512 LEs       ; 224 LEs              ; 288 LEs                ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux6                                     ;
 ; 8:1                ; 3 bits    ; 15 LEs        ; 9 LEs                ; 6 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector491 ;
-; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector424 ;
-; 8:1                ; 11 bits   ; 55 LEs        ; 33 LEs               ; 22 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector354 ;
-; 8:1                ; 15 bits   ; 75 LEs        ; 45 LEs               ; 30 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector292 ;
-; 8:1                ; 19 bits   ; 95 LEs        ; 57 LEs               ; 38 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector229 ;
-; 8:1                ; 23 bits   ; 115 LEs       ; 69 LEs               ; 46 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector158 ;
-; 8:1                ; 27 bits   ; 135 LEs       ; 81 LEs               ; 54 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector74  ;
-; 19:1               ; 16 bits   ; 192 LEs       ; 160 LEs              ; 32 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux16                                           ;
-; 19:1               ; 13 bits   ; 156 LEs       ; 130 LEs              ; 26 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux8                                            ;
+; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector421 ;
+; 8:1                ; 11 bits   ; 55 LEs        ; 33 LEs               ; 22 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector361 ;
+; 8:1                ; 15 bits   ; 75 LEs        ; 45 LEs               ; 30 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector288 ;
+; 8:1                ; 19 bits   ; 95 LEs        ; 57 LEs               ; 38 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector227 ;
+; 8:1                ; 23 bits   ; 115 LEs       ; 69 LEs               ; 46 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector142 ;
+; 8:1                ; 27 bits   ; 135 LEs       ; 81 LEs               ; 54 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector96  ;
+; 19:1               ; 16 bits   ; 192 LEs       ; 160 LEs              ; 32 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux21                                           ;
+; 19:1               ; 13 bits   ; 156 LEs       ; 130 LEs              ; 26 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux3                                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 
 
@@ -2036,8 +2007,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Port                 ; Type  ; Severity ; Details      ;
 +----------------------+-------+----------+--------------+
 ; encoderInput[31..22] ; Input ; Info     ; Stuck at GND ;
-; encoderInput[18..6]  ; Input ; Info     ; Stuck at GND ;
-; encoderInput[3..0]   ; Input ; Info     ; Stuck at GND ;
+; encoderInput[18..4]  ; Input ; Info     ; Stuck at GND ;
+; encoderInput[1..0]   ; Input ; Info     ; Stuck at GND ;
 +----------------------+-------+----------+--------------+
 
 
@@ -2046,7 +2017,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:11     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -2054,11 +2025,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Analysis & Synthesis
+Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Sat Feb 25 10:50:30 2023
+    Info: Processing started: Thu Mar 02 12:01:19 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUDesignProject -c CPUDesignProject
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file sub_32_bit.v
     Info (12023): Found entity 1: sub_32_bit
 Info (12021): Found 1 design units, including 1 entities, in source file rotate_right_32_bit.v
@@ -2119,26 +2090,25 @@ Info (12021): Found 1 design units, including 1 entities, in source file not_tb.
     Info (12023): Found entity 1: not_tb
 Info (12021): Found 1 design units, including 1 entities, in source file neg_tb.v
     Info (12023): Found entity 1: neg_tb
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(109): created implicit net for "clr"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(110): created implicit net for "R1in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(111): created implicit net for "R2in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(112): created implicit net for "R3in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(115): created implicit net for "R6in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(116): created implicit net for "R7in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(117): created implicit net for "R8in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(118): created implicit net for "R9in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(119): created implicit net for "R10in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(120): created implicit net for "R11in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(121): created implicit net for "R12in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(122): created implicit net for "R13in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(123): created implicit net for "R14in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(124): created implicit net for "R15in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(127): created implicit net for "HIin"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(128): created implicit net for "LOin"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(129): created implicit net for "ZHighIn"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(131): created implicit net for "rst"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(131): created implicit net for "IR_data_out"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(166): created implicit net for "Inport_data_out"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(60): created implicit net for "clr"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(64): created implicit net for "R4in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(65): created implicit net for "R5in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(66): created implicit net for "R6in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(67): created implicit net for "R7in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(68): created implicit net for "R8in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(69): created implicit net for "R9in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(70): created implicit net for "R10in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(71): created implicit net for "R11in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(72): created implicit net for "R12in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(73): created implicit net for "R13in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(74): created implicit net for "R14in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(75): created implicit net for "R15in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(78): created implicit net for "HIin"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(79): created implicit net for "LOin"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(80): created implicit net for "ZHighIn"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(82): created implicit net for "rst"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(82): created implicit net for "IR_data_out"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(117): created implicit net for "Inport_data_out"
 Warning (10236): Verilog HDL Implicit Net warning at alu.v(89): created implicit net for "RPC"
 Warning (10236): Verilog HDL Implicit Net warning at alu.v(89): created implicit net for "PC_out"
 Warning (10236): Verilog HDL Implicit Net warning at ALU_tb.v(11): created implicit net for "IncPc"
@@ -2487,27 +2457,28 @@ Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[30] has unsafe behavior
 Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[31] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal PCout
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg
+Info (17049): 32 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 3 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "MARin"
     Warning (15610): No output dependent on input pin "IRin"
-    Warning (15610): No output dependent on input pin "R0in"
-Info (21057): Implemented 4807 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "R1in"
+Info (21057): Implemented 4838 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 54 input pins
     Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 4721 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 219 warnings
-    Info: Peak virtual memory: 420 megabytes
-    Info: Processing ended: Sat Feb 25 10:50:53 2023
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:16
+    Info (21061): Implemented 4752 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 218 warnings
+    Info: Peak virtual memory: 4642 megabytes
+    Info: Processing ended: Thu Mar 02 12:01:36 2023
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:14
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/Luka/Documents/Queens/Third Year/ELEC374/CPUProject/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg.
+The suppressed messages can be found in C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg.
 
 

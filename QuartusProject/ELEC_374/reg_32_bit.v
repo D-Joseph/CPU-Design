@@ -11,10 +11,10 @@ module reg_32_bit(
 	always@(posedge clk) 
 	begin
 		if (clr) begin
-			q[31:0] = 32'b0;
+			q = 32'b0;
 		end
 		else if(enable) begin
-			q[31:0] = d[31:0];
+			q = d;
 		end 
 	end
 endmodule

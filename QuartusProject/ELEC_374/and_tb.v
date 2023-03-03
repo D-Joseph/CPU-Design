@@ -5,7 +5,7 @@ module and_tb;
 	reg R1in, R2in, R3in;
 	reg Clock;
 	reg [31:0] Mdatain;
-	wire [31:0] MDR_output;
+	wire [31:0] ZLowContents;
 
 parameter	Default = 4'b0000, Reg_load1a= 4'b0001, Reg_load1b= 4'b0010,
 					Reg_load2a= 4'b0011, Reg_load2b = 4'b0100, Reg_load3a = 4'b0101,
@@ -14,7 +14,7 @@ reg	[3:0] Present_state= Default;
 
 
 CPUDesignProject DUT(PCout, Zlowout, MDRout,R2out, R3out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
-			AND, R1in, R2in, R3in,Clock, Mdatain,MDR_output);
+			AND, R1in, R2in, R3in,Clock, Mdatain,ZLowContents);
 // add test logic here 
 initial  
     begin 
@@ -104,7 +104,7 @@ begin
             end
             T5: begin
                 #15 Zlowout<= 1; R1in <= 1; 
-					 #50 Zlowout<= 0; R1in <= 0;
+					 #15 Zlowout<= 0; R1in <= 0;
 				end
     endcase 
 end 

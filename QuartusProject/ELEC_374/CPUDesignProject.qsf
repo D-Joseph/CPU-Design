@@ -84,7 +84,7 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME add_tb -section_id add_tb
 set_global_assignment -name VERILOG_FILE ALU_tb.v
 set_global_assignment -name EDA_TEST_BENCH_NAME ALU_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ALU_tb
-set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "750 ns" -section_id ALU_tb
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "2500 ns" -section_id ALU_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ALU_tb -section_id ALU_tb
 set_global_assignment -name VERILOG_FILE IncPC_32_bit.v
 set_global_assignment -name VERILOG_FILE or_tb.v

@@ -12,3 +12,4 @@ adder_32_bit ADD(.a(a),.b(temp),.cin(cin),.cout(cout),.sum(sum));
 
     
 endmodule
+

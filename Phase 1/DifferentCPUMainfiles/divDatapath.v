@@ -39,32 +39,8 @@ module CPUDesignProject(
 	
 
 	// Connecting the register output signals to the encoder's input wire
-	assign encoder_in = {{8{1'b0}},
-								Cout,
-								InPortout,
-								MDRout,
-								PCout,
-								ZLowout,
-								ZHighout,
-								LOout,
-								HIout,
-								R15out,
-								R14out,
-								R13out,
-								R12out,
-								R11out,
-								R10out,
-								R9out,
-								R8out,
-								R7out,
-								R6out,
-								R5out,
-								R4out,
-								R3out,
-								R2out,
-								R1out,
-								R0out
-								};
+	assign encoder_in = {{8{1'b0}},Cout,InPortout,MDRout,PCout,ZLowout,ZHighout,LOout,HIout,
+						  R15out,R14out,R13out,R12out,R11out,R10out,R9out,R8out,R7out,R6out,R5out,R4out,R3out,R2out,R1out,R0out};
 
 
     // Instatiating 32-to-5 encoder for the bus
@@ -72,39 +48,14 @@ module CPUDesignProject(
 	 
 	wire [31:0] bus_contents;
 
-	 //Inputs to the bus's 32-to_1 multiplexer
-	wire [31:0] R0_data_out;
-	wire [31:0] R1_data_out;
-	wire [31:0] R2_data_out;
-   wire [31:0] R3_data_out;
-	wire [31:0] R4_data_out;
-	wire [31:0] R5_data_out;
-	wire [31:0] R6_data_out;
-	wire [31:0] R7_data_out;
-	wire [31:0] R8_data_out;
-	wire [31:0] R9_data_out;
-	wire [31:0] R10_data_out;
-	wire [31:0] R11_data_out;
-	wire [31:0] R12_data_out;
-	wire [31:0] R13_data_out;
-	wire [31:0] R14_data_out;
-	wire [31:0] R15_data_out;
-	wire [31:0] HI_data_out;
-	wire [31:0] LO_data_out;
+    //Inputs to the bus's 32-to_1 multiplexer
+	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out,
+	wire [31:0] R10_data_out, R11_data_out, R12_data_out, R13_data_out, R14_data_out, R15_data_out, HI_data_out, LO_data_out;
 	//wire [31:0] ZHigh_data_out;
 	//wire [31:0] ZLow_data_out;
-	wire [31:0] PC_data_out;
-	wire [31:0] MDR_data_out;
-	wire [31:0] InPort_data_out;
-	wire [31:0] C_Sign_extend;
-	wire [31:0] Y_data_out;
+	wire [31:0] PC_data_out, MDR_data_out, InPort_data_out, C_Sign_extend, Y_data_out;
 
 	wire [63:0] C_data_out;
-	
-	//assign Z_output = ZLow_data_out;
-	//assign Z_output = ZLow_data_out;
-	//assign BusMuxOut_output = bus_contents;
-	
 
    // Creating all 32-bit registers
 	reg_32_bit R0(clk, clr, 1'd0 , bus_contents, R0_data_out); 

@@ -5,7 +5,7 @@ module add_tb;
 	reg R0in, R4in, R5in;
 	reg Clock;
 	reg [31:0] Mdatain;
-	wire [31:0] MDR_output;
+	wire [31:0] ZLowcontents, R4contents, R5contents;
 
 parameter	Default = 4'b0000, Reg_load1a= 4'b0001, Reg_load1b= 4'b0010,
 					Reg_load2a= 4'b0011, Reg_load2b = 4'b0100, Reg_load3a = 4'b0101,
@@ -14,7 +14,7 @@ reg	[3:0] Present_state= Default;
 
 
 CPUDesignProject DUT(PCout, Zlowout, MDRout,R4out, R5out, MARin,ZLowIn, PCin, MDRin, IRin, Yin, IncPC,Read,
-			ADD, R0in, R4in, R5in,Clock, Mdatain,MDR_output);
+			ADD, R0in, R4in, R5in,Clock, Mdatain,ZLowcontents,R4contents,R5contents);
 // add test logic here 
 initial  
     begin 

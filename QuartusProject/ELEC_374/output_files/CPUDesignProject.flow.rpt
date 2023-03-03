@@ -1,6 +1,6 @@
 Flow report for CPUDesignProject
-Sat Feb 25 10:50:53 2023
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+Thu Mar 02 12:01:36 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
 ---------------------
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Sat Feb 25 10:50:53 2023            ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Flow Status                        ; Successful - Thu Mar 02 12:01:36 2023            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 4,657                                            ;
-;     Total combinational functions  ; 4,593                                            ;
+; Total logic elements               ; 4,688                                            ;
+;     Total combinational functions  ; 4,624                                            ;
 ;     Dedicated logic registers      ; 192                                              ;
 ; Total registers                    ; 192                                              ;
 ; Total pins                         ; 86                                               ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/25/2023 10:50:39 ;
+; Start date & time ; 03/02/2023 12:01:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 35281975640218.167734023819204        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123478089144587.167777648213912       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -134,7 +134,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_NAME                  ; not_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; and_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; add_tb         ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 750 ns                                ; --            ; --          ; ALU_tb         ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 2500 ns                               ; --            ; --          ; ALU_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; or_tb          ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; sub_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; mul_tb         ;
@@ -163,8 +163,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 420 MB              ; 00:00:15                           ;
-; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:15                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4642 MB             ; 00:00:13                           ;
+; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:13                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -173,7 +173,7 @@ applicable agreement for further details.
 +----------------------+------------------+-----------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; LAPTOP-B399UHJN  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis ; LukaDesktop      ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 

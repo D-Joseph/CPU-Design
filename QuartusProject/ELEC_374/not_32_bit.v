@@ -6,3 +6,6 @@ module not_32_bit (
 assign nota = ~a;
   
 endmodule
+
+
+
