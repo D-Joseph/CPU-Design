@@ -1,5 +1,4 @@
 Warning (10268): Verilog HDL information at and_tb.v(43): always construct contains both blocking and non-blocking assignments
-Info (10281): Verilog HDL Declaration information at alu.v(2): object "IncPC" differs only in case from object "incPC" in the same scope
 Warning (10268): Verilog HDL information at add_tb.v(43): always construct contains both blocking and non-blocking assignments
 Warning (10268): Verilog HDL information at or_tb.v(43): always construct contains both blocking and non-blocking assignments
 Warning (10268): Verilog HDL information at sub_tb.v(43): always construct contains both blocking and non-blocking assignments

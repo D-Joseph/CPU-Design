@@ -1,34 +1,5 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CPUDesignProject">
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add16" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add34" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add52" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add26" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add44" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add8" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add10" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add18" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add36" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add54" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add20" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add28" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add46" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add12" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add30" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add38" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add56" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add22" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add4" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add40" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add48" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add14" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add32" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add50" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add58" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add24" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add42" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add6" CBX_FILE_NAME="add_sub_gui.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

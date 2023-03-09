@@ -3,61 +3,49 @@
 module CPUDesignProject(
 	input PCout, ZLowout, ZHighout MDRout, MDRin, MARin,
 	input ZLowIn,ZHighIn, HIin, HIout, LOin, LOout, Cout, ramWE,PCin, IRin, IncPC, Yin, Read,
-	input Gra, Grb, Grc, Rin, Rout, BAout, CONin,
-	input [15:0] Rin_IR, Rout_IR,
+	input Gra, Grb, Grc, R_in, R_out, BAout, CONin,InPortout,
+	input [15:0] R0_R15_in, R0_R15_out,
 	input OutPortIn, InPortIn,
-    input [4:0] operation,
-	input clk,clr
-	input [31:0] MDatain,
-	input wire[31:0] In, 
-	output wire[31:0] inport_data_in,outport_data_out	
+   input [4:0] operation,
+	input clk,clr,
+	input [31:0] MDatain, 
+	input wire[31:0] inport_data_in,
+	output wire[31:0] outport_data_out,
+	output [31:0] bus_contents
 );
 
-	//Registers used to select which general purpose registers have inputs and outputs enabled
-	reg [15:0] regOut;
-	reg [15:0] regIn;
-
-	initial begin
-		regIn = 0;
-		regOut = 0;
-	end
-	
-	always@(*)begin
-		regIn[1] <= R1in;
-		regIn[2] <= R2in;
-		regIn[3] <= R3in;
-		
-		regOut[2] <= R2out;
-		regOut[3] <= R3out;
-	end
-	
+	wire [15:0] enableR_IR; 
+	wire [15:0] Rout_IR;
+	reg  [15:0]  regIn; 
+	reg  [15:0]  Rout;
+	wire [3:0]  decoder_in;
+	 
+	always@(*)begin		
+		if (enableR_IR)regIn<=enableR_IR; 
+		else regIn<=R_enableIn;
+		if (Rout_IR)Rout<=Rout_IR; 
+		else Rout<=Rout_in;
+	end 
 	/*
 	Signal and wire declarations to be used in the Datapath
 	*/ 
-	wire [31:0] bus_contents;
+	//wire [31:0] bus_contents;
 
     //These are the inputs to the bus multiplexer
 	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out;
 	wire [31:0] R10_data_out, R11_data_out, R12_data_out, R13_data_out, R14_data_out, R15_data_out, HI_data_out, LO_data_out;
-	wire [31:0] ZHigh_data_out; //wire [31:0] ZLow_data_out;
-	wire [31:0] PC_data_out, MDR_data_out, RAM_data_out, 32bit_MAR_data_out, InPort_data_out, C_Sign_extend, Y_data_out;
+	wire [31:0] ZHigh_data_out, ZLow_data_out, IR_data_out;
+	wire [31:0] PC_data_out, MDR_data_out, RAM_data_out, MAR_data_out_32, InPort_data_out, C_Sign_extend, Y_data_out;
 	wire [63:0] C_data_out;
 	wire [8:0] MAR_data_out;
-
-	wire HIout = 0;
-	wire LOout = 0;
-	wire InPortout = 0;
-	wire Cout = 0;
-	wire ZHighout = 0;
 
 	// Encoder input and output wires
 	wire [31:0]	encoder_in;
 	wire [4:0] encoder_out;
 	
-	
 	// Connecting the register output signals to the encoder's input wire
 	assign encoder_in = {{8{1'b0}},Cout,InPortout,MDRout,PCout,ZLowout,ZHighout,LOout,HIout,
-						  regOut};
+						  Rout};
 
     // Instatiating 32-to-5 encoder
     encoder_32_to_5 encoder(encoder_in, encoder_out);
@@ -99,16 +87,16 @@ module CPUDesignProject(
 	
 	//MDR
 	wire [31:0] MDR_mux_out;
-	//First create the 2-1 mux that selects either the Mdata or the bus contents
+	//First create the 2-1 mux that selects either the RAM or the bus contents
 	mux_2_to_1 MDMux(bus_contents,RAM_data_out, Read,MDR_mux_out);
 	//Create the actual MDR itself by instantiating a regular 32 bit reg
 	reg_32_bit MDR(clk,rst,MDRin,MDR_mux_out,MDR_data_out);
 
 	//This is done to avoid having to make an MDR unit module
-	reg_32_bit MAR(clk,rst,MARin, bus_contents, 32bit_MAR_data_out);
-	assign MAR_data_out = 32bit_MAR_data_out[8:0];
+	reg_32_bit MAR(clk,rst,MARin, bus_contents, MAR_data_out_32);
+	assign MAR_data_out = MAR_data_out_32[8:0];
 
-	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out)
+	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
 
 	// Multiplexer to select which data to send out on the bus
 	mux_32_to_1 BusMux(
@@ -128,7 +116,8 @@ module CPUDesignProject(
 	.A(Y_data_out),
 	.B(bus_contents),
 	.opcode(operation),
-	.C(C_data_out)
+	.C(C_data_out),
+	.IncPC(IncPc)
 	);
 
 endmodule
