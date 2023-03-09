@@ -49,7 +49,7 @@ module CPUDesignProject(
 	wire [31:0] bus_contents;
 
     //Inputs to the bus's 32-to_1 multiplexer
-	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out,
+	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out;
 	wire [31:0] R10_data_out, R11_data_out, R12_data_out, R13_data_out, R14_data_out, R15_data_out, HI_data_out, LO_data_out;
 	//wire [31:0] ZHigh_data_out;
 	//wire [31:0] ZLow_data_out;

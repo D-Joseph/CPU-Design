@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPUDesignProject
-Thu Mar 02 12:01:36 2023
+Fri Mar 03 21:27:25 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -58,11 +58,10 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
  50. Port Connectivity Checks: "alu:the_alu"
  51. Port Connectivity Checks: "mux_32_to_1:BusMux"
  52. Port Connectivity Checks: "reg_32_bit:IR"
- 53. Port Connectivity Checks: "reg_32_bit:R0"
- 54. Port Connectivity Checks: "encoder_32_to_5:encoder"
- 55. Elapsed Time Per Partition
- 56. Analysis & Synthesis Messages
- 57. Analysis & Synthesis Suppressed Messages
+ 53. Port Connectivity Checks: "encoder_32_to_5:encoder"
+ 54. Elapsed Time Per Partition
+ 55. Analysis & Synthesis Messages
+ 56. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -88,7 +87,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 02 12:01:36 2023            ;
+; Analysis & Synthesis Status        ; Successful - Fri Mar 03 21:27:24 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
@@ -1992,15 +1991,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------+
-; Port Connectivity Checks: "reg_32_bit:R0" ;
-+--------+-------+----------+---------------+
-; Port   ; Type  ; Severity ; Details       ;
-+--------+-------+----------+---------------+
-; enable ; Input ; Info     ; Stuck at GND  ;
-+--------+-------+----------+---------------+
-
-
 +--------------------------------------------------------+
 ; Port Connectivity Checks: "encoder_32_to_5:encoder"    ;
 +----------------------+-------+----------+--------------+
@@ -2017,7 +2007,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:09     ;
 +----------------+--------------+
 
 
@@ -2027,7 +2017,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Thu Mar 02 12:01:19 2023
+    Info: Processing started: Fri Mar 03 21:27:09 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUDesignProject -c CPUDesignProject
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file sub_32_bit.v
@@ -2090,28 +2080,16 @@ Info (12021): Found 1 design units, including 1 entities, in source file not_tb.
     Info (12023): Found entity 1: not_tb
 Info (12021): Found 1 design units, including 1 entities, in source file neg_tb.v
     Info (12023): Found entity 1: neg_tb
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(60): created implicit net for "clr"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(64): created implicit net for "R4in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(65): created implicit net for "R5in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(66): created implicit net for "R6in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(67): created implicit net for "R7in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(68): created implicit net for "R8in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(69): created implicit net for "R9in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(70): created implicit net for "R10in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(71): created implicit net for "R11in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(72): created implicit net for "R12in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(73): created implicit net for "R13in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(74): created implicit net for "R14in"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(75): created implicit net for "R15in"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(61): created implicit net for "clr"
 Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(78): created implicit net for "HIin"
 Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(79): created implicit net for "LOin"
 Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(80): created implicit net for "ZHighIn"
 Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(82): created implicit net for "rst"
 Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(82): created implicit net for "IR_data_out"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(117): created implicit net for "Inport_data_out"
-Warning (10236): Verilog HDL Implicit Net warning at alu.v(89): created implicit net for "RPC"
-Warning (10236): Verilog HDL Implicit Net warning at alu.v(89): created implicit net for "PC_out"
-Warning (10236): Verilog HDL Implicit Net warning at ALU_tb.v(11): created implicit net for "IncPc"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(99): created implicit net for "Inport_data_out"
+Warning (10236): Verilog HDL Implicit Net warning at alu.v(90): created implicit net for "RPC"
+Warning (10236): Verilog HDL Implicit Net warning at alu.v(90): created implicit net for "PC_out"
+Warning (10236): Verilog HDL Implicit Net warning at ALU_tb.v(10): created implicit net for "IncPc"
 Info (12127): Elaborating entity "CPUDesignProject" for the top level hierarchy
 Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:encoder"
 Warning (10762): Verilog HDL Case Statement warning at encoder_32_to_5.v(7): can't check case statement for completeness because the case expression has too many possible states
@@ -2155,75 +2133,75 @@ Info (10041): Inferred latch for "BusMuxOut[29]" at mux_32_to_1.v(31)
 Info (10041): Inferred latch for "BusMuxOut[30]" at mux_32_to_1.v(31)
 Info (10041): Inferred latch for "BusMuxOut[31]" at mux_32_to_1.v(31)
 Info (12128): Elaborating entity "alu" for hierarchy "alu:the_alu"
-Warning (10764): Verilog HDL warning at alu.v(51): converting signed shift amount to unsigned
-Warning (10764): Verilog HDL warning at alu.v(55): converting signed shift amount to unsigned
-Warning (10764): Verilog HDL warning at alu.v(59): converting signed shift amount to unsigned
-Warning (10270): Verilog HDL Case Statement warning at alu.v(21): incomplete case statement has no default case item
-Warning (10240): Verilog HDL Always Construct warning at alu.v(21): inferring latch(es) for variable "C", which holds its previous value in one or more paths through the always construct
-Info (10041): Inferred latch for "C[0]" at alu.v(21)
-Info (10041): Inferred latch for "C[1]" at alu.v(21)
-Info (10041): Inferred latch for "C[2]" at alu.v(21)
-Info (10041): Inferred latch for "C[3]" at alu.v(21)
-Info (10041): Inferred latch for "C[4]" at alu.v(21)
-Info (10041): Inferred latch for "C[5]" at alu.v(21)
-Info (10041): Inferred latch for "C[6]" at alu.v(21)
-Info (10041): Inferred latch for "C[7]" at alu.v(21)
-Info (10041): Inferred latch for "C[8]" at alu.v(21)
-Info (10041): Inferred latch for "C[9]" at alu.v(21)
-Info (10041): Inferred latch for "C[10]" at alu.v(21)
-Info (10041): Inferred latch for "C[11]" at alu.v(21)
-Info (10041): Inferred latch for "C[12]" at alu.v(21)
-Info (10041): Inferred latch for "C[13]" at alu.v(21)
-Info (10041): Inferred latch for "C[14]" at alu.v(21)
-Info (10041): Inferred latch for "C[15]" at alu.v(21)
-Info (10041): Inferred latch for "C[16]" at alu.v(21)
-Info (10041): Inferred latch for "C[17]" at alu.v(21)
-Info (10041): Inferred latch for "C[18]" at alu.v(21)
-Info (10041): Inferred latch for "C[19]" at alu.v(21)
-Info (10041): Inferred latch for "C[20]" at alu.v(21)
-Info (10041): Inferred latch for "C[21]" at alu.v(21)
-Info (10041): Inferred latch for "C[22]" at alu.v(21)
-Info (10041): Inferred latch for "C[23]" at alu.v(21)
-Info (10041): Inferred latch for "C[24]" at alu.v(21)
-Info (10041): Inferred latch for "C[25]" at alu.v(21)
-Info (10041): Inferred latch for "C[26]" at alu.v(21)
-Info (10041): Inferred latch for "C[27]" at alu.v(21)
-Info (10041): Inferred latch for "C[28]" at alu.v(21)
-Info (10041): Inferred latch for "C[29]" at alu.v(21)
-Info (10041): Inferred latch for "C[30]" at alu.v(21)
-Info (10041): Inferred latch for "C[31]" at alu.v(21)
-Info (10041): Inferred latch for "C[32]" at alu.v(21)
-Info (10041): Inferred latch for "C[33]" at alu.v(21)
-Info (10041): Inferred latch for "C[34]" at alu.v(21)
-Info (10041): Inferred latch for "C[35]" at alu.v(21)
-Info (10041): Inferred latch for "C[36]" at alu.v(21)
-Info (10041): Inferred latch for "C[37]" at alu.v(21)
-Info (10041): Inferred latch for "C[38]" at alu.v(21)
-Info (10041): Inferred latch for "C[39]" at alu.v(21)
-Info (10041): Inferred latch for "C[40]" at alu.v(21)
-Info (10041): Inferred latch for "C[41]" at alu.v(21)
-Info (10041): Inferred latch for "C[42]" at alu.v(21)
-Info (10041): Inferred latch for "C[43]" at alu.v(21)
-Info (10041): Inferred latch for "C[44]" at alu.v(21)
-Info (10041): Inferred latch for "C[45]" at alu.v(21)
-Info (10041): Inferred latch for "C[46]" at alu.v(21)
-Info (10041): Inferred latch for "C[47]" at alu.v(21)
-Info (10041): Inferred latch for "C[48]" at alu.v(21)
-Info (10041): Inferred latch for "C[49]" at alu.v(21)
-Info (10041): Inferred latch for "C[50]" at alu.v(21)
-Info (10041): Inferred latch for "C[51]" at alu.v(21)
-Info (10041): Inferred latch for "C[52]" at alu.v(21)
-Info (10041): Inferred latch for "C[53]" at alu.v(21)
-Info (10041): Inferred latch for "C[54]" at alu.v(21)
-Info (10041): Inferred latch for "C[55]" at alu.v(21)
-Info (10041): Inferred latch for "C[56]" at alu.v(21)
-Info (10041): Inferred latch for "C[57]" at alu.v(21)
-Info (10041): Inferred latch for "C[58]" at alu.v(21)
-Info (10041): Inferred latch for "C[59]" at alu.v(21)
-Info (10041): Inferred latch for "C[60]" at alu.v(21)
-Info (10041): Inferred latch for "C[61]" at alu.v(21)
-Info (10041): Inferred latch for "C[62]" at alu.v(21)
-Info (10041): Inferred latch for "C[63]" at alu.v(21)
+Warning (10764): Verilog HDL warning at alu.v(52): converting signed shift amount to unsigned
+Warning (10764): Verilog HDL warning at alu.v(56): converting signed shift amount to unsigned
+Warning (10764): Verilog HDL warning at alu.v(60): converting signed shift amount to unsigned
+Warning (10270): Verilog HDL Case Statement warning at alu.v(22): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at alu.v(22): inferring latch(es) for variable "C", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "C[0]" at alu.v(22)
+Info (10041): Inferred latch for "C[1]" at alu.v(22)
+Info (10041): Inferred latch for "C[2]" at alu.v(22)
+Info (10041): Inferred latch for "C[3]" at alu.v(22)
+Info (10041): Inferred latch for "C[4]" at alu.v(22)
+Info (10041): Inferred latch for "C[5]" at alu.v(22)
+Info (10041): Inferred latch for "C[6]" at alu.v(22)
+Info (10041): Inferred latch for "C[7]" at alu.v(22)
+Info (10041): Inferred latch for "C[8]" at alu.v(22)
+Info (10041): Inferred latch for "C[9]" at alu.v(22)
+Info (10041): Inferred latch for "C[10]" at alu.v(22)
+Info (10041): Inferred latch for "C[11]" at alu.v(22)
+Info (10041): Inferred latch for "C[12]" at alu.v(22)
+Info (10041): Inferred latch for "C[13]" at alu.v(22)
+Info (10041): Inferred latch for "C[14]" at alu.v(22)
+Info (10041): Inferred latch for "C[15]" at alu.v(22)
+Info (10041): Inferred latch for "C[16]" at alu.v(22)
+Info (10041): Inferred latch for "C[17]" at alu.v(22)
+Info (10041): Inferred latch for "C[18]" at alu.v(22)
+Info (10041): Inferred latch for "C[19]" at alu.v(22)
+Info (10041): Inferred latch for "C[20]" at alu.v(22)
+Info (10041): Inferred latch for "C[21]" at alu.v(22)
+Info (10041): Inferred latch for "C[22]" at alu.v(22)
+Info (10041): Inferred latch for "C[23]" at alu.v(22)
+Info (10041): Inferred latch for "C[24]" at alu.v(22)
+Info (10041): Inferred latch for "C[25]" at alu.v(22)
+Info (10041): Inferred latch for "C[26]" at alu.v(22)
+Info (10041): Inferred latch for "C[27]" at alu.v(22)
+Info (10041): Inferred latch for "C[28]" at alu.v(22)
+Info (10041): Inferred latch for "C[29]" at alu.v(22)
+Info (10041): Inferred latch for "C[30]" at alu.v(22)
+Info (10041): Inferred latch for "C[31]" at alu.v(22)
+Info (10041): Inferred latch for "C[32]" at alu.v(22)
+Info (10041): Inferred latch for "C[33]" at alu.v(22)
+Info (10041): Inferred latch for "C[34]" at alu.v(22)
+Info (10041): Inferred latch for "C[35]" at alu.v(22)
+Info (10041): Inferred latch for "C[36]" at alu.v(22)
+Info (10041): Inferred latch for "C[37]" at alu.v(22)
+Info (10041): Inferred latch for "C[38]" at alu.v(22)
+Info (10041): Inferred latch for "C[39]" at alu.v(22)
+Info (10041): Inferred latch for "C[40]" at alu.v(22)
+Info (10041): Inferred latch for "C[41]" at alu.v(22)
+Info (10041): Inferred latch for "C[42]" at alu.v(22)
+Info (10041): Inferred latch for "C[43]" at alu.v(22)
+Info (10041): Inferred latch for "C[44]" at alu.v(22)
+Info (10041): Inferred latch for "C[45]" at alu.v(22)
+Info (10041): Inferred latch for "C[46]" at alu.v(22)
+Info (10041): Inferred latch for "C[47]" at alu.v(22)
+Info (10041): Inferred latch for "C[48]" at alu.v(22)
+Info (10041): Inferred latch for "C[49]" at alu.v(22)
+Info (10041): Inferred latch for "C[50]" at alu.v(22)
+Info (10041): Inferred latch for "C[51]" at alu.v(22)
+Info (10041): Inferred latch for "C[52]" at alu.v(22)
+Info (10041): Inferred latch for "C[53]" at alu.v(22)
+Info (10041): Inferred latch for "C[54]" at alu.v(22)
+Info (10041): Inferred latch for "C[55]" at alu.v(22)
+Info (10041): Inferred latch for "C[56]" at alu.v(22)
+Info (10041): Inferred latch for "C[57]" at alu.v(22)
+Info (10041): Inferred latch for "C[58]" at alu.v(22)
+Info (10041): Inferred latch for "C[59]" at alu.v(22)
+Info (10041): Inferred latch for "C[60]" at alu.v(22)
+Info (10041): Inferred latch for "C[61]" at alu.v(22)
+Info (10041): Inferred latch for "C[62]" at alu.v(22)
+Info (10041): Inferred latch for "C[63]" at alu.v(22)
 Info (12128): Elaborating entity "adder_32_bit" for hierarchy "alu:the_alu|adder_32_bit:adder"
 Info (12128): Elaborating entity "CLA16" for hierarchy "alu:the_alu|adder_32_bit:adder|CLA16:adder1"
 Info (12128): Elaborating entity "CLA4" for hierarchy "alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1"
@@ -2231,16 +2209,16 @@ Info (12128): Elaborating entity "sub_32_bit" for hierarchy "alu:the_alu|sub_32_
 Info (12128): Elaborating entity "negate_32_bit" for hierarchy "alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG"
 Info (12128): Elaborating entity "not_32_bit" for hierarchy "alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|not_32_bit:NOT"
 Info (12128): Elaborating entity "multiplication_32_bit" for hierarchy "alu:the_alu|multiplication_32_bit:mutlipication"
-Warning (10199): Verilog HDL Case Statement warning at multiplication_32_bit.v(45): case item expression never matches the case expression
-Warning (10199): Verilog HDL Case Statement warning at multiplication_32_bit.v(47): case item expression never matches the case expression
-Warning (10199): Verilog HDL Case Statement warning at multiplication_32_bit.v(49): case item expression never matches the case expression
-Warning (10230): Verilog HDL assignment warning at multiplication_32_bit.v(56): truncated value with size 66 to match size of target (64)
+Warning (10199): Verilog HDL Case Statement warning at multiplication_32_bit.v(22): case item expression never matches the case expression
+Warning (10199): Verilog HDL Case Statement warning at multiplication_32_bit.v(24): case item expression never matches the case expression
+Warning (10199): Verilog HDL Case Statement warning at multiplication_32_bit.v(26): case item expression never matches the case expression
+Warning (10230): Verilog HDL assignment warning at multiplication_32_bit.v(33): truncated value with size 66 to match size of target (64)
 Info (12128): Elaborating entity "division_32_bit" for hierarchy "alu:the_alu|division_32_bit:divison"
-Warning (10230): Verilog HDL assignment warning at division_32_bit.v(43): truncated value with size 65 to match size of target (64)
+Warning (10230): Verilog HDL assignment warning at division_32_bit.v(36): truncated value with size 65 to match size of target (64)
 Info (12128): Elaborating entity "rotate_left_32_bit" for hierarchy "alu:the_alu|rotate_left_32_bit:rotateL"
-Warning (10764): Verilog HDL warning at rotate_left_32_bit.v(8): converting signed shift amount to unsigned
+Warning (10764): Verilog HDL warning at rotate_left_32_bit.v(9): converting signed shift amount to unsigned
 Info (12128): Elaborating entity "rotate_right_32_bit" for hierarchy "alu:the_alu|rotate_right_32_bit:rotateR"
-Warning (10764): Verilog HDL warning at rotate_right_32_bit.v(8): converting signed shift amount to unsigned
+Warning (10764): Verilog HDL warning at rotate_right_32_bit.v(9): converting signed shift amount to unsigned
 Warning (12011): Net is missing source, defaulting to GND
     Warning (12110): Net "rst" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
@@ -2469,11 +2447,11 @@ Info (21057): Implemented 4838 device resources after synthesis - the final reso
     Info (21058): Implemented 54 input pins
     Info (21059): Implemented 32 output pins
     Info (21061): Implemented 4752 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 218 warnings
-    Info: Peak virtual memory: 4642 megabytes
-    Info: Processing ended: Thu Mar 02 12:01:36 2023
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:14
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 206 warnings
+    Info: Peak virtual memory: 4650 megabytes
+    Info: Processing ended: Fri Mar 03 21:27:25 2023
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:13
 
 
 +------------------------------------------+

@@ -126,7 +126,7 @@ module division_32_bit(input [31:0] dividend, divisor, output reg [63:0] c);
     integer i;
    	//In this algorithm, we first convert all negative inputs to positive to perform division 
     always @ (*) begin
-      if(A[31] == 1) 
+      if(dividend[31] == 1) 
 			  q = -dividend;
 		  else 
 			  q = dividend;

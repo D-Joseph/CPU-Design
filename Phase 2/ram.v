@@ -8,6 +8,10 @@ module ram (
 reg [31:0] RAM[511:0];
 reg [31:0] addressRegister;
 
+initial begin : INIT
+		$readmemh("sample.mif", RAM); 
+end
+
 //synchronous RAM
 always@(posedge clk) begin
   if(writeEnable) begin
