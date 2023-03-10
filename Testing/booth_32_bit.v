@@ -23,7 +23,7 @@ for(i = 0; i <= 15; i = i + 1) begin
     b'100 : partialProduct = {neg_a << 1};
     default: partialProduct = 31'b0;
   endcase
-  runningSum = runningSum + (partialProduct 2 * i);
+  runningSum = runningSum + (partialProduct << 2 * i);
   end
 end
 assign c = runningSum;

@@ -19,7 +19,7 @@ wire [63:0] mul_out , div_out;
   
 always @(*) begin
   case(opcode)
-  logicalAnd: begin
+  logicalAnd, andi: begin
     C[31:0] <= A & B;
     C[63:32] <= 32'b0;
   end
@@ -73,6 +73,9 @@ always @(*) begin
   logicalNot : begin
     C[31:0] <= ~A;
     C[63:32] <= 32'b0;
+  end
+  mfhi : begin
+    C[63:0] <= $signed(A[31:0]);
   end
   endcase
 end
