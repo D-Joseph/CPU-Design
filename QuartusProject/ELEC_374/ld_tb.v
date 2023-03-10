@@ -25,8 +25,8 @@ CPUDesignProject DUT(.PCout(PCout),.ZHighout(ZHighout),.ZLowout(ZLowout),.MDRout
 			.Yin(Yin),.IncPC(IncPC),.Read(Read),.clk(clk),.MDatain(Mdatain), 	
 			.clr(clr),.HIin(HIin),.LOin(LOin),.HIout(HIout),.LOout(LOout),                		
 			.ZHighIn(ZHighIn),.ZLowIn(ZLowIn),.Cout(Cout),.ramWE(ramWE),
-			.GRA(Gra),.GRB(Grb),.GRC(Grc),.R_in(Rin),.R_out(Rout),	.BAout(BAout),
-			.enableCon(CONin),.R0_R15_in(R0_R15_in), .R0_R15_out(R0_R15_out),
+			.Gra(Gra),.Grb(Grb),.Grc(Grc),.R_in(Rin),.R_out(Rout),	.BAout(BAout),
+			.CONin(CONin),.R0_R15_in(R0_R15_in), .R0_R15_out(R0_R15_out),
 			.OutPortIn(OutPort_enable),.InPortIn(InPort_enable),
 			.InPortout(InPortout), .inport_data_in(inport_data_in),
 			.outport_data_out(outport_data_out),.bus_contents(bus_contents),
@@ -35,11 +35,11 @@ CPUDesignProject DUT(.PCout(PCout),.ZHighout(ZHighout),.ZLowout(ZLowout),.MDRout
 // add test logic here 
 initial  
     begin 
-       Clock = 0; 
-       forever #10 Clock = ~ Clock; 
+       clk = 0; 
+       forever #10 clk = ~ clk; 
 end 
  
-always @(posedge Clock)  // finite state machine; if clock rising-edge 
+always @(posedge clk)  // finite state machine; if clock rising-edge 
    begin 
       case (Present_state) 
        Default			:	#40  Present_state = T0;
@@ -69,7 +69,7 @@ begin
 				InPortout<=0; ZHighout<=0; LOout<=0; HIout<=0; 
 				HIin<=0; LOin<=0;
 				Rout<=0;Rin<=0;Read<=0;
-				R0_R15_enable<= 16'd0; R0_R15_out<=16'd0;
+				R0_R15_in<= 16'd0; R0_R15_out<=16'd0;
 						
 					//	PCout <= 0;   Zlowout <= 0;   MDRout<= 0;   //initialize the signals
 					  // MARin <= 0;  ZLowIn <= 0; ZHighIn <= 0;  CONin <= 0;
@@ -88,10 +88,10 @@ begin
 			T1: begin
                 PCout <= 0; MARin <= 0; IncPC <= 0; ZLowIn <= 0;
                 
-                Zlowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
+                ZLowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
             end
             T2: begin
-                Zlowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+                ZLowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
 
                 MDRout<= 1; IRin <= 1;
 				
@@ -110,17 +110,17 @@ begin
             T5: begin
                 Cout <= 0; ZHighIn <= 0; ZLowIn <= 0;
                 
-                Zlowout<= 1; MARin <= 1; 
+                ZLowout<= 1; MARin <= 1; 
 				end
             T6: begin
-               Zlowout<= 0; MARin <= 0; 
+               ZLowout<= 0; MARin <= 0; 
                Read <= 1; MDRin <= 1;
                 
 			end
             T7: begin
                 Read <= 0; MDRin <= 0;
                 
-                MDRout <= 1; Gra <= 1; R_enable <= 1; 
+                MDRout <= 1; Gra <= 1; Rin <= 1; 
     
 			end
     endcase 

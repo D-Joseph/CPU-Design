@@ -26,7 +26,10 @@ entity alu is
         mfhi            : vl_logic_vector(0 to 4) := (Hi1, Hi1, Hi0, Hi0, Hi0);
         mflo            : vl_logic_vector(0 to 4) := (Hi1, Hi1, Hi0, Hi0, Hi1);
         nop             : vl_logic_vector(0 to 4) := (Hi1, Hi1, Hi0, Hi1, Hi0);
-        halt            : vl_logic_vector(0 to 4) := (Hi1, Hi1, Hi0, Hi1, Hi1)
+        halt            : vl_logic_vector(0 to 4) := (Hi1, Hi1, Hi0, Hi1, Hi1);
+        load            : vl_logic_vector(0 to 4) := (Hi0, Hi0, Hi0, Hi0, Hi0);
+        loadi           : vl_logic_vector(0 to 4) := (Hi0, Hi0, Hi0, Hi0, Hi1);
+        store           : vl_logic_vector(0 to 4) := (Hi0, Hi0, Hi0, Hi1, Hi0)
     );
     port(
         clk             : in     vl_logic;
@@ -63,4 +66,7 @@ entity alu is
     attribute mti_svvh_generic_type of mflo : constant is 1;
     attribute mti_svvh_generic_type of nop : constant is 1;
     attribute mti_svvh_generic_type of halt : constant is 1;
+    attribute mti_svvh_generic_type of load : constant is 1;
+    attribute mti_svvh_generic_type of loadi : constant is 1;
+    attribute mti_svvh_generic_type of store : constant is 1;
 end alu;

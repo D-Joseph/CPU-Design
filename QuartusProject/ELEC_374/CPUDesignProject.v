@@ -1,7 +1,10 @@
 `timescale 1ns/10ps
 
 module CPUDesignProject(
-	input PCout, ZLowout, ZHighout MDRout, MDRin, MARin,
+	input PCout, 
+	input ZLowout, 
+	input ZHighout,
+	input MDRout, MDRin, MARin,
 	input ZLowIn,ZHighIn, HIin, HIout, LOin, LOout, Cout, ramWE,PCin, IRin, IncPC, Yin, Read,
 	input Gra, Grb, Grc, R_in, R_out, BAout, CONin,InPortout,
 	input [15:0] R0_R15_in, R0_R15_out,
@@ -22,9 +25,9 @@ module CPUDesignProject(
 	 
 	always@(*)begin		
 		if (enableR_IR)regIn<=enableR_IR; 
-		else regIn<=R_enableIn;
+		else regIn<=R0_R15_in;
 		if (Rout_IR)Rout<=Rout_IR; 
-		else Rout<=Rout_in;
+		else Rout<=R0_R15_out;
 	end 
 	/*
 	Signal and wire declarations to be used in the Datapath
@@ -76,13 +79,14 @@ module CPUDesignProject(
 	reg_32_bit ZLow_reg(clk, clr, ZLowIn, C_data_out[31:0], ZLow_data_out);
 
 	reg_32_bit IR(clk, rst, IRin, bus_contents, IR_data_out);
+
 	IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
 	
 	reg_32_bit OutPort(clk, clr, OutPortIn, bus_contents, outport_data_out);
 	reg_32_bit InPort(clk, clr, 1'b1, inport_data_in, BusMuxIn_In_Port);
 
 	//Select and encode Logic and CON FF
-	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, Rin, Rout, BAout, C_Sign_extend, Rin_IR, Rout_IR, opcode);
+	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, Rin, Rout, BAout, C_Sign_extend, enableR_IR, Rout_IR, opcode);
 	CONFF_logic conff(IR_data_out[20:19],bus_contents, CONin, CONout);
 	
 	//MDR
