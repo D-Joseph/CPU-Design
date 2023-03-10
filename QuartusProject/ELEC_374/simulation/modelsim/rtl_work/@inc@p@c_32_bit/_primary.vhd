@@ -7,6 +7,7 @@ entity IncPC_32_bit is
     port(
         clk             : in     vl_logic;
         IncPC           : in     vl_logic;
+        enable          : in     vl_logic;
         inputPC         : in     vl_logic_vector(31 downto 0);
         newPC           : out    vl_logic_vector(31 downto 0)
     );

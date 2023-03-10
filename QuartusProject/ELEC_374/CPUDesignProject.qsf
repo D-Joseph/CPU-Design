@@ -138,7 +138,6 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id not_tb
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1500 ns" -section_id not_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME not_tb -section_id not_tb
 set_global_assignment -name VERILOG_FILE neg_tb.v
-set_global_assignment -name MIF_FILE sample.mif
 set_global_assignment -name VERILOG_FILE 2_to_4_encoder.v
 set_global_assignment -name VERILOG_FILE 4_to_16_encoder.v
 set_global_assignment -name VERILOG_FILE CONFF_logic.v

@@ -9,9 +9,10 @@ entity selectencodelogic is
         Rin             : in     vl_logic;
         Rout            : in     vl_logic;
         BAout           : in     vl_logic;
-        C_Sign_Extended : out    vl_logic_vector(31 downto 0);
+        C_sign_extended : out    vl_logic_vector(31 downto 0);
         RegInSel        : out    vl_logic_vector(15 downto 0);
         RegOutSel       : out    vl_logic_vector(15 downto 0);
-        opcode          : out    vl_logic_vector(4 downto 0)
+        opcode          : out    vl_logic_vector(4 downto 0);
+        decoderInput    : out    vl_logic_vector(3 downto 0)
     );
 end selectencodelogic;

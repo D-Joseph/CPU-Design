@@ -26,7 +26,7 @@ CPUDesignProject DUT(.PCout(PCout),.ZHighout(ZHighout),.ZLowout(ZLowout),.MDRout
 			.clr(clr),.HIin(HIin),.LOin(LOin),.HIout(HIout),.LOout(LOout),                		
 			.ZHighIn(ZHighIn),.ZLowIn(ZLowIn),.Cout(Cout),.ramWE(ramWE),
 			.Gra(Gra),.Grb(Grb),.Grc(Grc),.R_in(Rin),.R_out(Rout),	.BAout(BAout),
-			.CONin(CONin),.R0_R15_in(R0_R15_in), .R0_R15_out(R0_R15_out),
+			.CONin(CONin),.R_enableIn(R0_R15_in), .Rout_in(R0_R15_out),
 			.OutPortIn(OutPort_enable),.InPortIn(InPort_enable),
 			.InPortout(InPortout), .inport_data_in(inport_data_in),
 			.outport_data_out(outport_data_out),.bus_contents(bus_contents),
@@ -121,7 +121,7 @@ begin
                 Read <= 0; MDRin <= 0;
                 
                 MDRout <= 1; Gra <= 1; Rin <= 1; 
-    
+					 #15 MDRout <= 0; Gra <= 0; Rin <= 0; 
 			end
     endcase 
 end 

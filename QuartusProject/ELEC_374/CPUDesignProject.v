@@ -7,9 +7,9 @@ module CPUDesignProject(
 	input MDRout, MDRin, MARin,
 	input ZLowIn,ZHighIn, HIin, HIout, LOin, LOout, Cout, ramWE,PCin, IRin, IncPC, Yin, Read,
 	input Gra, Grb, Grc, R_in, R_out, BAout, CONin,InPortout,
-	input [15:0] R0_R15_in, R0_R15_out,
+	input [15:0] R_enableIn, Rout_in,
 	input OutPortIn, InPortIn,
-   input [4:0] operation,
+   output [4:0] operation,
 	input clk,clr,
 	input [31:0] MDatain, 
 	input wire[31:0] inport_data_in,
@@ -25,9 +25,9 @@ module CPUDesignProject(
 	 
 	always@(*)begin		
 		if (enableR_IR)regIn<=enableR_IR; 
-		else regIn<=R0_R15_in;
+		else regIn<=R_enableIn;
 		if (Rout_IR)Rout<=Rout_IR; 
-		else Rout<=R0_R15_out;
+		else Rout<=Rout_in;
 	end 
 	/*
 	Signal and wire declarations to be used in the Datapath
@@ -47,8 +47,7 @@ module CPUDesignProject(
 	wire [4:0] encoder_out;
 	
 	// Connecting the register output signals to the encoder's input wire
-	assign encoder_in = {{8{1'b0}},Cout,InPortout,MDRout,PCout,ZLowout,ZHighout,LOout,HIout,
-						  Rout};
+	assign encoder_in = {{8{1'b0}},Cout,InPortout,MDRout,PCout,ZLowout,ZHighout,LOout,HIout,Rout};
 
     // Instatiating 32-to-5 encoder
     encoder_32_to_5 encoder(encoder_in, encoder_out);
@@ -57,7 +56,7 @@ module CPUDesignProject(
 	wire [31:0] r0_AND_input;
 	assign R0_data_out = {32{!BAout}} & r0_AND_input; //revision to R0
 	reg_32_bit R0(clk, clr, regIn[0] , bus_contents, r0_AND_input); 
-	reg_32_bit R1(clk, clr, regIn[1], bus_contents, R1_data_out);
+	reg_32_bit #(32'h0000000B) R1(clk, clr, regIn[1], bus_contents, R1_data_out);
 	reg_32_bit R2(clk, clr, regIn[2], bus_contents, R2_data_out);
 	reg_32_bit R3(clk, clr, regIn[3], bus_contents, R3_data_out);
 	reg_32_bit R4(clk, clr, regIn[4], bus_contents, R4_data_out);
@@ -86,7 +85,7 @@ module CPUDesignProject(
 	reg_32_bit InPort(clk, clr, 1'b1, inport_data_in, BusMuxIn_In_Port);
 
 	//Select and encode Logic and CON FF
-	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, Rin, Rout, BAout, C_Sign_extend, enableR_IR, Rout_IR, opcode);
+	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, R_in, R_out, BAout, C_Sign_extend, enableR_IR, Rout_IR, operation,decoder_in);
 	CONFF_logic conff(IR_data_out[20:19],bus_contents, CONin, CONout);
 	
 	//MDR

@@ -29,11 +29,11 @@ entity CPUDesignProject is
         BAout           : in     vl_logic;
         CONin           : in     vl_logic;
         InPortout       : in     vl_logic;
-        R0_R15_in       : in     vl_logic_vector(15 downto 0);
-        R0_R15_out      : in     vl_logic_vector(15 downto 0);
+        R_enableIn      : in     vl_logic_vector(15 downto 0);
+        Rout_in         : in     vl_logic_vector(15 downto 0);
         OutPortIn       : in     vl_logic;
         InPortIn        : in     vl_logic;
-        operation       : in     vl_logic_vector(4 downto 0);
+        operation       : out    vl_logic_vector(4 downto 0);
         clk             : in     vl_logic;
         clr             : in     vl_logic;
         MDatain         : in     vl_logic_vector(31 downto 0);

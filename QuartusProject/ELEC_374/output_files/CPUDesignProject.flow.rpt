@@ -1,5 +1,5 @@
 Flow report for CPUDesignProject
-Thu Mar 09 19:00:37 2023
+Fri Mar 10 12:09:51 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Thu Mar 09 19:00:37 2023            ;
+; Flow Status                        ; Successful - Fri Mar 10 12:09:51 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 7,133                                            ;
-;     Total combinational functions  ; 6,485                                            ;
-;     Dedicated logic registers      ; 835                                              ;
-; Total registers                    ; 835                                              ;
+; Total logic elements               ; 7,127                                            ;
+;     Total combinational functions  ; 6,514                                            ;
+;     Dedicated logic registers      ; 808                                              ;
+; Total registers                    ; 808                                              ;
 ; Total pins                         ; 196                                              ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 8,192                                            ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/09/2023 19:00:15 ;
+; Start date & time ; 03/10/2023 12:09:29 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 123478089144587.167840641530408       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123478089144587.167846816929468       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -168,8 +168,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 4646 MB             ; 00:00:20                           ;
-; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:20                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4649 MB             ; 00:00:21                           ;
+; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:21                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
