@@ -56,10 +56,10 @@ module CPUDesignProject(
 	wire [31:0] r0_AND_input;
 	assign R0_data_out = {32{!BAout}} & r0_AND_input; //revision to R0
 	reg_32_bit R0(clk, clr, regIn[0] , bus_contents, r0_AND_input); 
-	reg_32_bit #(32'h0000000B) R1(clk, clr, regIn[1], bus_contents, R1_data_out);
+	reg_32_bit R1(clk, clr, regIn[1], bus_contents, R1_data_out);
 	reg_32_bit R2(clk, clr, regIn[2], bus_contents, R2_data_out);
 	reg_32_bit R3(clk, clr, regIn[3], bus_contents, R3_data_out);
-	reg_32_bit R4(clk, clr, regIn[4], bus_contents, R4_data_out);
+	reg_32_bit #(32'h75) R4(clk, clr, regIn[4], bus_contents, R4_data_out);
 	reg_32_bit R5(clk, clr, regIn[5], bus_contents, R5_data_out);
 	reg_32_bit R6(clk, clr, regIn[6], bus_contents, R6_data_out);
 	reg_32_bit R7(clk, clr, regIn[7], bus_contents, R7_data_out);
@@ -99,6 +99,8 @@ module CPUDesignProject(
 	reg_32_bit MAR(clk,rst,MARin, bus_contents, MAR_data_out_32);
 	assign MAR_data_out = MAR_data_out_32[8:0];
 
+	//ram ramModule(MAR_data_out,clk,MDR_data_out,Read,ramWE,RAM_data_out);
+	
 	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
 
 	// Multiplexer to select which data to send out on the bus

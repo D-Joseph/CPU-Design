@@ -12,10 +12,10 @@ module reg_32_bit #(parameter qInitial = 0)(
 	always@(posedge clk) 
 	begin
 		if (clr) begin
-			q = 32'b0;
+			q <= 32'b0;
 		end
 		else if(enable) begin
-			q = d;
+			q <= d;
 		end 
 	end
 endmodule

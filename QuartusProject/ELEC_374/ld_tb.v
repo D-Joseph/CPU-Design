@@ -121,7 +121,7 @@ begin
                 Read <= 0; MDRin <= 0;
                 
                 MDRout <= 1; Gra <= 1; Rin <= 1; 
-					 #15 MDRout <= 0; Gra <= 0; Rin <= 0; 
+					 #40 MDRout <= 0; Gra <= 0; Rin <= 0; 
 			end
     endcase 
 end 

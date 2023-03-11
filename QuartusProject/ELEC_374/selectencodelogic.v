@@ -2,12 +2,7 @@
 `timescale 1ns/10ps
 
 module selectencodelogic(input [31:0] instruction,
-			   input Gra,
-			   input Grb,
-			   input Grc,
-			   input Rin,
-			   input Rout, 
-			   input BAout,
+			   input Gra, Grb,Grc,Rin,Rout,BAout,
 			   output [31:0] C_sign_extended,
 			   output [15:0] RegInSel, 
 			   output [15:0] RegOutSel, 
