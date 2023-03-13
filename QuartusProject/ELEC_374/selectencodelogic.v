@@ -14,7 +14,7 @@ module selectencodelogic(input [31:0] instruction,
 	encoder_4_to_16 encoder(decoderInput, decoderOutput);
 	
 	assign opcode = instruction[31:27];
-	assign C_sign_extended = {{13{instruction[18]}},instruction[18:0]};
+	assign C_sign_extended = {{14{instruction[17]}},instruction[17:0]};
 	assign RegInSel = {16{Rin}} & decoderOutput;
 	assign RegOutSel = ({16{Rout}} | {16{BAout}}) & decoderOutput;
 endmodule

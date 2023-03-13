@@ -17,3 +17,5 @@ always @ (posedge clk)
 	end
 				
 endmodule
+
+if r6 is 0, branch to location 25 in mem

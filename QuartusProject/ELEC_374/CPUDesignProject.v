@@ -8,7 +8,7 @@ module CPUDesignProject(
 	input ZLowIn,ZHighIn, HIin, HIout, LOin, LOout, Cout, ramWE,PCin, IRin, IncPC, Yin, Read,
 	input Gra, Grb, Grc, R_in, R_out, BAout, CONin,InPortout,
 	input [15:0] R_enableIn, Rout_in,
-	input OutPortIn, InPortIn,
+	input OutPort_enable, InPort_enable,
    output [4:0] operation,
 	input clk,clr,
 	input [31:0] MDatain, 
@@ -38,7 +38,7 @@ module CPUDesignProject(
 	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out;
 	wire [31:0] R10_data_out, R11_data_out, R12_data_out, R13_data_out, R14_data_out, R15_data_out, HI_data_out, LO_data_out;
 	wire [31:0] ZHigh_data_out, ZLow_data_out, IR_data_out;
-	wire [31:0] PC_data_out, MDR_data_out, RAM_data_out, MAR_data_out_32, InPort_data_out, C_Sign_extend, Y_data_out;
+	wire [31:0] PC_data_out, MDR_data_out, RAM_data_out, MAR_data_out_32, InPort_data_out, C_Sign_extend, Y_data_out ,pcData;
 	wire [63:0] C_data_out;
 	wire [8:0] MAR_data_out;
 
@@ -57,11 +57,11 @@ module CPUDesignProject(
 	assign R0_data_out = {32{!BAout}} & r0_AND_input; //revision to R0
 	reg_32_bit R0(clk, clr, regIn[0] , bus_contents, r0_AND_input); 
 	reg_32_bit R1(clk, clr, regIn[1], bus_contents, R1_data_out);
-	reg_32_bit R2(clk, clr, regIn[2], bus_contents, R2_data_out);
-	reg_32_bit R3(clk, clr, regIn[3], bus_contents, R3_data_out);
+	reg_32_bit #(-999) R2(clk, clr, regIn[2], bus_contents, R2_data_out);
+	reg_32_bit #(32'b110000) R3(clk, clr, regIn[3], bus_contents, R3_data_out);
 	reg_32_bit #(32'h75) R4(clk, clr, regIn[4], bus_contents, R4_data_out);
 	reg_32_bit R5(clk, clr, regIn[5], bus_contents, R5_data_out);
-	reg_32_bit R6(clk, clr, regIn[6], bus_contents, R6_data_out);
+	reg_32_bit #(-15) R6(clk, clr, regIn[6], bus_contents, R6_data_out);
 	reg_32_bit R7(clk, clr, regIn[7], bus_contents, R7_data_out);
 	reg_32_bit R8(clk, clr, regIn[8], bus_contents, R8_data_out);
 	reg_32_bit R9(clk, clr, regIn[9], bus_contents, R9_data_out);
@@ -72,17 +72,18 @@ module CPUDesignProject(
 	reg_32_bit R14(clk, clr, regIn[14], bus_contents, R14_data_out);
 	reg_32_bit R15(clk, clr, regIn[15], bus_contents, R15_data_out);
 	reg_32_bit Y(clk, clr, Yin, bus_contents, Y_data_out);
-	reg_32_bit HI_reg(clk, clr, HIin, bus_contents, HI_data_out);
-	reg_32_bit LO_reg(clk, clr, LOin, bus_contents, LO_data_out);
+	reg_32_bit #(53292) HI_reg(clk, clr, HIin, bus_contents, HI_data_out);
+	reg_32_bit #(55555555) LO_reg(clk, clr, LOin, bus_contents, LO_data_out);
 	reg_32_bit ZHigh_reg(clk, clr, ZHighIn, C_data_out[63:32], ZHigh_data_out);	
 	reg_32_bit ZLow_reg(clk, clr, ZLowIn, C_data_out[31:0], ZLow_data_out);
 
 	reg_32_bit IR(clk, rst, IRin, bus_contents, IR_data_out);
 
-	IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
+	//reg_32_bit PC_reg(clk, clr,PCin, bus_contents, PC_data_out);
+   IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
 	
-	reg_32_bit OutPort(clk, clr, OutPortIn, bus_contents, outport_data_out);
-	reg_32_bit InPort(clk, clr, 1'b1, inport_data_in, BusMuxIn_In_Port);
+	reg_32_bit OutPort(clk, clr, OutPort_enable, bus_contents, outport_data_out);
+	reg_32_bit InPort(clk, clr, InPort_enable, inport_data_in, BusMuxIn_In_Port);
 
 	//Select and encode Logic and CON FF
 	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, R_in, R_out, BAout, C_Sign_extend, enableR_IR, Rout_IR, operation,decoder_in);
@@ -99,7 +100,7 @@ module CPUDesignProject(
 	reg_32_bit MAR(clk,rst,MARin, bus_contents, MAR_data_out_32);
 	assign MAR_data_out = MAR_data_out_32[8:0];
 
-	//ram ramModule(MAR_data_out,clk,MDR_data_out,Read,ramWE,RAM_data_out);
+	//memRAM ramModule(MAR_data_out,clk,MDR_data_out,ramWE,RAM_data_out);
 	
 	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
 
@@ -118,11 +119,14 @@ module CPUDesignProject(
 	alu the_alu(
 	.clk(clk),
 	.clr(clr), 
+	.branch_flag(CONout),
 	.A(Y_data_out),
 	.B(bus_contents),
+	//.RPC(PC_data_out),
 	.opcode(operation),
-	.C(C_data_out),
-	.IncPC(IncPc)
+	.C(C_data_out)
+	//.IncPC(IncPC),
+	//.aluPCout(pcData)
 	);
 
 endmodule

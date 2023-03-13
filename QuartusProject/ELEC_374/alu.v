@@ -1,12 +1,14 @@
 module alu (
-  input clk, clr, IncPC,
+  input clk, clr, IncPC,branch_flag,
 
   input wire signed [31:0] A,
   input wire signed [31:0] B,
+  //input wire [31:0] RPC, 
 
   input [4:0] opcode,
   
   output reg [63:0] C
+  //output wire [31:0] aluPCout
 
 );
 
@@ -20,19 +22,15 @@ wire [63:0] mul_out , div_out;
   
 always @(*) begin
   case(opcode)
-  logicalAnd: begin
+  logicalAnd, andi: begin
     C[31:0] <= A & B;
     C[63:32] <= 32'b0;
   end
-  logicalOr : begin
+  logicalOr, ori : begin
     C[31:0] <= A | B;
     C[63:32] <= 32'b0;
   end
-  add : begin
-    C[31:0] <= adder_sum;
-    C[63:32] <= 32'b0;
-  end
-  addi : begin
+  add, addi: begin
     C[31:0] <= adder_sum;
     C[63:32] <= 32'b0;
   end
@@ -77,9 +75,19 @@ always @(*) begin
     C[63:32] <= 32'b0;
   end
   load, loadi, store, addi: begin
-					C[31:0] <= adder_sum[31:0];
-					C[63:32] <= 32'b0;
-				end
+	 C[31:0] <= adder_sum[31:0];
+	 C[63:32] <= 32'b0;
+  end
+  br: begin
+	 if(branch_flag==1) begin
+		 C[31:0] <= adder_sum[31:0];
+		 C[63:32] <= 32'd0;
+	 end 
+	 else begin
+		 C[31:0] <= A;
+		 C[63:32] <= 32'd0;
+	 end
+	end
   endcase
 end
 
@@ -91,6 +99,6 @@ division_32_bit divison(.dividend(A), .divisor(B), .c(div_out));
 negate_32_bit negation(.a(A), .neg_a(neg_out));
 rotate_left_32_bit rotateL(.in(A),.b(B),.out(rol_out));
 rotate_right_32_bit rotateR(.in(A),.b(B),.out(ror_out));
-IncPC_32_bit pc_inc(clk,IncPC,A_reg,incPC_out);
+//IncPC_32_bit pc_inc(IncPC,RPC,aluPCout);
 
 endmodule

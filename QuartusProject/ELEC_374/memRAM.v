@@ -40,14 +40,12 @@ module memRAM (
 	address,
 	clock,
 	data,
-	rden,
 	wren,
 	q);
 
 	input	[8:0]  address;
 	input	  clock;
 	input	[31:0]  data;
-	input	  rden;
 	input	  wren;
 	output	[31:0]  q;
 `ifndef ALTERA_RESERVED_QIS
@@ -67,7 +65,6 @@ module memRAM (
 				.clock0 (clock),
 				.data_a (data),
 				.wren_a (wren),
-				.rden_a (rden),
 				.q_a (sub_wire0),
 				.aclr0 (1'b0),
 				.aclr1 (1'b0),

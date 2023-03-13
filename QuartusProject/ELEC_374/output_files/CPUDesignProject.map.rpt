@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPUDesignProject
-Fri Mar 10 16:46:26 2023
+Sun Mar 12 22:26:29 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -49,54 +49,52 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
  41. Parameter Settings for User Entity Instance: reg_32_bit:MDR
  42. Parameter Settings for User Entity Instance: reg_32_bit:MAR
  43. Parameter Settings for User Entity Instance: alu:the_alu
- 44. Parameter Settings for User Entity Instance: alu:the_alu|IncPC_32_bit:pc_inc
- 45. Parameter Settings for Inferred Entity Instance: ram:ramModule|altsyncram:RAM_rtl_0
- 46. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2
- 47. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add4
- 48. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add6
- 49. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add8
- 50. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add10
- 51. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add12
- 52. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add14
- 53. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add16
- 54. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add18
- 55. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add20
- 56. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add22
- 57. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add24
- 58. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add26
- 59. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add28
- 60. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add30
- 61. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add32
- 62. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add34
- 63. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add36
- 64. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add38
- 65. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add40
- 66. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add42
- 67. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add44
- 68. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add46
- 69. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add48
- 70. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add50
- 71. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add52
- 72. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add54
- 73. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add56
- 74. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add58
- 75. altsyncram Parameter Settings by Entity Instance
- 76. Port Connectivity Checks: "alu:the_alu|IncPC_32_bit:pc_inc"
- 77. Port Connectivity Checks: "alu:the_alu|rotate_right_32_bit:rotateR"
- 78. Port Connectivity Checks: "alu:the_alu|rotate_left_32_bit:rotateL"
- 79. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD"
- 80. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction"
- 81. Port Connectivity Checks: "alu:the_alu|adder_32_bit:adder"
- 82. Port Connectivity Checks: "mux_32_to_1:BusMux"
- 83. Port Connectivity Checks: "ram:ramModule"
- 84. Port Connectivity Checks: "reg_32_bit:MAR"
- 85. Port Connectivity Checks: "CONFF_logic:conff"
- 86. Port Connectivity Checks: "selectencodelogic:selEn"
- 87. Port Connectivity Checks: "reg_32_bit:InPort"
- 88. Port Connectivity Checks: "encoder_32_to_5:encoder"
- 89. Elapsed Time Per Partition
- 90. Analysis & Synthesis Messages
- 91. Analysis & Synthesis Suppressed Messages
+ 44. Parameter Settings for Inferred Entity Instance: ram:ramModule|altsyncram:RAM_rtl_0
+ 45. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2
+ 46. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add4
+ 47. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add6
+ 48. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add8
+ 49. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add10
+ 50. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add12
+ 51. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add14
+ 52. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add16
+ 53. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add18
+ 54. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add20
+ 55. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add22
+ 56. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add24
+ 57. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add26
+ 58. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add28
+ 59. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add30
+ 60. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add32
+ 61. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add34
+ 62. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add36
+ 63. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add38
+ 64. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add40
+ 65. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add42
+ 66. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add44
+ 67. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add46
+ 68. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add48
+ 69. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add50
+ 70. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add52
+ 71. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add54
+ 72. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add56
+ 73. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add58
+ 74. altsyncram Parameter Settings by Entity Instance
+ 75. Port Connectivity Checks: "alu:the_alu|rotate_right_32_bit:rotateR"
+ 76. Port Connectivity Checks: "alu:the_alu|rotate_left_32_bit:rotateL"
+ 77. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD"
+ 78. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction"
+ 79. Port Connectivity Checks: "alu:the_alu|adder_32_bit:adder"
+ 80. Port Connectivity Checks: "alu:the_alu"
+ 81. Port Connectivity Checks: "mux_32_to_1:BusMux"
+ 82. Port Connectivity Checks: "ram:ramModule"
+ 83. Port Connectivity Checks: "reg_32_bit:MAR"
+ 84. Port Connectivity Checks: "selectencodelogic:selEn"
+ 85. Port Connectivity Checks: "reg_32_bit:InPort"
+ 86. Port Connectivity Checks: "encoder_32_to_5:encoder"
+ 87. Elapsed Time Per Partition
+ 88. Analysis & Synthesis Messages
+ 89. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -122,13 +120,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Mar 10 16:46:26 2023            ;
+; Analysis & Synthesis Status        ; Successful - Sun Mar 12 22:26:29 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
-; Total logic elements               ; 7,127                                            ;
-;     Total combinational functions  ; 6,516                                            ;
+; Total logic elements               ; 7,137                                            ;
+;     Total combinational functions  ; 6,605                                            ;
 ;     Dedicated logic registers      ; 808                                              ;
 ; Total registers                    ; 808                                              ;
 ; Total pins                         ; 196                                              ;
@@ -231,7 +229,7 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -240,55 +238,54 @@ applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processors 2-4         ; < 0.1%      ;
-;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                        ;
-+--------------------------------------------+-----------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path           ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                                 ; Library ;
-+--------------------------------------------+-----------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
-; testing.mif                                ; yes             ; User Memory Initialization File                       ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/testing.mif                                ;         ;
-; sub_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/sub_32_bit.v                               ;         ;
-; rotate_right_32_bit.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_right_32_bit.v                      ;         ;
-; rotate_left_32_bit.v                       ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/rotate_left_32_bit.v                       ;         ;
-; reg_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/reg_32_bit.v                               ;         ;
-; not_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/not_32_bit.v                               ;         ;
-; negate_32_bit.v                            ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/negate_32_bit.v                            ;         ;
-; mux_32_to_1.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_32_to_1.v                              ;         ;
-; mux_2_to_1.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/mux_2_to_1.v                               ;         ;
-; multiplication_32_bit.v                    ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/multiplication_32_bit.v                    ;         ;
-; encoder_32_to_5.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/encoder_32_to_5.v                          ;         ;
-; division_32_bit.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/division_32_bit.v                          ;         ;
-; CPUDesignProject.v                         ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CPUDesignProject.v                         ;         ;
-; alu.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/alu.v                                      ;         ;
-; adder_32_bit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/adder_32_bit.v                             ;         ;
-; IncPC_32_bit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/IncPC_32_bit.v                             ;         ;
-; 2_to_4_encoder.v                           ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/2_to_4_encoder.v                           ;         ;
-; 4_to_16_encoder.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/4_to_16_encoder.v                          ;         ;
-; CONFF_logic.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/CONFF_logic.v                              ;         ;
-; ram.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/ram.v                                      ;         ;
-; selectencodelogic.v                        ; yes             ; User Verilog HDL File                                 ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/selectencodelogic.v                        ;         ;
-; altsyncram.tdf                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                             ;         ;
-; stratix_ram_block.inc                      ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                      ;         ;
-; lpm_mux.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                ;         ;
-; lpm_decode.inc                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                             ;         ;
-; aglobal130.inc                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                             ;         ;
-; a_rdenreg.inc                              ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                              ;         ;
-; altrom.inc                                 ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                                 ;         ;
-; altram.inc                                 ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                                 ;         ;
-; altdpram.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                               ;         ;
-; db/altsyncram_rd91.tdf                     ; yes             ; Auto-Generated Megafunction                           ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/db/altsyncram_rd91.tdf                     ;         ;
-; db/cpudesignproject.ram0_ram_1d0cf.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/db/cpudesignproject.ram0_ram_1d0cf.hdl.mif ;         ;
-; lpm_add_sub.tdf                            ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                            ;         ;
-; addcore.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc                                                ;         ;
-; look_add.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc                                               ;         ;
-; bypassff.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                               ;         ;
-; altshift.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                               ;         ;
-; alt_stratix_add_sub.inc                    ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                                    ;         ;
-; db/add_sub_gui.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/db/add_sub_gui.tdf                         ;         ;
-+--------------------------------------------+-----------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                            ;
++--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path           ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                                                     ; Library ;
++--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
+; testing.mif                                ; yes             ; User Memory Initialization File                       ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/testing.mif                                ;         ;
+; sub_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v                               ;         ;
+; rotate_right_32_bit.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v                      ;         ;
+; rotate_left_32_bit.v                       ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v                       ;         ;
+; reg_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v                               ;         ;
+; not_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v                               ;         ;
+; negate_32_bit.v                            ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v                            ;         ;
+; mux_32_to_1.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v                              ;         ;
+; mux_2_to_1.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v                               ;         ;
+; multiplication_32_bit.v                    ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v                    ;         ;
+; encoder_32_to_5.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v                          ;         ;
+; division_32_bit.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v                          ;         ;
+; CPUDesignProject.v                         ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v                         ;         ;
+; alu.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v                                      ;         ;
+; adder_32_bit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v                             ;         ;
+; IncPC_32_bit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v                             ;         ;
+; 2_to_4_encoder.v                           ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/2_to_4_encoder.v                           ;         ;
+; 4_to_16_encoder.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/4_to_16_encoder.v                          ;         ;
+; CONFF_logic.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CONFF_logic.v                              ;         ;
+; ram.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/ram.v                                      ;         ;
+; selectencodelogic.v                        ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/selectencodelogic.v                        ;         ;
+; altsyncram.tdf                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                                                 ;         ;
+; stratix_ram_block.inc                      ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                          ;         ;
+; lpm_mux.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                                    ;         ;
+; lpm_decode.inc                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                                                 ;         ;
+; aglobal130.inc                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                                                 ;         ;
+; a_rdenreg.inc                              ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                                                  ;         ;
+; altrom.inc                                 ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                                                     ;         ;
+; altram.inc                                 ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                                                     ;         ;
+; altdpram.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                                                   ;         ;
+; db/altsyncram_rd91.tdf                     ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/altsyncram_rd91.tdf                     ;         ;
+; db/cpudesignproject.ram0_ram_1d0cf.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/cpudesignproject.ram0_ram_1d0cf.hdl.mif ;         ;
+; lpm_add_sub.tdf                            ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                                                ;         ;
+; addcore.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc                                                                    ;         ;
+; look_add.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc                                                                   ;         ;
+; bypassff.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                                   ;         ;
+; altshift.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                                   ;         ;
+; alt_stratix_add_sub.inc                    ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                                                        ;         ;
+; db/add_sub_gui.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/add_sub_gui.tdf                         ;         ;
++--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -296,16 +293,16 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 7,127     ;
+; Estimated Total logic elements              ; 7,137     ;
 ;                                             ;           ;
-; Total combinational functions               ; 6516      ;
+; Total combinational functions               ; 6605      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 2431      ;
-;     -- 3 input functions                    ; 2185      ;
-;     -- <=2 input functions                  ; 1900      ;
+;     -- 4 input functions                    ; 2466      ;
+;     -- 3 input functions                    ; 2173      ;
+;     -- <=2 input functions                  ; 1966      ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 4782      ;
+;     -- normal mode                          ; 4871      ;
 ;     -- arithmetic mode                      ; 1734      ;
 ;                                             ;           ;
 ; Total registers                             ; 808       ;
@@ -317,8 +314,8 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 840       ;
-; Total fan-out                               ; 23174     ;
-; Average fan-out                             ; 2.99      ;
+; Total fan-out                               ; 23267     ;
+; Average fan-out                             ; 2.97      ;
 +---------------------------------------------+-----------+
 
 
@@ -327,20 +324,21 @@ applicable agreement for further details.
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Library Name ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPUDesignProject                           ; 6516 (52)         ; 808 (0)      ; 8192        ; 0            ; 0       ; 0         ; 196  ; 0            ; |CPUDesignProject                                                                                                ; work         ;
+; |CPUDesignProject                           ; 6605 (52)         ; 808 (0)      ; 8192        ; 0            ; 0       ; 0         ; 196  ; 0            ; |CPUDesignProject                                                                                                ; work         ;
+;    |CONFF_logic:conff|                      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|CONFF_logic:conff                                                                              ; work         ;
 ;    |IncPC_32_bit:PC_reg|                    ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|IncPC_32_bit:PC_reg                                                                            ; work         ;
-;    |alu:the_alu|                            ; 5649 (762)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                                    ; work         ;
-;       |adder_32_bit:adder|                  ; 70 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder                                                                 ; work         ;
-;          |CLA16:adder1|                     ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1                                                    ; work         ;
-;             |CLA4:adder1|                   ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1                                        ; work         ;
-;             |CLA4:adder2|                   ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder2                                        ; work         ;
-;             |CLA4:adder3|                   ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder3                                        ; work         ;
-;             |CLA4:adder4|                   ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder4                                        ; work         ;
-;          |CLA16:adder2|                     ; 34 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2                                                    ; work         ;
-;             |CLA4:adder1|                   ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder1                                        ; work         ;
-;             |CLA4:adder2|                   ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder2                                        ; work         ;
-;             |CLA4:adder3|                   ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder3                                        ; work         ;
-;             |CLA4:adder4|                   ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder4                                        ; work         ;
+;    |alu:the_alu|                            ; 5656 (771)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                                    ; work         ;
+;       |adder_32_bit:adder|                  ; 69 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder                                                                 ; work         ;
+;          |CLA16:adder1|                     ; 28 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1                                                    ; work         ;
+;             |CLA4:adder1|                   ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1                                        ; work         ;
+;             |CLA4:adder2|                   ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder2                                        ; work         ;
+;             |CLA4:adder3|                   ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder3                                        ; work         ;
+;             |CLA4:adder4|                   ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder4                                        ; work         ;
+;          |CLA16:adder2|                     ; 41 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2                                                    ; work         ;
+;             |CLA4:adder1|                   ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder1                                        ; work         ;
+;             |CLA4:adder2|                   ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder2                                        ; work         ;
+;             |CLA4:adder3|                   ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder3                                        ; work         ;
+;             |CLA4:adder4|                   ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder2|CLA4:adder4                                        ; work         ;
 ;       |division_32_bit:divison|             ; 2236 (351)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|division_32_bit:divison                                                            ; work         ;
 ;          |lpm_add_sub:Add10|                ; 65 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add10                                          ; work         ;
 ;             |add_sub_gui:auto_generated|    ; 65 (65)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add10|add_sub_gui:auto_generated               ; work         ;
@@ -400,7 +398,7 @@ applicable agreement for further details.
 ;             |add_sub_gui:auto_generated|    ; 65 (65)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add6|add_sub_gui:auto_generated                ; work         ;
 ;          |lpm_add_sub:Add8|                 ; 65 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add8                                           ; work         ;
 ;             |add_sub_gui:auto_generated|    ; 65 (65)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add8|add_sub_gui:auto_generated                ; work         ;
-;       |multiplication_32_bit:mutlipication| ; 2190 (2190)       ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication                                                ; work         ;
+;       |multiplication_32_bit:mutlipication| ; 2204 (2204)       ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication                                                ; work         ;
 ;       |negate_32_bit:negation|              ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation                                                             ; work         ;
 ;          |adder_32_bit:ADD|                 ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD                                            ; work         ;
 ;             |CLA16:adder1|                  ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder1                               ; work         ;
@@ -413,19 +411,19 @@ applicable agreement for further details.
 ;                |CLA4:adder2|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
 ;                |CLA4:adder3|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3                   ; work         ;
 ;                |CLA4:adder4|                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4                   ; work         ;
-;       |rotate_left_32_bit:rotateL|          ; 134 (134)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                                         ; work         ;
-;       |rotate_right_32_bit:rotateR|         ; 137 (137)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                                        ; work         ;
-;       |sub_32_bit:subtraction|              ; 90 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction                                                             ; work         ;
-;          |adder_32_bit:ADD|                 ; 65 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD                                            ; work         ;
-;             |CLA16:adder1|                  ; 29 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1                               ; work         ;
+;       |rotate_left_32_bit:rotateL|          ; 132 (132)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                                         ; work         ;
+;       |rotate_right_32_bit:rotateR|         ; 128 (128)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                                        ; work         ;
+;       |sub_32_bit:subtraction|              ; 86 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction                                                             ; work         ;
+;          |adder_32_bit:ADD|                 ; 61 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD                                            ; work         ;
+;             |CLA16:adder1|                  ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1                               ; work         ;
 ;                |CLA4:adder1|                ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder1                   ; work         ;
 ;                |CLA4:adder2|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder2                   ; work         ;
 ;                |CLA4:adder3|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder3                   ; work         ;
-;                |CLA4:adder4|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder4                   ; work         ;
-;             |CLA16:adder2|                  ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2                               ; work         ;
-;                |CLA4:adder1|                ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder1                   ; work         ;
-;                |CLA4:adder2|                ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
-;                |CLA4:adder3|                ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3                   ; work         ;
+;                |CLA4:adder4|                ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1|CLA4:adder4                   ; work         ;
+;             |CLA16:adder2|                  ; 31 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2                               ; work         ;
+;                |CLA4:adder1|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder1                   ; work         ;
+;                |CLA4:adder2|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
+;                |CLA4:adder3|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3                   ; work         ;
 ;                |CLA4:adder4|                ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4                   ; work         ;
 ;          |negate_32_bit:NEG|                ; 25 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG                                           ; work         ;
 ;             |adder_32_bit:ADD|              ; 25 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD                          ; work         ;
@@ -444,9 +442,9 @@ applicable agreement for further details.
 ;    |ram:ramModule|                          ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule                                                                                  ; work         ;
 ;       |altsyncram:RAM_rtl_0|                ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0                                                             ; work         ;
 ;          |altsyncram_rd91:auto_generated|   ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated                              ; work         ;
-;    |reg_32_bit:HI_reg|                      ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:HI_reg                                                                              ; work         ;
+;    |reg_32_bit:HI_reg|                      ; 7 (7)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:HI_reg                                                                              ; work         ;
 ;    |reg_32_bit:IR|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:IR                                                                                  ; work         ;
-;    |reg_32_bit:LO_reg|                      ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:LO_reg                                                                              ; work         ;
+;    |reg_32_bit:LO_reg|                      ; 18 (18)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:LO_reg                                                                              ; work         ;
 ;    |reg_32_bit:MAR|                         ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MAR                                                                                 ; work         ;
 ;    |reg_32_bit:MDR|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MDR                                                                                 ; work         ;
 ;    |reg_32_bit:OutPort|                     ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:OutPort                                                                             ; work         ;
@@ -458,18 +456,18 @@ applicable agreement for further details.
 ;    |reg_32_bit:R14|                         ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R14                                                                                 ; work         ;
 ;    |reg_32_bit:R15|                         ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R15                                                                                 ; work         ;
 ;    |reg_32_bit:R1|                          ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R1                                                                                  ; work         ;
-;    |reg_32_bit:R2|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R2                                                                                  ; work         ;
-;    |reg_32_bit:R3|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R3                                                                                  ; work         ;
+;    |reg_32_bit:R2|                          ; 27 (27)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R2                                                                                  ; work         ;
+;    |reg_32_bit:R3|                          ; 4 (4)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R3                                                                                  ; work         ;
 ;    |reg_32_bit:R4|                          ; 7 (7)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R4                                                                                  ; work         ;
 ;    |reg_32_bit:R5|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R5                                                                                  ; work         ;
-;    |reg_32_bit:R6|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R6                                                                                  ; work         ;
+;    |reg_32_bit:R6|                          ; 31 (31)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R6                                                                                  ; work         ;
 ;    |reg_32_bit:R7|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R7                                                                                  ; work         ;
 ;    |reg_32_bit:R8|                          ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R8                                                                                  ; work         ;
 ;    |reg_32_bit:R9|                          ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R9                                                                                  ; work         ;
 ;    |reg_32_bit:Y|                           ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:Y                                                                                   ; work         ;
 ;    |reg_32_bit:ZHigh_reg|                   ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZHigh_reg                                                                           ; work         ;
 ;    |reg_32_bit:ZLow_reg|                    ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZLow_reg                                                                            ; work         ;
-;    |selectencodelogic:selEn|                ; 28 (28)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|selectencodelogic:selEn                                                                        ; work         ;
+;    |selectencodelogic:selEn|                ; 29 (29)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|selectencodelogic:selEn                                                                        ; work         ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -606,7 +604,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Total registers                              ; 808   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 32    ;
+; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 808   ;
@@ -614,18 +612,97 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------+
-; Inverted Register Statistics                     ;
-+----------------------------------------+---------+
-; Inverted Register                      ; Fan out ;
-+----------------------------------------+---------+
-; reg_32_bit:R4|q[0]                     ; 1       ;
-; reg_32_bit:R4|q[2]                     ; 1       ;
-; reg_32_bit:R4|q[4]                     ; 1       ;
-; reg_32_bit:R4|q[5]                     ; 1       ;
-; reg_32_bit:R4|q[6]                     ; 1       ;
-; Total number of inverted registers = 5 ;         ;
-+----------------------------------------+---------+
++---------------------------------------------------+
+; Inverted Register Statistics                      ;
++-----------------------------------------+---------+
+; Inverted Register                       ; Fan out ;
++-----------------------------------------+---------+
+; reg_32_bit:LO_reg|q[0]                  ; 1       ;
+; reg_32_bit:R2|q[0]                      ; 1       ;
+; reg_32_bit:R6|q[0]                      ; 1       ;
+; reg_32_bit:R4|q[0]                      ; 1       ;
+; reg_32_bit:LO_reg|q[1]                  ; 1       ;
+; reg_32_bit:HI_reg|q[2]                  ; 1       ;
+; reg_32_bit:R4|q[2]                      ; 1       ;
+; reg_32_bit:HI_reg|q[3]                  ; 1       ;
+; reg_32_bit:R2|q[3]                      ; 1       ;
+; reg_32_bit:R2|q[4]                      ; 1       ;
+; reg_32_bit:R6|q[4]                      ; 1       ;
+; reg_32_bit:R3|q[4]                      ; 1       ;
+; reg_32_bit:R4|q[4]                      ; 1       ;
+; reg_32_bit:LO_reg|q[5]                  ; 1       ;
+; reg_32_bit:HI_reg|q[5]                  ; 1       ;
+; reg_32_bit:R6|q[5]                      ; 1       ;
+; reg_32_bit:R3|q[5]                      ; 1       ;
+; reg_32_bit:R4|q[5]                      ; 1       ;
+; reg_32_bit:LO_reg|q[6]                  ; 1       ;
+; reg_32_bit:R6|q[6]                      ; 1       ;
+; reg_32_bit:R4|q[6]                      ; 1       ;
+; reg_32_bit:LO_reg|q[7]                  ; 1       ;
+; reg_32_bit:R6|q[7]                      ; 1       ;
+; reg_32_bit:LO_reg|q[8]                  ; 1       ;
+; reg_32_bit:R6|q[8]                      ; 1       ;
+; reg_32_bit:R6|q[9]                      ; 1       ;
+; reg_32_bit:LO_reg|q[10]                 ; 1       ;
+; reg_32_bit:R2|q[10]                     ; 1       ;
+; reg_32_bit:R6|q[10]                     ; 1       ;
+; reg_32_bit:R6|q[11]                     ; 1       ;
+; reg_32_bit:R2|q[11]                     ; 1       ;
+; reg_32_bit:LO_reg|q[12]                 ; 1       ;
+; reg_32_bit:HI_reg|q[12]                 ; 1       ;
+; reg_32_bit:R6|q[12]                     ; 1       ;
+; reg_32_bit:R2|q[12]                     ; 1       ;
+; reg_32_bit:LO_reg|q[13]                 ; 1       ;
+; reg_32_bit:R6|q[13]                     ; 1       ;
+; reg_32_bit:R2|q[13]                     ; 1       ;
+; reg_32_bit:HI_reg|q[14]                 ; 1       ;
+; reg_32_bit:R6|q[14]                     ; 1       ;
+; reg_32_bit:R2|q[14]                     ; 1       ;
+; reg_32_bit:LO_reg|q[15]                 ; 1       ;
+; reg_32_bit:HI_reg|q[15]                 ; 1       ;
+; reg_32_bit:R6|q[15]                     ; 1       ;
+; reg_32_bit:R2|q[15]                     ; 1       ;
+; reg_32_bit:LO_reg|q[16]                 ; 1       ;
+; reg_32_bit:R6|q[16]                     ; 1       ;
+; reg_32_bit:R2|q[16]                     ; 1       ;
+; reg_32_bit:LO_reg|q[17]                 ; 1       ;
+; reg_32_bit:R6|q[17]                     ; 1       ;
+; reg_32_bit:R2|q[17]                     ; 1       ;
+; reg_32_bit:LO_reg|q[18]                 ; 1       ;
+; reg_32_bit:R6|q[18]                     ; 1       ;
+; reg_32_bit:R2|q[18]                     ; 1       ;
+; reg_32_bit:LO_reg|q[19]                 ; 1       ;
+; reg_32_bit:R6|q[19]                     ; 1       ;
+; reg_32_bit:R2|q[19]                     ; 1       ;
+; reg_32_bit:R6|q[20]                     ; 1       ;
+; reg_32_bit:R2|q[20]                     ; 1       ;
+; reg_32_bit:R6|q[21]                     ; 1       ;
+; reg_32_bit:R2|q[21]                     ; 1       ;
+; reg_32_bit:LO_reg|q[22]                 ; 1       ;
+; reg_32_bit:R6|q[22]                     ; 1       ;
+; reg_32_bit:R2|q[22]                     ; 1       ;
+; reg_32_bit:R6|q[23]                     ; 1       ;
+; reg_32_bit:R2|q[23]                     ; 1       ;
+; reg_32_bit:LO_reg|q[24]                 ; 1       ;
+; reg_32_bit:R6|q[24]                     ; 1       ;
+; reg_32_bit:R2|q[24]                     ; 1       ;
+; reg_32_bit:LO_reg|q[25]                 ; 1       ;
+; reg_32_bit:R6|q[25]                     ; 1       ;
+; reg_32_bit:R2|q[25]                     ; 1       ;
+; reg_32_bit:R6|q[26]                     ; 1       ;
+; reg_32_bit:R2|q[26]                     ; 1       ;
+; reg_32_bit:R6|q[27]                     ; 1       ;
+; reg_32_bit:R2|q[27]                     ; 1       ;
+; reg_32_bit:R6|q[28]                     ; 1       ;
+; reg_32_bit:R2|q[28]                     ; 1       ;
+; reg_32_bit:R6|q[29]                     ; 1       ;
+; reg_32_bit:R2|q[29]                     ; 1       ;
+; reg_32_bit:R6|q[30]                     ; 1       ;
+; reg_32_bit:R2|q[30]                     ; 1       ;
+; reg_32_bit:R6|q[31]                     ; 1       ;
+; reg_32_bit:R2|q[31]                     ; 1       ;
+; Total number of inverted registers = 84 ;         ;
++-----------------------------------------+---------+
 
 
 +----------------------------------------------------------------------+
@@ -643,60 +720,65 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:OutPort|q[0]                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R7|q[1]                                          ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R6|q[7]                                          ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R5|q[29]                                         ;
-; 3:1                ; 27 bits   ; 54 LEs        ; 27 LEs               ; 27 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R4|q[22]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R3|q[13]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R2|q[15]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R1|q[22]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R0|q[8]                                          ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R15|q[22]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R14|q[22]                                        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R7|q[24]                                         ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R6|q[2]                                          ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R5|q[3]                                          ;
+; 3:1                ; 27 bits   ; 54 LEs        ; 27 LEs               ; 27 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R4|q[26]                                         ;
+; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R3|q[9]                                          ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R2|q[6]                                          ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R1|q[10]                                         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R0|q[16]                                         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R15|q[29]                                        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R14|q[28]                                        ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R13|q[22]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R12|q[22]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R11|q[22]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R10|q[22]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R9|q[22]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R8|q[8]                                          ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|IncPC_32_bit:PC_reg|newPC[24]                               ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:ZLow_reg|q[4]                                    ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:ZHigh_reg|q[19]                                  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:LO_reg|q[14]                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:HI_reg|q[15]                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:Y|q[19]                                          ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R4|q[5]                                          ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R12|q[21]                                        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R11|q[28]                                        ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R10|q[6]                                         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R9|q[27]                                         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R8|q[11]                                         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|IncPC_32_bit:PC_reg|newPC[13]                               ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:ZLow_reg|q[9]                                    ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:ZHigh_reg|q[9]                                   ;
+; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:LO_reg|q[27]                                     ;
+; 3:1                ; 26 bits   ; 52 LEs        ; 26 LEs               ; 26 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:HI_reg|q[17]                                     ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:Y|q[16]                                          ;
+; 3:1                ; 29 bits   ; 58 LEs        ; 29 LEs               ; 29 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R6|q[0]                                          ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R4|q[0]                                          ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R3|q[4]                                          ;
+; 3:1                ; 25 bits   ; 50 LEs        ; 25 LEs               ; 25 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R2|q[11]                                         ;
+; 3:1                ; 17 bits   ; 34 LEs        ; 17 LEs               ; 17 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:LO_reg|q[6]                                      ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:HI_reg|q[12]                                     ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector1   ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector30  ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
-; 4:1                ; 29 bits   ; 58 LEs        ; 58 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector14  ;
+; 4:1                ; 29 bits   ; 58 LEs        ; 58 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector15  ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector30  ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
 ; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
 ; 5:1                ; 5 bits    ; 15 LEs        ; 15 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
 ; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector55  ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector77  ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector115 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector78  ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector116 ;
 ; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector156 ;
 ; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector181 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector210 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector209 ;
 ; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector237 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector275 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector307 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector347 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector393 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector421 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector278 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector315 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector357 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector376 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector409 ;
 ; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector450 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector492 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector507 ;
-; 24:1               ; 18 bits   ; 288 LEs       ; 270 LEs              ; 18 LEs                 ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux2                                     ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector485 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector506 ;
+; 24:1               ; 17 bits   ; 272 LEs       ; 255 LEs              ; 17 LEs                 ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux8                                     ;
 ; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
-; 18:1               ; 31 bits   ; 372 LEs       ; 93 LEs               ; 279 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux49                                           ;
-; 22:1               ; 16 bits   ; 224 LEs       ; 160 LEs              ; 64 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux17                                           ;
-; 22:1               ; 13 bits   ; 182 LEs       ; 130 LEs              ; 52 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux7                                            ;
-; 23:1               ; 14 bits   ; 210 LEs       ; 210 LEs              ; 0 LEs                  ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux28                                    ;
+; 21:1               ; 31 bits   ; 434 LEs       ; 93 LEs               ; 341 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux57                                           ;
+; 26:1               ; 16 bits   ; 272 LEs       ; 160 LEs              ; 112 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux26                                           ;
+; 26:1               ; 13 bits   ; 221 LEs       ; 143 LEs              ; 78 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux4                                            ;
+; 23:1               ; 15 bits   ; 225 LEs       ; 225 LEs              ; 0 LEs                  ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux27                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 
 
@@ -734,18 +816,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------+
 ; Parameter Name ; Value ; Type                              ;
 +----------------+-------+-----------------------------------+
-; qInitial       ; 0     ; Signed Integer                    ;
+; qInitial       ; -999  ; Signed Integer                    ;
 +----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: reg_32_bit:R3 ;
-+----------------+-------+-----------------------------------+
-; Parameter Name ; Value ; Type                              ;
-+----------------+-------+-----------------------------------+
-; qInitial       ; 0     ; Signed Integer                    ;
-+----------------+-------+-----------------------------------+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg_32_bit:R3          ;
++----------------+----------------------------------+-----------------+
+; Parameter Name ; Value                            ; Type            ;
++----------------+----------------------------------+-----------------+
+; qInitial       ; 00000000000000000000000000110000 ; Unsigned Binary ;
++----------------+----------------------------------+-----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -774,7 +856,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------+
 ; Parameter Name ; Value ; Type                              ;
 +----------------+-------+-----------------------------------+
-; qInitial       ; 0     ; Signed Integer                    ;
+; qInitial       ; -15   ; Signed Integer                    ;
 +----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -884,18 +966,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; qInitial       ; 0     ; Signed Integer                        ;
+; qInitial       ; 53292 ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: reg_32_bit:LO_reg ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; qInitial       ; 0     ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
++----------------+----------+------------------------------------+
+; Parameter Name ; Value    ; Type                               ;
++----------------+----------+------------------------------------+
+; qInitial       ; 55555555 ; Signed Integer                     ;
++----------------+----------+------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1013,16 +1095,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; loadi          ; 00001 ; Unsigned Binary                 ;
 ; store          ; 00010 ; Unsigned Binary                 ;
 +----------------+-------+---------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: alu:the_alu|IncPC_32_bit:pc_inc ;
-+----------------+-------+-----------------------------------------------------+
-; Parameter Name ; Value ; Type                                                ;
-+----------------+-------+-----------------------------------------------------+
-; qInitial       ; 0     ; Signed Integer                                      ;
-+----------------+-------+-----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1919,16 +1991,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:the_alu|IncPC_32_bit:pc_inc"                                                                                                                     ;
-+---------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                                                                                           ;
-+---------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; inputPC ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "inputPC[31..1]" will be connected to GND. ;
-; newPC   ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                                          ;
-+---------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "alu:the_alu|rotate_right_32_bit:rotateR"                                                                                                                                          ;
 +------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1981,6 +2043,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:the_alu"                                                                                                                                 ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                      ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; IncPC ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "mux_32_to_1:BusMux"                                                                                                                                                   ;
 +------------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2008,15 +2079,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "CONFF_logic:conff"                                                                    ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                             ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; CONout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "selectencodelogic:selEn"                                                                    ;
 +--------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -2026,15 +2088,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "reg_32_bit:InPort"                                                                                                       ;
-+--------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                ;
-+--------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-; enable ; Input  ; Info     ; Stuck at VCC                                                                                                           ;
-; q      ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "q[31..1]" have no fanouts ;
-; q      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                    ;
-+--------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "reg_32_bit:InPort"                                                                                                     ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                                ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; q    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "q[31..1]" have no fanouts ;
+; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                    ;
++------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------+
@@ -2051,7 +2112,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:15     ;
+; Top            ; 00:00:17     ;
 +----------------+--------------+
 
 
@@ -2061,9 +2122,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Mar 10 16:46:08 2023
+    Info: Processing started: Sun Mar 12 22:26:05 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUDesignProject -c CPUDesignProject
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file sub_32_bit.v
     Info (12023): Found entity 1: sub_32_bit
 Info (12021): Found 1 design units, including 1 entities, in source file rotate_right_32_bit.v
@@ -2144,20 +2205,42 @@ Info (12021): Found 1 design units, including 1 entities, in source file st_tb.v
     Info (12023): Found entity 1: st_tb
 Info (12021): Found 1 design units, including 1 entities, in source file memram.v
     Info (12023): Found entity 1: memRAM
+Info (12021): Found 1 design units, including 1 entities, in source file addi_tb.v
+    Info (12023): Found entity 1: addi_tb
+Info (12021): Found 1 design units, including 1 entities, in source file andi_tb.v
+    Info (12023): Found entity 1: andi_tb
+Info (12021): Found 1 design units, including 1 entities, in source file ori_tb.v
+    Info (12023): Found entity 1: ori_tb
+Info (12021): Found 1 design units, including 1 entities, in source file br_tb.v
+    Info (12023): Found entity 1: br_tb
+Info (12021): Found 1 design units, including 1 entities, in source file jr_tb.v
+    Info (12023): Found entity 1: jr_tb
+Info (12021): Found 1 design units, including 1 entities, in source file jal_tb.v
+    Info (12023): Found entity 1: jal_tb
+Info (12021): Found 1 design units, including 1 entities, in source file mfhi_tb.v
+    Info (12023): Found entity 1: mfhi_tb
+Info (12021): Found 1 design units, including 1 entities, in source file mflo_tb.v
+    Info (12023): Found entity 1: mflo_tb
+Info (12021): Found 1 design units, including 1 entities, in source file out_tb.v
+    Info (12023): Found entity 1: out_tb
+Info (12021): Found 1 design units, including 1 entities, in source file in_tb.v
+    Info (12023): Found entity 1: in_tb
 Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(80): created implicit net for "rst"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(85): created implicit net for "BusMuxIn_In_Port"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(89): created implicit net for "CONout"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(113): created implicit net for "Inport_data_out"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(125): created implicit net for "IncPc"
-Warning (10236): Verilog HDL Implicit Net warning at alu.v(94): created implicit net for "A_reg"
-Warning (10236): Verilog HDL Implicit Net warning at alu.v(94): created implicit net for "incPC_out"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(86): created implicit net for "BusMuxIn_In_Port"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(90): created implicit net for "CONout"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(114): created implicit net for "Inport_data_out"
 Warning (10236): Verilog HDL Implicit Net warning at ALU_tb.v(10): created implicit net for "IncPc"
 Info (12127): Elaborating entity "CPUDesignProject" for the top level hierarchy
 Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:encoder"
 Warning (10762): Verilog HDL Case Statement warning at encoder_32_to_5.v(7): can't check case statement for completeness because the case expression has too many possible states
 Info (10264): Verilog HDL Case Statement information at encoder_32_to_5.v(7): all case item expressions in this case statement are onehot
 Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R0"
+Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R2"
+Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R3"
 Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R4"
+Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R6"
+Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:HI_reg"
+Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:LO_reg"
 Info (12128): Elaborating entity "IncPC_32_bit" for hierarchy "IncPC_32_bit:PC_reg"
 Info (12128): Elaborating entity "selectencodelogic" for hierarchy "selectencodelogic:selEn"
 Info (12128): Elaborating entity "encoder_4_to_16" for hierarchy "selectencodelogic:selEn|encoder_4_to_16:encoder"
@@ -2202,76 +2285,76 @@ Info (10041): Inferred latch for "BusMuxOut[29]" at mux_32_to_1.v(31)
 Info (10041): Inferred latch for "BusMuxOut[30]" at mux_32_to_1.v(31)
 Info (10041): Inferred latch for "BusMuxOut[31]" at mux_32_to_1.v(31)
 Info (12128): Elaborating entity "alu" for hierarchy "alu:the_alu"
-Warning (10764): Verilog HDL warning at alu.v(52): converting signed shift amount to unsigned
-Warning (10764): Verilog HDL warning at alu.v(56): converting signed shift amount to unsigned
-Warning (10764): Verilog HDL warning at alu.v(60): converting signed shift amount to unsigned
-Warning (10272): Verilog HDL Case Statement warning at alu.v(79): case item expression covers a value already covered by a previous case item
-Warning (10270): Verilog HDL Case Statement warning at alu.v(22): incomplete case statement has no default case item
-Warning (10240): Verilog HDL Always Construct warning at alu.v(22): inferring latch(es) for variable "C", which holds its previous value in one or more paths through the always construct
-Info (10041): Inferred latch for "C[0]" at alu.v(22)
-Info (10041): Inferred latch for "C[1]" at alu.v(22)
-Info (10041): Inferred latch for "C[2]" at alu.v(22)
-Info (10041): Inferred latch for "C[3]" at alu.v(22)
-Info (10041): Inferred latch for "C[4]" at alu.v(22)
-Info (10041): Inferred latch for "C[5]" at alu.v(22)
-Info (10041): Inferred latch for "C[6]" at alu.v(22)
-Info (10041): Inferred latch for "C[7]" at alu.v(22)
-Info (10041): Inferred latch for "C[8]" at alu.v(22)
-Info (10041): Inferred latch for "C[9]" at alu.v(22)
-Info (10041): Inferred latch for "C[10]" at alu.v(22)
-Info (10041): Inferred latch for "C[11]" at alu.v(22)
-Info (10041): Inferred latch for "C[12]" at alu.v(22)
-Info (10041): Inferred latch for "C[13]" at alu.v(22)
-Info (10041): Inferred latch for "C[14]" at alu.v(22)
-Info (10041): Inferred latch for "C[15]" at alu.v(22)
-Info (10041): Inferred latch for "C[16]" at alu.v(22)
-Info (10041): Inferred latch for "C[17]" at alu.v(22)
-Info (10041): Inferred latch for "C[18]" at alu.v(22)
-Info (10041): Inferred latch for "C[19]" at alu.v(22)
-Info (10041): Inferred latch for "C[20]" at alu.v(22)
-Info (10041): Inferred latch for "C[21]" at alu.v(22)
-Info (10041): Inferred latch for "C[22]" at alu.v(22)
-Info (10041): Inferred latch for "C[23]" at alu.v(22)
-Info (10041): Inferred latch for "C[24]" at alu.v(22)
-Info (10041): Inferred latch for "C[25]" at alu.v(22)
-Info (10041): Inferred latch for "C[26]" at alu.v(22)
-Info (10041): Inferred latch for "C[27]" at alu.v(22)
-Info (10041): Inferred latch for "C[28]" at alu.v(22)
-Info (10041): Inferred latch for "C[29]" at alu.v(22)
-Info (10041): Inferred latch for "C[30]" at alu.v(22)
-Info (10041): Inferred latch for "C[31]" at alu.v(22)
-Info (10041): Inferred latch for "C[32]" at alu.v(22)
-Info (10041): Inferred latch for "C[33]" at alu.v(22)
-Info (10041): Inferred latch for "C[34]" at alu.v(22)
-Info (10041): Inferred latch for "C[35]" at alu.v(22)
-Info (10041): Inferred latch for "C[36]" at alu.v(22)
-Info (10041): Inferred latch for "C[37]" at alu.v(22)
-Info (10041): Inferred latch for "C[38]" at alu.v(22)
-Info (10041): Inferred latch for "C[39]" at alu.v(22)
-Info (10041): Inferred latch for "C[40]" at alu.v(22)
-Info (10041): Inferred latch for "C[41]" at alu.v(22)
-Info (10041): Inferred latch for "C[42]" at alu.v(22)
-Info (10041): Inferred latch for "C[43]" at alu.v(22)
-Info (10041): Inferred latch for "C[44]" at alu.v(22)
-Info (10041): Inferred latch for "C[45]" at alu.v(22)
-Info (10041): Inferred latch for "C[46]" at alu.v(22)
-Info (10041): Inferred latch for "C[47]" at alu.v(22)
-Info (10041): Inferred latch for "C[48]" at alu.v(22)
-Info (10041): Inferred latch for "C[49]" at alu.v(22)
-Info (10041): Inferred latch for "C[50]" at alu.v(22)
-Info (10041): Inferred latch for "C[51]" at alu.v(22)
-Info (10041): Inferred latch for "C[52]" at alu.v(22)
-Info (10041): Inferred latch for "C[53]" at alu.v(22)
-Info (10041): Inferred latch for "C[54]" at alu.v(22)
-Info (10041): Inferred latch for "C[55]" at alu.v(22)
-Info (10041): Inferred latch for "C[56]" at alu.v(22)
-Info (10041): Inferred latch for "C[57]" at alu.v(22)
-Info (10041): Inferred latch for "C[58]" at alu.v(22)
-Info (10041): Inferred latch for "C[59]" at alu.v(22)
-Info (10041): Inferred latch for "C[60]" at alu.v(22)
-Info (10041): Inferred latch for "C[61]" at alu.v(22)
-Info (10041): Inferred latch for "C[62]" at alu.v(22)
-Info (10041): Inferred latch for "C[63]" at alu.v(22)
+Warning (10764): Verilog HDL warning at alu.v(50): converting signed shift amount to unsigned
+Warning (10764): Verilog HDL warning at alu.v(54): converting signed shift amount to unsigned
+Warning (10764): Verilog HDL warning at alu.v(58): converting signed shift amount to unsigned
+Warning (10272): Verilog HDL Case Statement warning at alu.v(77): case item expression covers a value already covered by a previous case item
+Warning (10270): Verilog HDL Case Statement warning at alu.v(24): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at alu.v(24): inferring latch(es) for variable "C", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "C[0]" at alu.v(24)
+Info (10041): Inferred latch for "C[1]" at alu.v(24)
+Info (10041): Inferred latch for "C[2]" at alu.v(24)
+Info (10041): Inferred latch for "C[3]" at alu.v(24)
+Info (10041): Inferred latch for "C[4]" at alu.v(24)
+Info (10041): Inferred latch for "C[5]" at alu.v(24)
+Info (10041): Inferred latch for "C[6]" at alu.v(24)
+Info (10041): Inferred latch for "C[7]" at alu.v(24)
+Info (10041): Inferred latch for "C[8]" at alu.v(24)
+Info (10041): Inferred latch for "C[9]" at alu.v(24)
+Info (10041): Inferred latch for "C[10]" at alu.v(24)
+Info (10041): Inferred latch for "C[11]" at alu.v(24)
+Info (10041): Inferred latch for "C[12]" at alu.v(24)
+Info (10041): Inferred latch for "C[13]" at alu.v(24)
+Info (10041): Inferred latch for "C[14]" at alu.v(24)
+Info (10041): Inferred latch for "C[15]" at alu.v(24)
+Info (10041): Inferred latch for "C[16]" at alu.v(24)
+Info (10041): Inferred latch for "C[17]" at alu.v(24)
+Info (10041): Inferred latch for "C[18]" at alu.v(24)
+Info (10041): Inferred latch for "C[19]" at alu.v(24)
+Info (10041): Inferred latch for "C[20]" at alu.v(24)
+Info (10041): Inferred latch for "C[21]" at alu.v(24)
+Info (10041): Inferred latch for "C[22]" at alu.v(24)
+Info (10041): Inferred latch for "C[23]" at alu.v(24)
+Info (10041): Inferred latch for "C[24]" at alu.v(24)
+Info (10041): Inferred latch for "C[25]" at alu.v(24)
+Info (10041): Inferred latch for "C[26]" at alu.v(24)
+Info (10041): Inferred latch for "C[27]" at alu.v(24)
+Info (10041): Inferred latch for "C[28]" at alu.v(24)
+Info (10041): Inferred latch for "C[29]" at alu.v(24)
+Info (10041): Inferred latch for "C[30]" at alu.v(24)
+Info (10041): Inferred latch for "C[31]" at alu.v(24)
+Info (10041): Inferred latch for "C[32]" at alu.v(24)
+Info (10041): Inferred latch for "C[33]" at alu.v(24)
+Info (10041): Inferred latch for "C[34]" at alu.v(24)
+Info (10041): Inferred latch for "C[35]" at alu.v(24)
+Info (10041): Inferred latch for "C[36]" at alu.v(24)
+Info (10041): Inferred latch for "C[37]" at alu.v(24)
+Info (10041): Inferred latch for "C[38]" at alu.v(24)
+Info (10041): Inferred latch for "C[39]" at alu.v(24)
+Info (10041): Inferred latch for "C[40]" at alu.v(24)
+Info (10041): Inferred latch for "C[41]" at alu.v(24)
+Info (10041): Inferred latch for "C[42]" at alu.v(24)
+Info (10041): Inferred latch for "C[43]" at alu.v(24)
+Info (10041): Inferred latch for "C[44]" at alu.v(24)
+Info (10041): Inferred latch for "C[45]" at alu.v(24)
+Info (10041): Inferred latch for "C[46]" at alu.v(24)
+Info (10041): Inferred latch for "C[47]" at alu.v(24)
+Info (10041): Inferred latch for "C[48]" at alu.v(24)
+Info (10041): Inferred latch for "C[49]" at alu.v(24)
+Info (10041): Inferred latch for "C[50]" at alu.v(24)
+Info (10041): Inferred latch for "C[51]" at alu.v(24)
+Info (10041): Inferred latch for "C[52]" at alu.v(24)
+Info (10041): Inferred latch for "C[53]" at alu.v(24)
+Info (10041): Inferred latch for "C[54]" at alu.v(24)
+Info (10041): Inferred latch for "C[55]" at alu.v(24)
+Info (10041): Inferred latch for "C[56]" at alu.v(24)
+Info (10041): Inferred latch for "C[57]" at alu.v(24)
+Info (10041): Inferred latch for "C[58]" at alu.v(24)
+Info (10041): Inferred latch for "C[59]" at alu.v(24)
+Info (10041): Inferred latch for "C[60]" at alu.v(24)
+Info (10041): Inferred latch for "C[61]" at alu.v(24)
+Info (10041): Inferred latch for "C[62]" at alu.v(24)
+Info (10041): Inferred latch for "C[63]" at alu.v(24)
 Info (12128): Elaborating entity "adder_32_bit" for hierarchy "alu:the_alu|adder_32_bit:adder"
 Info (12128): Elaborating entity "CLA16" for hierarchy "alu:the_alu|adder_32_bit:adder|CLA16:adder1"
 Info (12128): Elaborating entity "CLA4" for hierarchy "alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1"
@@ -2466,127 +2549,127 @@ Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[30] has unsafe behavior
 Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[31] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal encoder_32_to_5:encoder|WideOr0
 Warning (13012): Latch alu:the_alu|C[32] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[0] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[33] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[1] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[34] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[2] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[35] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[3] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[36] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[4] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[37] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[5] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[38] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[6] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[39] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[7] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[40] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[8] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[41] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[9] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[42] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[10] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[43] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[11] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[44] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[12] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[45] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[13] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[46] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[14] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[47] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[15] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[48] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[16] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[49] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[17] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[50] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[18] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[51] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[19] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[52] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[20] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[53] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[21] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[54] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[22] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[55] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[23] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[56] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[24] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[57] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[25] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[58] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[26] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[59] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[27] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[60] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[28] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[61] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[29] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[62] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[28]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[30] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[63] has unsafe behavior
@@ -2595,12 +2678,12 @@ Warning (13012): Latch alu:the_alu|C[31] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Info (286030): Timing-Driven Synthesis is running
 Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated|ALTSYNCRAM"
-Info (144001): Generated suppressed messages file C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 66 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "CONin"
-    Warning (15610): No output dependent on input pin "InPortIn"
+    Warning (15610): No output dependent on input pin "InPort_enable"
     Warning (15610): No output dependent on input pin "MDatain[0]"
     Warning (15610): No output dependent on input pin "MDatain[1]"
     Warning (15610): No output dependent on input pin "MDatain[2]"
@@ -2665,21 +2748,21 @@ Warning (21074): Design contains 66 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "inport_data_in[29]"
     Warning (15610): No output dependent on input pin "inport_data_in[30]"
     Warning (15610): No output dependent on input pin "inport_data_in[31]"
-Info (21057): Implemented 7419 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 7429 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 127 input pins
     Info (21059): Implemented 69 output pins
-    Info (21061): Implemented 7191 logic cells
+    Info (21061): Implemented 7201 logic cells
     Info (21064): Implemented 32 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 332 warnings
-    Info: Peak virtual memory: 4653 megabytes
-    Info: Processing ended: Fri Mar 10 16:46:26 2023
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:18
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 329 warnings
+    Info: Peak virtual memory: 4649 megabytes
+    Info: Processing ended: Sun Mar 12 22:26:29 2023
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/19lg26/Documents/CPU-Design-main/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg.
+The suppressed messages can be found in C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg.
 
 

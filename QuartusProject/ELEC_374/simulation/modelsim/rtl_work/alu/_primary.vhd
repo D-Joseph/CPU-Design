@@ -35,6 +35,7 @@ entity alu is
         clk             : in     vl_logic;
         clr             : in     vl_logic;
         IncPC           : in     vl_logic;
+        branch_flag     : in     vl_logic;
         A               : in     vl_logic_vector(31 downto 0);
         B               : in     vl_logic_vector(31 downto 0);
         opcode          : in     vl_logic_vector(4 downto 0);

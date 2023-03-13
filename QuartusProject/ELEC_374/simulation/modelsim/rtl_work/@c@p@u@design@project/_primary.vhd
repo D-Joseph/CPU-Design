@@ -31,8 +31,8 @@ entity CPUDesignProject is
         InPortout       : in     vl_logic;
         R_enableIn      : in     vl_logic_vector(15 downto 0);
         Rout_in         : in     vl_logic_vector(15 downto 0);
-        OutPortIn       : in     vl_logic;
-        InPortIn        : in     vl_logic;
+        OutPort_enable  : in     vl_logic;
+        InPort_enable   : in     vl_logic;
         operation       : out    vl_logic_vector(4 downto 0);
         clk             : in     vl_logic;
         clr             : in     vl_logic;
