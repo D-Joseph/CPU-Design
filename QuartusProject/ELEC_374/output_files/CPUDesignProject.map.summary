@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun Mar 12 22:26:29 2023
+Analysis & Synthesis Status : Successful - Wed Mar 15 23:16:22 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : CPUDesignProject
 Top-level Entity Name : CPUDesignProject
 Family : Cyclone III
-Total logic elements : 7,137
-    Total combinational functions : 6,605
+Total logic elements : 7,139
+    Total combinational functions : 6,560
     Dedicated logic registers : 808
 Total registers : 808
 Total pins : 196

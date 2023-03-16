@@ -54,7 +54,7 @@ always @(Present_state)  // do the required job in each state
 begin 
     case (Present_state)               // assert the required signals in each clock cycle 
         Default: begin 
-              PCout <= 0; ZLowout <= 0; MDRout <= 0; 
+            PCout <= 0; ZLowout <= 0; MDRout <= 0; 
 				MARin <= 0; ZHighIn <= 0; ZLowIn <= 0; CONin<=0; 
 				InPort_enable<=0; OutPort_enable<=0;
 				inport_data_in<=32'd0;

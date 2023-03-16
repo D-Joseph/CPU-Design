@@ -27,7 +27,7 @@ CPUDesignProject DUT(.PCout(PCout),.ZHighout(ZHighout),.ZLowout(ZLowout),.MDRout
 			.ZHighIn(ZHighIn),.ZLowIn(ZLowIn),.Cout(Cout),.ramWE(ramWE),
 			.Gra(Gra),.Grb(Grb),.Grc(Grc),.R_in(Rin),.R_out(Rout),	.BAout(BAout),
 			.CONin(CONin),.R_enableIn(R0_R15_in), .Rout_in(R0_R15_out),
-			.OutPort_enable(OutPort_enable),.InPortIn(InPort_enable),
+			.OutPortIn(OutPort_enable),.InPortIn(InPort_enable),
 			.InPortout(InPortout), .inport_data_in(inport_data_in),
 			.outport_data_out(outport_data_out),.bus_contents(bus_contents),
 			.operation(opcode)	
@@ -54,16 +54,15 @@ always @(Present_state)  // do the required job in each state
 begin 
     case (Present_state)               // assert the required signals in each clock cycle 
         Default: begin 
-              PCout <= 0; ZLowout <= 0; MDRout <= 0; 
+            PCout <= 0; ZLowout <= 0; MDRout <= 0; 
 				MARin <= 0; ZHighIn <= 0; ZLowIn <= 0; CONin<=0; 
-				InPort_enable<=0; OutPort_enable<=0;
-				inport_data_in<=32'd0;
+				InPort_enable <= 0; OutPort_enable<=0; inport_data_in <= -93243;
 				PCin <=0; MDRin <= 0; IRin <= 0; 
 				Yin <= 0;
 				IncPC <= 0; ramWE <=0;
 				Mdatain <= 32'h00000000; Gra<=0; Grb<=0; Grc<=0;
 				BAout<=0; Cout<=0;
-			   ZHighout<=0; LOout<=0; HIout<=0; 
+			   InPortout<=0; ZHighout<=0; LOout<=0; HIout<=0; 
 				HIin<=0; LOin<=0;
 				Rout<=0;Rin<=0;Read<=0;
 				R0_R15_in<= 16'd0; R0_R15_out<=16'd0;
