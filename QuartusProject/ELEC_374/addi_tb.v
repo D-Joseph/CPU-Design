@@ -82,38 +82,28 @@ begin
  
          T0: begin                                                                                  // see if you need to de-assert these signals 
 				 PCout <= 1; MARin <= 1; IncPC <= 1; ZLowIn <= 1; 
-
-				  //Deassert the signals before the next step
-        end 
-			T1: begin
-                PCout <= 0; MARin <= 0; IncPC <= 0; ZLowIn <= 0;
-                
-                ZLowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
+         end 
+		T1: begin
+            PCout <= 0; MARin <= 0; IncPC <= 0; ZLowIn <= 0;
+            ZLowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
+        end
+        T2: begin
+            ZLowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+            MDRout<= 1; IRin <= 1;
+        end
+        T3: begin
+            MDRout <= 0; IRin <= 0;
+            Grb <= 1; Rout <= 1; Yin <= 1;
             end
-            T2: begin
-                ZLowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
-
-                MDRout<= 1; IRin <= 1;
-				
-            end
-            T3: begin
-                MDRout <= 0; IRin <= 0;
-                
-                Grb <= 1; Rout <= 1; Yin <= 1;
-                
-            end
-            T4: begin
-                Grb <= 0; Rout <= 0; Yin <= 0;
-
-                Cout <= 1; ZHighIn <= 1; ZLowIn <= 1;
-            end
-            T5: begin
-                Cout <= 0; ZHighIn <= 0; ZLowIn <= 0;
-                
-                ZLowout<= 1; Gra <= 1; Rin <= 1; 
-					 #40 ZLowout<= 0; Gra <= 0; Rin <= 0; 
-				end
-           
+        T4: begin
+            Grb <= 0; Rout <= 0; Yin <= 0;
+            Cout <= 1; ZHighIn <= 1; ZLowIn <= 1;
+        end
+        T5: begin
+        	Cout <= 0; ZHighIn <= 0; ZLowIn <= 0;
+            ZLowout<= 1; Gra <= 1; Rin <= 1; 
+			#40 ZLowout<= 0; Gra <= 0; Rin <= 0; 
+		end
     endcase 
 end 
 endmodule  

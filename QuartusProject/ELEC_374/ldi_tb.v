@@ -70,60 +70,32 @@ begin
 				HIin<=0; LOin<=0;
 				Rout<=0;Rin<=0;Read<=0;
 				R0_R15_in<= 16'd0; R0_R15_out<=16'd0;
-						
-					//	PCout <= 0;   Zlowout <= 0;   MDRout<= 0;   //initialize the signals
-					  // MARin <= 0;  ZLowIn <= 0; ZHighIn <= 0;  CONin <= 0;
-						///PCin <=0;   MDRin <= 0;   IRin  <= 0;   Yin <= 0;  
-						//IncPC <= 0;   Read <= 0;   MDRout <= 0;
-					   // Mdatain <= 32'h00000000; Gra <= 0; Grb <= 0; Grc <= 0;
-//BAout <= 0; Cout <= 0; R_enable <= 0;
         end 
-
  
          T0: begin                                                                                  // see if you need to de-assert these signals 
 				 PCout <= 1; MARin <= 1; IncPC <= 1; ZLowIn <= 1; 
-
-				  //Deassert the signals before the next step
         end 
 			T1: begin
                 PCout <= 0; MARin <= 0; IncPC <= 0; ZLowIn <= 0;
-                
                 ZLowout<= 1; PCin <= 1; Read <= 1; MDRin <= 1;
             end
             T2: begin
                 ZLowout<= 0; PCin <= 0; Read <= 0; MDRin <= 0;
-
                 MDRout<= 1; IRin <= 1;
-				
             end
             T3: begin
                 MDRout <= 0; IRin <= 0;
-                
                 Grb <= 1; BAout <= 1; Yin <= 1;
-                
             end
             T4: begin
                 Grb <= 0; BAout <= 0; Yin <= 0;
-
                 Cout <= 1; ZHighIn <= 1; ZLowIn <= 1;
             end
             T5: begin
                 Cout <= 0; ZHighIn <= 0; ZLowIn <= 0;
-                
                 ZLowout<= 1; Gra <= 1; Rin <= 1; 
-					 #40 ZLowout <= 0; Gra <= 0; Rin <= 0; 
+				 #40 ZLowout <= 0; Gra <= 0; Rin <= 0; 
 				end
-            //T6: begin
-              // ZLowout<= 0; MARin <= 0; 
-              // Read <= 1; MDRin <= 1;
-                
-			//end
-           // T7: begin
-              //  Read <= 0; MDRin <= 0;
-               // 
-               // MDRout <= 1; Gra <= 1; Rin <= 1; 
-					 //#40 MDRout <= 0; Gra <= 0; Rin <= 0; 
-			//end
     endcase 
 end 
 endmodule  

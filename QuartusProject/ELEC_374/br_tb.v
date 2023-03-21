@@ -80,48 +80,37 @@ begin
         end 
 
  
-         T0: begin                                                                                  // see if you need to de-assert these signals 
+        T0: begin                                                                                  // see if you need to de-assert these signals 
 				 PCout <= 1; MARin <= 1;ZLowIn <= 1;
-				  //Deassert the signals before the next step
         end 
-			T1: begin
-                PCout <= 0; MARin <= 0; ZLowIn <= 0; PCin <= 1; IncPC <= 1;
-                
-                ZLowout<= 1; Read <= 1; MDRin <= 1;//This is essentially (copy zlow back into pc)
-			
-            end
-            T2: begin
-                ZLowout<= 0; Read <= 0; MDRin <= 0;PCin <= 0; IncPC <= 0;
-
-                MDRout<= 1; IRin <= 1; 
-				
-            end
-            T3: begin
-                MDRout <= 0; IRin <= 0; 
-                
-                Gra <= 1; Rout <= 1; CONin <= 1;
-                
-            end
-            T4: begin
-                Gra <= 0; Rout <= 0; CONin <= 0;
-
-                PCout <= 1; Yin <= 1; 
-            end
-            T5: begin
-                PCout <= 0; Yin <= 0; 
-                
-                Cout <= 1; ZLowIn <= 1; ZHighIn <= 1;
-				end
-            T6: begin
-               Cout <= 0; ZLowIn<= 0; ZHighIn <= 0; 
-					
-               ZLowout <= 1; PCin <= 1;
-                
-			end
-            T7: begin
-               ZLowout<=0; PCin<=0;
-				   PCout<=1; MARin <= 1;
-			end
+		T1: begin
+            PCout <= 0; MARin <= 0; ZLowIn <= 0; PCin <= 1; IncPC <= 1;
+            ZLowout<= 1; Read <= 1; MDRin <= 1;//This is essentially (copy zlow back into pc)
+        end
+        T2: begin
+            ZLowout<= 0; Read <= 0; MDRin <= 0;PCin <= 0; IncPC <= 0;
+            MDRout<= 1; IRin <= 1; 
+        end
+        T3: begin
+            MDRout <= 0; IRin <= 0; 
+            Gra <= 1; Rout <= 1; CONin <= 1;
+        end
+        T4: begin
+            Gra <= 0; Rout <= 0; CONin <= 0;
+            PCout <= 1; Yin <= 1; 
+        end
+        T5: begin
+            PCout <= 0; Yin <= 0; 
+            Cout <= 1; ZLowIn <= 1; ZHighIn <= 1;
+		end
+        T6: begin
+           	Cout <= 0; ZLowIn<= 0; ZHighIn <= 0; 
+           	ZLowout <= 1; PCin <= 1;
+		end
+        T7: begin
+        	ZLowout<=0; PCin<=0;
+			PCout<=1; MARin <= 1;
+		end
     endcase 
 end 
 endmodule  

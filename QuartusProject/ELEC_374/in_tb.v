@@ -28,7 +28,7 @@ CPUDesignProject DUT(.PCout(PCout),.ZHighout(ZHighout),.ZLowout(ZLowout),.MDRout
 			.Gra(Gra),.Grb(Grb),.Grc(Grc),.R_in(Rin),.R_out(Rout),	.BAout(BAout),
 			.CONin(CONin),.R_enableIn(R0_R15_in), .Rout_in(R0_R15_out),
 			.OutPortIn(OutPort_enable),.InPortIn(InPort_enable),
-			.InPortout(InPortout), .Inport_data_out(inport_data_in),
+			.InPortout(InPortout), .inport_data_in(inport_data_in),
 			.outport_data_out(outport_data_out),.bus_contents(bus_contents),
 			.operation(opcode)	
 			);
@@ -69,28 +69,22 @@ begin
         end 
 
  
-         T0: begin                                                                                  // see if you need to de-assert these signals 
-				 PCout <= 1; MARin <= 1;ZLowIn <= 1;
-				  //Deassert the signals before the next step
+        T0: begin                                                                                  // see if you need to de-assert these signals 
+			PCout <= 1; MARin <= 1;ZLowIn <= 1;
         end 
-			T1: begin
-                PCout <= 0; MARin <= 0; ZLowIn <= 0; PCin <= 1; IncPC <= 1;
-                
-                ZLowout<= 1; Read <= 1; MDRin <= 1;
-			
-            end
-            T2: begin
-                ZLowout<= 0; Read <= 0; MDRin <= 0;PCin <= 0; IncPC <= 0;
-
-                MDRout<= 1; IRin <= 1; 
-				
-            end
-            T3: begin
-                MDRout <= 0; IRin <= 0; 
-                
-                Gra <= 1; Rin <= 1; InPortout <= 1;
-					 #40 Gra <= 0; Rin <= 1; InPortout <= 0;
-            end
+		T1: begin
+            PCout <= 0; MARin <= 0; ZLowIn <= 0; PCin <= 1; IncPC <= 1;
+            ZLowout<= 1; Read <= 1; MDRin <= 1;
+        end
+        T2: begin
+            ZLowout<= 0; Read <= 0; MDRin <= 0;PCin <= 0; IncPC <= 0;
+            MDRout<= 1; IRin <= 1; 
+        end
+        T3: begin
+            MDRout <= 0; IRin <= 0; 
+            Gra <= 1; Rin <= 1; InPortout <= 1;
+			#40 Gra <= 0; Rin <= 1; InPortout <= 0;
+        end
     endcase 
 end 
 endmodule  

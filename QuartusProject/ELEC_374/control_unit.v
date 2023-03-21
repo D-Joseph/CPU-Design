@@ -9,7 +9,7 @@ module control_unit (
 	);
  
 
-parameter Reset_state= 8'b00000000, fetch0 = 8'b00000001, fetch1 = 8'b00000010, fetch2= 8'b00000011,
+parameter reset_state= 8'b00000000, fetch0 = 8'b00000001, fetch1 = 8'b00000010, fetch2= 8'b00000011,
 			 add3 = 8'b00000100, add4= 8'b00000101, add5= 8'b00000110, sub3 = 8'b00000111, sub4 = 8'b00001000, sub5 = 8'b00001001,
 			 mul3 = 8'b00001010, mul4 = 8'b00001011, mul5 = 8'b00001100, mul6 = 8'b00001101, div3 = 8'b00001110, div4 = 8'b00001111,
 			 div5 = 8'b00010000, div6 = 8'b00010001, or3 = 8'b00010010, or4 = 8'b00010011, or5 = 8'b00010100, and3 = 8'b00010101, 
@@ -26,10 +26,10 @@ parameter Reset_state= 8'b00000000, fetch0 = 8'b00000001, fetch1 = 8'b00000010, 
  
 reg [7:0] present_state = reset_state;  // adjust the bit pattern based on the number of states
 
-always @(posedge Clock, posedge Reset) // finite state machine; if clock or reset rising-edge
+always @(posedge clk, posedge rst) // finite state machine; if clock or reset rising-edge
  begin
- if (rst == 1’b1) present_state = reset_state;
- if (stop == 1'b1) Present_state = halt3;
+ if (rst == 1'b1) present_state = reset_state;
+ if (stop == 1'b1) present_state = halt3;
  else case (present_state)
 	reset_state : present_state = fetch0;
 	fetch0 : present_state = fetch1;
@@ -65,102 +65,102 @@ always @(posedge Clock, posedge Reset) // finite state machine; if clock or rese
 						5'b11011 : present_state = halt3;
 					endcase
 				end
-			add3				: 	Present_state = add4;
-			add4				:	Present_state = add5;
-			add5 				:	Present_state = fetch0;
+			add3				: 	present_state = add4;
+			add4				:	present_state = add5;
+			add5 				:	present_state = fetch0;
 			
-			addi3				: 	Present_state = addi4;
-			addi4				:	Present_state = addi5;
-			addi5 			:	Present_state = fetch0;
+			addi3				: 	present_state = addi4;
+			addi4				:	present_state = addi5;
+			addi5 			:	present_state = fetch0;
 			
-			sub3				: 	Present_state = sub4;
-			sub4				: 	Present_state = sub5;
-			sub5				:	Present_state = fetch0;
+			sub3				: 	present_state = sub4;
+			sub4				: 	present_state = sub5;
+			sub5				:	present_state = fetch0;
 			
-			mul3				: 	Present_state = mul4;
-			mul4				: 	Present_state = mul5;
-			mul5				: 	Present_state = mul6;
-			mul6           :	Present_state = fetch0; 
+			mul3				: 	present_state = mul4;
+			mul4				: 	present_state = mul5;
+			mul5				: 	present_state = mul6;
+			mul6           :	present_state = fetch0; 
 			
-			div3				: 	Present_state = div4;
-			div4				: 	Present_state = div5;
-			div5				: 	Present_state = div6;
-			div6				:	Present_state = fetch0;
+			div3				: 	present_state = div4;
+			div4				: 	present_state = div5;
+			div5				: 	present_state = div6;
+			div6				:	present_state = fetch0;
 			
-			or3				: 	Present_state = or4;
-			or4				: 	Present_state = or5;
-			or5				:	Present_state = fetch0;
+			or3				: 	present_state = or4;
+			or4				: 	present_state = or5;
+			or5				:	present_state = fetch0;
 			
-			and3				: 	Present_state = and4;
-			and4				: 	Present_state = and5;
-			and5   			:	Present_state = fetch0;
+			and3				: 	present_state = and4;
+			and4				: 	present_state = and5;
+			and5   			:	present_state = fetch0;
 			
-			shl3				: 	Present_state = shl4;
-			shl4				: 	Present_state = shl5;
-			shl5 				:	Present_state = fetch0;
+			shl3				: 	present_state = shl4;
+			shl4				: 	present_state = shl5;
+			shl5 				:	present_state = fetch0;
 			
-			shr3				: 	Present_state = shr4;
-			shr4				: 	Present_state = shr5;
-			shr5 				:	Present_state = fetch0;
+			shr3				: 	present_state = shr4;
+			shr4				: 	present_state = shr5;
+			shr5 				:	present_state = fetch0;
 			
-			rol3				: 	Present_state = rol4;
-			rol4				: 	Present_state = rol5;
-			rol5 				:	Present_state = fetch0;
+			rol3				: 	present_state = rol4;
+			rol4				: 	present_state = rol5;
+			rol5 				:	present_state = fetch0;
 			
-			ror3				: 	Present_state = ror4;
-			ror4				: 	Present_state = ror5;
-			ror5 				:	Present_state = fetch0;
+			ror3				: 	present_state = ror4;
+			ror4				: 	present_state = ror5;
+			ror5 				:	present_state = fetch0;
 			
-			neg3				: 	Present_state = neg4;
-			neg4				: 	Present_state = fetch0;
+			neg3				: 	present_state = neg4;
+			neg4				: 	present_state = fetch0;
 			
-			not3				: 	Present_state = not4;
-			not4				: 	Present_state = fetch0;
+			not3				: 	present_state = not4;
+			not4				: 	present_state = fetch0;
 			
-			ld3				: 	Present_state = ld4;
-			ld4				: 	Present_state = ld5;
-			ld5				: 	Present_state = ld6;
-			ld6				: 	Present_state = ld7;
-			ld7				:  Present_state = fetch0;
+			ld3				: 	present_state = ld4;
+			ld4				: 	present_state = ld5;
+			ld5				: 	present_state = ld6;
+			ld6				: 	present_state = ld7;
+			ld7				:  present_state = fetch0;
 			
-			ldi3				: 	Present_state = ldi4;
-			ldi4				: 	Present_state = ldi5;
-			ldi5 				:	Present_state = fetch0;
+			ldi3				: 	present_state = ldi4;
+			ldi4				: 	present_state = ldi5;
+			ldi5 				:	present_state = fetch0;
 			
-			st3				: 	Present_state = st4;
-			st4				: 	Present_state = st5;
-			st5				: 	Present_state = st6;
-			st6				: 	Present_state = st7;
-			st7 				:	Present_state = fetch0;
+			st3				: 	present_state = st4;
+			st4				: 	present_state = st5;
+			st5				: 	present_state = st6;
+			st6				: 	present_state = st7;
+			st7 				:	present_state = fetch0;
 			
-			andi3				: 	Present_state = andi4;
-			andi4				: 	Present_state = andi5;
-			andi5 			:	Present_state = fetch0;
+			andi3				: 	present_state = andi4;
+			andi4				: 	present_state = andi5;
+			andi5 			:	present_state = fetch0;
 			
-			ori3				: 	Present_state = ori4;
-			ori4				: 	Present_state = ori5;
-			ori5 				:	Present_state = fetch0;
+			ori3				: 	present_state = ori4;
+			ori4				: 	present_state = ori5;
+			ori5 				:	present_state = fetch0;
 			
-			jal3				: 	Present_state = jal4;
-			jal4 				:	Present_state = fetch0;
+			jal3				: 	present_state = jal4;
+			jal4 				:	present_state = fetch0;
 			
-			jr3 				:	Present_state = fetch0;
+			jr3 				:	present_state = fetch0;
 			
-			br3				: 	Present_state = br4;
-			br4				: 	Present_state = br5;
-			br5				: 	Present_state = br6;
-			br6  				:	Present_state = br7;
-			br7  				:	Present_state = fetch0;
+			br3				: 	present_state = br4;
+			br4				: 	present_state = br5;
+			br5				: 	present_state = br6;
+			br6  				:	present_state = br7;
+			br7  				:	present_state = fetch0;
 			
-			out3 				:	Present_state = fetch0;
+			out3 				:	present_state = fetch0;
 			
-			in3 				:	Present_state = fetch0;
+			in3 				:	present_state = fetch0;
 			
-			mflo3 			:	Present_state = fetch0;
+			mflo3 			:	present_state = fetch0;
 			
-			mfhi3 			:	Present_state = fetch0;
+			mfhi3 			:	present_state = fetch0;
 			
-			nop3 				:	Present_state = fetch0;
+			nop3 				:	present_state = fetch0;
 	endcase
  end
 always @(present_state) begin // do the job for each state
@@ -199,7 +199,7 @@ always @(present_state) begin // do the job for each state
       end
       add5, sub5, or5, and5, shl5, shr5, rol5, ror5: begin
           Grc <= 0; Rout <= 0; ZLowIn <= 0; ZHighIn <= 0;
-			 Zlowout<= 1; Gra <= 1; Rin <= 1; 
+			 ZLowout<= 1; Gra <= 1; Rin <= 1; 
 			//#40 Zlowout<= 0; Gra <= 0; Rin <= 0; 
 		end
 		
@@ -213,11 +213,11 @@ always @(present_state) begin // do the job for each state
 		end
 		mul5, div5: begin
 			 Grb <= 0; Rout <= 0; ZLowIn <= 0; ZHighIn <= 0; 
-			 Zlowout<= 1; LOin <= 1;
+			 ZLowout<= 1; LOin <= 1;
 		end
 		mul6, div6: begin
-			 Zlowout<= 1; LOin <= 1;
-			 Zhighout <= 1; HIin <= 1;
+			 ZLowout<= 1; LOin <= 1;
+			 ZHighout <= 1; HIin <= 1;
 			 //#40 Zhighout <= 0; HIin <= 0;
 		end
 		
@@ -241,7 +241,7 @@ always @(present_state) begin // do the job for each state
       end
       not4,neg4: begin
             Grb <= 0; Rout <= 0;Yin <= 0;
-				Zlowout<= 1; Gra <= 1; Rin <= 1; 
+				ZLowout<= 1; Gra <= 1; Rin <= 1; 
 	   end
 		
 		ld3: begin
@@ -334,29 +334,29 @@ always @(present_state) begin // do the job for each state
            Gra <= 1; Rin <= 1; LOout <= 1;
       end
 		
-		T3: begin
+		br3: begin
                 MDRout <= 0; IRin <= 0; 
                 
                 Gra <= 1; Rout <= 1; CONin <= 1;
                 
             end
-            T4: begin
+            br4: begin
                 Gra <= 0; Rout <= 0; CONin <= 0;
 
                 PCout <= 1; Yin <= 1; 
             end
-            T5: begin
+            br5: begin
                 PCout <= 0; Yin <= 0; 
                 
                 Cout <= 1; ZLowIn <= 1; ZHighIn <= 1;
 				end
-            T6: begin
+            br6: begin
                Cout <= 0; ZLowIn<= 0; ZHighIn <= 0; 
 					
                ZLowout <= 1; PCin <= 1;
                 
 			end
-            T7: begin
+            br7: begin
                ZLowout<=0; PCin<=0;
 				   PCout<=1; MARin <= 1;
 			end

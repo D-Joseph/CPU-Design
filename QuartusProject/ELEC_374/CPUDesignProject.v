@@ -17,22 +17,27 @@ module CPUDesignProject(
 	output [31:0] bus_contents
 );
 
-	wire [15:0] enableR_IR; 
+	wire [15:0] RegInSel; 
 	wire [15:0] Rout_IR;
-	reg  [15:0]  regIn; 
-	reg  [15:0]  Rout;
+	reg  [15:0] regIn; 
+	reg  [15:0] Rout;
 	wire [3:0]  decoder_in;
 	 
+	//Chooses which registers enable signal is asserted, and which output signal is asserted (placed on bus)
 	always@(*)begin		
-		if (enableR_IR)regIn<=enableR_IR; 
-		else regIn<=R_enableIn;
-		if (Rout_IR)Rout<=Rout_IR; 
-		else Rout<=Rout_in;
+		if (RegInSel)
+			regIn <= RegInSel; 
+		else 
+			regIn <= R_enableIn;
+
+		if (RegOutSel)
+			Rout <= RegOutSel; 
+		else 
+			Rout <= Rout_in;
 	end 
 	/*
 	Signal and wire declarations to be used in the Datapath
 	*/ 
-	//wire [31:0] bus_contents;
 
     //These are the inputs to the bus multiplexer
 	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out;
@@ -80,13 +85,14 @@ module CPUDesignProject(
 	reg_32_bit IR(clk, rst, IRin, bus_contents, IR_data_out);
 
 	//reg_32_bit PC_reg(clk, clr,PCin, bus_contents, PC_data_out);
-   IncPC_32_bit #(17) PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
+    IncPC_32_bit #(3) PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
 	
 	reg_32_bit OutPort(clk, clr, OutPortIn, bus_contents, outport_data_out);
 	reg_32_bit #(-42010) InPort(clk, clr, InPortIn, Inport_data_out, BusMuxIn_In_Port);
 
 	//Select and encode Logic and CON FF
-	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, R_in, R_out, BAout, C_Sign_extend, enableR_IR, Rout_IR, operation,decoder_in);
+	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, R_in, R_out, BAout, C_Sign_extend,
+							RegInSel, RegOutSel, operation,decoder_in);
 	CONFF_logic conff(IR_data_out[20:19],bus_contents, CONin, CONout);
 	
 	//MDR
@@ -96,12 +102,11 @@ module CPUDesignProject(
 	//Create the actual MDR itself by instantiating a regular 32 bit reg
 	reg_32_bit MDR(clk,rst,MDRin,MDR_mux_out,MDR_data_out);
 
-	//This is done to avoid having to make an MDR unit module
+	//This is done to avoid having to make an MAR unit module
 	reg_32_bit MAR(clk,rst,MARin, bus_contents, MAR_data_out_32);
 	assign MAR_data_out = MAR_data_out_32[8:0];
 
 	//memRAM ramModule(MAR_data_out,clk,MDR_data_out,ramWE,RAM_data_out);
-	
 	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
 
 	// Multiplexer to select which data to send out on the bus
@@ -122,11 +127,8 @@ module CPUDesignProject(
 	.branch_flag(CONout),
 	.A(Y_data_out),
 	.B(bus_contents),
-	//.RPC(PC_data_out),
 	.opcode(operation),
 	.C(C_data_out)
-	//.IncPC(IncPC),
-	//.aluPCout(pcData)
 	);
 
 endmodule

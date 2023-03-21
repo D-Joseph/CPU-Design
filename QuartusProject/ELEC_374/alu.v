@@ -88,6 +88,10 @@ always @(*) begin
 		 C[63:32] <= 32'd0;
 	 end
 	end
+  halt : begin
+  end
+  nop : begin
+  end
   endcase
 end
 
