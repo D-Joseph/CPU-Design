@@ -1,5 +1,5 @@
 Flow report for CPUDesignProject
-Wed Mar 22 17:48:41 2023
+Wed Mar 22 23:01:37 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Wed Mar 22 17:48:40 2023            ;
+; Flow Status                        ; Successful - Wed Mar 22 23:01:37 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 7,364                                            ;
-;     Total combinational functions  ; 6,748                                            ;
+; Total logic elements               ; 7,373                                            ;
+;     Total combinational functions  ; 6,757                                            ;
 ;     Dedicated logic registers      ; 808                                              ;
 ; Total registers                    ; 808                                              ;
 ; Total pins                         ; 104                                              ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/22/2023 17:48:14 ;
+; Start date & time ; 03/22/2023 23:01:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 123478089144587.167952169413932       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 35281975640218.167954046404208        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -214,7 +214,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; mflo_tb        ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; out_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; in_tb          ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10000 ns                              ; --            ; --          ; phase3_tb      ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100000 ns                             ; --            ; --          ; phase3_tb      ;
 ; EDA_TIME_SCALE                       ; 1 ns                                  ; --            ; --          ; eda_simulation ;
 ; IP_TOOL_NAME                         ; RAM: 1-PORT                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                      ; 13.0                                  ; --            ; --          ; --             ;
@@ -236,8 +236,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:28     ; 1.0                     ; 4661 MB             ; 00:00:26                           ;
-; Total                ; 00:00:28     ; --                      ; --                  ; 00:00:26                           ;
+; Analysis & Synthesis ; 00:00:33     ; 1.0                     ; 4668 MB             ; 00:00:31                           ;
+; Total                ; 00:00:33     ; --                      ; --                  ; 00:00:31                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -246,7 +246,7 @@ applicable agreement for further details.
 +----------------------+------------------+-----------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; LukaDesktop      ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis ; LAPTOP-B399UHJN  ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 

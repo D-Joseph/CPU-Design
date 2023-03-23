@@ -22,7 +22,7 @@ parameter reset_state= 8'b00000000, fetch0 = 8'b00000001, fetch1 = 8'b00000010, 
 			 andi3 = 8'b00111010, andi4 = 8'b00111011, andi5 = 8'b00111100, ori3 = 8'b00111101, ori4 = 8'b00111110, ori5 = 8'b00111111,
 			 br3 = 8'b01000000, br4 = 8'b01000001, br5 = 8'b01000010, br6 = 8'b01000011, br7 = 8'b11111111, jr3 = 8'b01000100, jal3 = 8'b01000101, 
 			 jal4 = 8'b01000110, mfhi3 = 8'b01000111, mflo3 = 8'b01001000, in3 = 8'b01001001, out3 = 8'b01001010, nop3 = 8'b01001011, 
-			 halt3 = 8'b01001100,fetch2a = 8'b10000000, fetch3 = 8'b11000000; 
+			 halt3 = 8'b01001100,fetch2a = 8'b10000000, fetch3 = 8'b11000000, shra3 = 8'b11000001, shra4 = 8'b11000010, shra5 = 8'b11000011;
  
 reg [7:0] present_state = reset_state;  // adjust the bit pattern based on the number of states
 
@@ -33,11 +33,11 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
  if (stop == 1'b1) 
 	present_state = halt3;
  else case (present_state)
-	reset_state : present_state = fetch0;
-	fetch0 : present_state = fetch1;
-	fetch1 : present_state = fetch2;
-	fetch2			:	present_state = fetch2a;
-			fetch2a			:	present_state = fetch3;
+	reset_state : present_state = #40 fetch0;
+	fetch0 : #40 present_state = fetch1;
+	fetch1 : #40 present_state = fetch2;
+	fetch2			:	#40 present_state = fetch2a;
+			fetch2a			:	#10 present_state = fetch3;
 			fetch3			:	begin	
 					case (IR[31:27]) // inst. decoding based on the opcode to set the next state
 						5'b00011 : present_state = add3; // this is the add instruction
@@ -48,6 +48,7 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
 						5'b10000 : present_state = div3;
 						5'b01001 : present_state = shl3;
 						5'b00111 : present_state = shr3;
+						5'b01000 : present_state = shra3;
 						5'b01011 : present_state = rol3;
 						5'b01010 : present_state = ror3;
 						5'b10001 : present_state = neg3;
@@ -107,6 +108,10 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
 			shr4				: 	present_state = shr5;
 			shr5 				:	present_state = reset_state;
 			
+			shra3				: 	present_state = shra4;
+			shra4				: 	present_state = shra5;
+			shra5 				:	present_state = reset_state;
+			
 			rol3				: 	present_state = rol4;
 			rol4				: 	present_state = rol5;
 			rol5 				:	present_state = reset_state;
@@ -122,10 +127,10 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
 			not4				: 	present_state = reset_state;
 			
 			ld3				: 	#40 present_state = ld4;
-			ld4				: #40 	present_state = ld5;
-			ld5				: #40 	present_state = ld6;
+			ld4				:  #40 present_state = ld5;
+			ld5				: 	#40 present_state = ld6;
 			ld6				: 	#40 present_state = ld7;
-			ld7				:   present_state = reset_state;
+			ld7				:  #35 present_state = reset_state;
 			
 			ldi3				: 	present_state = ldi4;
 			ldi4				: 	present_state = ldi5;
@@ -201,15 +206,15 @@ always @(present_state) begin // do the job for each state
 				PCin <= 1; IncPC <= 1;   
 		end
 		//END OF FETCH
-		add3, sub3, or3, and3, shl3, shr3, rol3, ror3: begin
+		add3, sub3, or3, and3, shl3, shr3, shra3, rol3, ror3: begin
 			 PCin <= 0; IncPC <= 0;  
 			 Grb <= 1; Rout <= 1;Yin <= 1;
 		end
-		add4, sub4, or4, and4, shl4, shr4, rol4, ror4: begin
+		add4, sub4, or4, and4, shl4, shr4, shra4, rol4, ror4: begin
           Grb <= 0; Rout <= 0;Yin <= 0;
 			 Grc <= 1; Rout <= 1; ZLowIn <= 1; ZHighIn <= 1; 
       end
-      add5, sub5, or5, and5, shl5, shr5, rol5, ror5: begin
+      add5, sub5, or5, and5, shl5, shr5, shra5, rol5, ror5: begin
           Grc <= 0; Rout <= 0; ZLowIn <= 0; ZHighIn <= 0;
 			 ZLowout<= 1; Gra <= 1; Rin <= 1; 
 			//#40 Zlowout<= 0; Gra <= 0; Rin <= 0; 
@@ -275,6 +280,7 @@ always @(present_state) begin // do the job for each state
       ld7: begin
             Read <= 0; MDRin <= 0;
             MDRout <= 1; Gra <= 1; Rin <= 1; 
+				//#40 MDRout <=0; Gra<=0; Rin<=0; 
 		end
 		
 		ldi3: begin
@@ -366,6 +372,9 @@ always @(present_state) begin // do the job for each state
            ZLowout<=0; PCin<=0;
 			  PCout<=1; MARin <= 1;
 		end
+		nop3 : begin
+			PCin <= 0; IncPC <= 0;
+		end	
 		halt3: begin
 		run <= 0;
 		end

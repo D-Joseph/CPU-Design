@@ -81,7 +81,10 @@ entity control_unit is
         nop3            : vl_logic_vector(0 to 7) := (Hi0, Hi1, Hi0, Hi0, Hi1, Hi0, Hi1, Hi1);
         halt3           : vl_logic_vector(0 to 7) := (Hi0, Hi1, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0);
         fetch2a         : vl_logic_vector(0 to 7) := (Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
-        fetch3          : vl_logic_vector(0 to 7) := (Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0)
+        fetch3          : vl_logic_vector(0 to 7) := (Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        shra3           : vl_logic_vector(0 to 7) := (Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1);
+        shra4           : vl_logic_vector(0 to 7) := (Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0);
+        shra5           : vl_logic_vector(0 to 7) := (Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1)
     );
     port(
         IncPC           : out    vl_logic;
@@ -202,4 +205,7 @@ entity control_unit is
     attribute mti_svvh_generic_type of halt3 : constant is 1;
     attribute mti_svvh_generic_type of fetch2a : constant is 1;
     attribute mti_svvh_generic_type of fetch3 : constant is 1;
+    attribute mti_svvh_generic_type of shra3 : constant is 1;
+    attribute mti_svvh_generic_type of shra4 : constant is 1;
+    attribute mti_svvh_generic_type of shra5 : constant is 1;
 end control_unit;
