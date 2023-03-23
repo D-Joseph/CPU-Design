@@ -1,5 +1,5 @@
 Flow report for CPUDesignProject
-Mon Mar 20 22:35:00 2023
+Wed Mar 22 17:48:41 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Mon Mar 20 22:35:00 2023            ;
+; Flow Status                        ; Successful - Wed Mar 22 17:48:40 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 7,139                                            ;
-;     Total combinational functions  ; 6,560                                            ;
+; Total logic elements               ; 7,364                                            ;
+;     Total combinational functions  ; 6,748                                            ;
 ;     Dedicated logic registers      ; 808                                              ;
 ; Total registers                    ; 808                                              ;
-; Total pins                         ; 196                                              ;
+; Total pins                         ; 104                                              ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 8,192                                            ;
 ; Embedded Multiplier 9-bit elements ; 0                                                ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/20/2023 22:34:38 ;
+; Start date & time ; 03/22/2023 17:48:14 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 123478089144587.167936607833604       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123478089144587.167952169413932       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -102,7 +102,8 @@ applicable agreement for further details.
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; mflo_tb        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; out_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; in_tb          ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; mfhi_tb                               ; --            ; --          ; eda_simulation ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; phase3_tb      ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; phase3_tb                             ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
@@ -132,6 +133,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; mflo_tb.v                             ; --            ; --          ; mflo_tb        ;
 ; EDA_TEST_BENCH_FILE                  ; out_tb.v                              ; --            ; --          ; out_tb         ;
 ; EDA_TEST_BENCH_FILE                  ; in_tb.v                               ; --            ; --          ; in_tb          ;
+; EDA_TEST_BENCH_FILE                  ; phase3_tb.v                           ; --            ; --          ; phase3_tb      ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; and_tb                                ; --            ; --          ; and_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; add_tb                                ; --            ; --          ; add_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; ALU_tb                                ; --            ; --          ; ALU_tb         ;
@@ -158,6 +160,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_MODULE_NAME           ; mflo_tb                               ; --            ; --          ; mflo_tb        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; out_tb                                ; --            ; --          ; out_tb         ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; in_tb                                 ; --            ; --          ; in_tb          ;
+; EDA_TEST_BENCH_MODULE_NAME           ; phase3_tb                             ; --            ; --          ; phase3_tb      ;
 ; EDA_TEST_BENCH_NAME                  ; and_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; add_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; ALU_tb                                ; --            ; --          ; eda_simulation ;
@@ -184,6 +187,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_NAME                  ; mflo_tb                               ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; out_tb                                ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; in_tb                                 ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; phase3_tb                             ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; and_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                               ; --            ; --          ; add_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 2500 ns                               ; --            ; --          ; ALU_tb         ;
@@ -210,6 +214,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; mflo_tb        ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; out_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; in_tb          ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10000 ns                              ; --            ; --          ; phase3_tb      ;
 ; EDA_TIME_SCALE                       ; 1 ns                                  ; --            ; --          ; eda_simulation ;
 ; IP_TOOL_NAME                         ; RAM: 1-PORT                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                      ; 13.0                                  ; --            ; --          ; --             ;
@@ -231,8 +236,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4649 MB             ; 00:00:21                           ;
-; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:21                           ;
+; Analysis & Synthesis ; 00:00:28     ; 1.0                     ; 4661 MB             ; 00:00:26                           ;
+; Total                ; 00:00:28     ; --                      ; --                  ; 00:00:26                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

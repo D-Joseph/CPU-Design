@@ -2,43 +2,12 @@ library verilog;
 use verilog.vl_types.all;
 entity CPUDesignProject is
     port(
-        PCout           : in     vl_logic;
-        ZLowout         : in     vl_logic;
-        ZHighout        : in     vl_logic;
-        MDRout          : in     vl_logic;
-        MDRin           : in     vl_logic;
-        MARin           : in     vl_logic;
-        ZLowIn          : in     vl_logic;
-        ZHighIn         : in     vl_logic;
-        HIin            : in     vl_logic;
-        HIout           : in     vl_logic;
-        LOin            : in     vl_logic;
-        LOout           : in     vl_logic;
-        Cout            : in     vl_logic;
-        ramWE           : in     vl_logic;
-        PCin            : in     vl_logic;
-        IRin            : in     vl_logic;
-        IncPC           : in     vl_logic;
-        Yin             : in     vl_logic;
-        Read            : in     vl_logic;
-        Gra             : in     vl_logic;
-        Grb             : in     vl_logic;
-        Grc             : in     vl_logic;
-        R_in            : in     vl_logic;
-        R_out           : in     vl_logic;
-        BAout           : in     vl_logic;
-        CONin           : in     vl_logic;
-        InPortout       : in     vl_logic;
-        R_enableIn      : in     vl_logic_vector(15 downto 0);
-        Rout_in         : in     vl_logic_vector(15 downto 0);
-        OutPortIn       : in     vl_logic;
-        InPortIn        : in     vl_logic;
-        operation       : out    vl_logic_vector(4 downto 0);
         clk             : in     vl_logic;
-        clr             : in     vl_logic;
-        MDatain         : in     vl_logic_vector(31 downto 0);
+        rst             : in     vl_logic;
+        stop            : in     vl_logic;
         inport_data_in  : in     vl_logic_vector(31 downto 0);
         outport_data_out: out    vl_logic_vector(31 downto 0);
-        bus_contents    : out    vl_logic_vector(31 downto 0)
+        bus_contents    : out    vl_logic_vector(31 downto 0);
+        operation       : out    vl_logic_vector(4 downto 0)
     );
 end CPUDesignProject;

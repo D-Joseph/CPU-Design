@@ -1,39 +1,40 @@
 `timescale 1ns/10ps
 
 module CPUDesignProject(
-	input PCout, 
-	input ZLowout, 
-	input ZHighout,
-	input MDRout, MDRin, MARin,
-	input ZLowIn,ZHighIn, HIin, HIout, LOin, LOout, Cout, ramWE,PCin, IRin, IncPC, Yin, Read,
-	input Gra, Grb, Grc, R_in, R_out, BAout, CONin,InPortout,
-	input [15:0] R_enableIn, Rout_in,
-	input OutPortIn, InPortIn,
-   output [4:0] operation,
-	input clk,clr,
-	input [31:0] MDatain, 
-	input wire [31:0] inport_data_in,
-	output wire [31:0] outport_data_out,
-	output [31:0] bus_contents
+	input clk, rst, stop,
+	input wire [31:0] inport_data_in, 
+	output wire [31:0] outport_data_out, bus_contents,
+	output [4:0] operation
 );
 
-	wire [15:0] RegInSel; 
-	wire [15:0] Rout_IR;
-	reg  [15:0] regIn; 
-	reg  [15:0] Rout;
-	wire [3:0]  decoder_in;
+	wire IncPC, CONin, ramWE, MDRin, MDRout, MARin, IRin,Read, R_in, R_out, Gra, Grb, Grc, 
+	HIin, LOin, ZHighIn, ZLowIn, Yin, PCin, InPort_enable, OutPort_enable,
+	InPortout, PCout, ZLowout, ZHighout, LOout, HIout, BAout, Cout, Run;
+
+	
+	reg [15:0] regEnable; //which register is enabled
+	reg [15:0] regOut; //Which register to output
+	
+	wire [15:0] regEnable_IR,regEnable_In,Rout_IR;
+	
+	//reg  [15:0] regIn; 
+	
+	initial begin
+		regEnable = 16'b0;
+		regOut = 16'b0;
+	end
 	 
 	//Chooses which registers enable signal is asserted, and which output signal is asserted (placed on bus)
 	always@(*)begin		
-		if (RegInSel)
-			regIn <= RegInSel; 
+		if (regEnable_IR)
+			regEnable <= regEnable_IR; 
 		else 
-			regIn <= R_enableIn;
+			regEnable <= regEnable_In;
 
-		if (RegOutSel)
-			Rout <= RegOutSel; 
+		if (Rout_IR)
+			regOut <= Rout_IR; 
 		else 
-			Rout <= Rout_in;
+			regOut <= 16'b0;
 	end 
 	/*
 	Signal and wire declarations to be used in the Datapath
@@ -52,47 +53,48 @@ module CPUDesignProject(
 	wire [4:0] encoder_out;
 	
 	// Connecting the register output signals to the encoder's input wire
-	assign encoder_in = {{8{1'b0}},Cout,InPortout,MDRout,PCout,ZLowout,ZHighout,LOout,HIout,Rout};
+	assign encoder_in = {{8{1'b0}},Cout,InPortout,MDRout,PCout,ZLowout,ZHighout,LOout,HIout,regOut};
 
     // Instatiating 32-to-5 encoder
     encoder_32_to_5 encoder(encoder_in, encoder_out);
 
     //Creating all 32-bit registers
-	wire [31:0] r0_AND_input;
-	assign R0_data_out = {32{!BAout}} & r0_AND_input; //revision to R0
-	reg_32_bit R0(clk, clr, regIn[0] , bus_contents, r0_AND_input); 
-	reg_32_bit #(32'h22) R1(clk, clr, regIn[1], bus_contents, R1_data_out);
-	reg_32_bit #(55) R2(clk, clr, regIn[2], bus_contents, R2_data_out);
-	reg_32_bit #(32'b110000) R3(clk, clr, regIn[3], bus_contents, R3_data_out);
-	reg_32_bit #(32'h67) R4(clk, clr, regIn[4], bus_contents, R4_data_out);
-	reg_32_bit R5(clk, clr, regIn[5], bus_contents, R5_data_out);
-	reg_32_bit #(0) R6(clk, clr, regIn[6], bus_contents, R6_data_out);
-	reg_32_bit R7(clk, clr, regIn[7], bus_contents, R7_data_out);
-	reg_32_bit R8(clk, clr, regIn[8], bus_contents, R8_data_out);
-	reg_32_bit R9(clk, clr, regIn[9], bus_contents, R9_data_out);
-	reg_32_bit R10(clk, clr, regIn[10], bus_contents, R10_data_out);
-	reg_32_bit R11(clk, clr, regIn[11], bus_contents, R11_data_out);
-	reg_32_bit R12(clk, clr, regIn[12], bus_contents, R12_data_out);
-	reg_32_bit R13(clk, clr, regIn[13], bus_contents, R13_data_out);
-	reg_32_bit R14(clk, clr, regIn[14], bus_contents, R14_data_out);
-	reg_32_bit R15(clk, clr, regIn[15], bus_contents, R15_data_out);
+	wire [31:0] r0_out;
+	reg_32_bit R0(clk, clr, regEnable[0] , bus_contents, r0_out); 
+	assign R0_data_out = {32{!BAout}} & r0_out; //revision to R0
+	
+	reg_32_bit R1(clk, clr, regEnable[1], bus_contents, R1_data_out);
+	reg_32_bit R2(clk, clr, regEnable[2], bus_contents, R2_data_out);
+	reg_32_bit R3(clk, clr, regEnable[3], bus_contents, R3_data_out);
+	reg_32_bit R4(clk, clr, regEnable[4], bus_contents, R4_data_out);
+	reg_32_bit R5(clk, clr, regEnable[5], bus_contents, R5_data_out);
+	reg_32_bit R6(clk, clr, regEnable[6], bus_contents, R6_data_out);
+	reg_32_bit R7(clk, clr, regEnable[7], bus_contents, R7_data_out);
+	reg_32_bit R8(clk, clr, regEnable[8], bus_contents, R8_data_out);
+	reg_32_bit R9(clk, clr, regEnable[9], bus_contents, R9_data_out);
+	reg_32_bit R10(clk, clr, regEnable[10], bus_contents, R10_data_out);
+	reg_32_bit R11(clk, clr, regEnable[11], bus_contents, R11_data_out);
+	reg_32_bit R12(clk, clr, regEnable[12], bus_contents, R12_data_out);
+	reg_32_bit R13(clk, clr, regEnable[13], bus_contents, R13_data_out);
+	reg_32_bit R14(clk, clr, regEnable[14], bus_contents, R14_data_out);
+	reg_32_bit R15(clk, clr, regEnable[15], bus_contents, R15_data_out);
 	reg_32_bit Y(clk, clr, Yin, bus_contents, Y_data_out);
-	reg_32_bit #(53292) HI_reg(clk, clr, HIin, bus_contents, HI_data_out);
-	reg_32_bit #(55555555) LO_reg(clk, clr, LOin, bus_contents, LO_data_out);
+	reg_32_bit HI_reg(clk, clr, HIin, bus_contents, HI_data_out);
+	reg_32_bit LO_reg(clk, clr, LOin, bus_contents, LO_data_out);
 	reg_32_bit ZHigh_reg(clk, clr, ZHighIn, C_data_out[63:32], ZHigh_data_out);	
 	reg_32_bit ZLow_reg(clk, clr, ZLowIn, C_data_out[31:0], ZLow_data_out);
 
 	reg_32_bit IR(clk, rst, IRin, bus_contents, IR_data_out);
 
 	//reg_32_bit PC_reg(clk, clr,PCin, bus_contents, PC_data_out);
-    IncPC_32_bit #(3) PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
+    IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
 	
 	reg_32_bit OutPort(clk, clr, OutPortIn, bus_contents, outport_data_out);
-	reg_32_bit #(-42010) InPort(clk, clr, InPortIn, Inport_data_out, BusMuxIn_In_Port);
+	reg_32_bit InPort(clk, clr, InPortIn, Inport_data_out, BusMuxIn_In_Port);
 
 	//Select and encode Logic and CON FF
 	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, R_in, R_out, BAout, C_Sign_extend,
-							RegInSel, RegOutSel, operation,decoder_in);
+							regEnable_IR, Rout_IR, operation);
 	CONFF_logic conff(IR_data_out[20:19],bus_contents, CONin, CONout);
 	
 	//MDR
@@ -123,12 +125,50 @@ module CPUDesignProject(
 	//instantiate the alu
 	alu the_alu(
 	.clk(clk),
-	.clr(clr), 
+	.clr(rst), 
 	.branch_flag(CONout),
 	.A(Y_data_out),
 	.B(bus_contents),
 	.opcode(operation),
 	.C(C_data_out)
+	);
+	
+	control_unit controlUnit(
+	   .PCout(PCout),
+		.ZHighout(ZHighout),
+		.ZLowout(ZLowout),
+		.MDRout(MDRout),
+		.MARin(MARin),
+		.PCin(PCin),
+		.MDRin(MDRin),
+		.IRin(IRin),
+		.Yin(Yin),
+		.IncPC(IncPC),
+		.Read(Read),
+		.HIin(HIin),
+		.LOin(LOin),
+		.HIout(HIout),
+		.LOout(LOout),
+		.ZHighIn(ZHighIn),
+		.ZLowIn(ZLowIn),
+		.Cout(Cout),
+		.ramWE(ramWE),
+		.Gra(Gra),
+		.Grb(Grb),
+		.Grc(Grc),
+		.Rin(R_in),
+		.Rout(R_out),
+		.BAout(BAout),
+		.CONin(CONin),
+		.InPort_enable(InPortIn),
+		.OutPort_enable(OutPortIn),
+		.InPortout(InPortout),
+		.run(Run),
+		.R_enableIn(regEnable_In),
+		.IR(IR_data_out),
+		.clk(clk),
+		.rst(rst),
+		.stop(stop)
 	);
 
 endmodule

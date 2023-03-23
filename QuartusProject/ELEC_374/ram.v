@@ -9,7 +9,7 @@ reg [31:0] RAM[511:0];
 reg [31:0] addressRegister;
 
 initial begin : INIT
-		$readmemh("testing.mif", RAM); 
+		$readmemh("controlUnit.mif", RAM); 
 end
 
 //synchronous RAM

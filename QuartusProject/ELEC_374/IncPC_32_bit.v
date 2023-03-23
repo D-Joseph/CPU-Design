@@ -11,7 +11,7 @@ initial newPC = qInitial;
 always @ (posedge clk)
 	begin
 		if(IncPC == 1 && enable ==1)
-			newPC <= curPC + 1;
+			newPC <= newPC + 1;
 		else if (enable == 1)
 			newPC <= curPC;
 	end

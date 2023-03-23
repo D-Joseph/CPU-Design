@@ -78,7 +78,7 @@ begin
     	    ZLowout<= 1; Read <= 1; MDRin <= 1;
     	end
     	T2: begin
-    	    ZLowout<= 0; Read <= 0; MDRin <= 0;PCin <= 0; IncPC <= 0	
+    	    ZLowout<= 0; Read <= 0; MDRin <= 0;PCin <= 0; IncPC <= 0;	
     	    MDRout<= 1; IRin <= 1; 
     	end
     	T3: begin

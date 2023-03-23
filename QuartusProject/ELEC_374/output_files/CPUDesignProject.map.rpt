@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPUDesignProject
-Mon Mar 20 22:35:00 2023
+Wed Mar 22 17:48:41 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -17,38 +17,38 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   9. User-Specified and Inferred Latches
  10. Registers Removed During Synthesis
  11. General Register Statistics
- 12. Inverted Register Statistics
- 13. Registers Packed Into Inferred Megafunctions
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated
- 16. Parameter Settings for User Entity Instance: reg_32_bit:R0
- 17. Parameter Settings for User Entity Instance: reg_32_bit:R1
- 18. Parameter Settings for User Entity Instance: reg_32_bit:R2
- 19. Parameter Settings for User Entity Instance: reg_32_bit:R3
- 20. Parameter Settings for User Entity Instance: reg_32_bit:R4
- 21. Parameter Settings for User Entity Instance: reg_32_bit:R5
- 22. Parameter Settings for User Entity Instance: reg_32_bit:R6
- 23. Parameter Settings for User Entity Instance: reg_32_bit:R7
- 24. Parameter Settings for User Entity Instance: reg_32_bit:R8
- 25. Parameter Settings for User Entity Instance: reg_32_bit:R9
- 26. Parameter Settings for User Entity Instance: reg_32_bit:R10
- 27. Parameter Settings for User Entity Instance: reg_32_bit:R11
- 28. Parameter Settings for User Entity Instance: reg_32_bit:R12
- 29. Parameter Settings for User Entity Instance: reg_32_bit:R13
- 30. Parameter Settings for User Entity Instance: reg_32_bit:R14
- 31. Parameter Settings for User Entity Instance: reg_32_bit:R15
- 32. Parameter Settings for User Entity Instance: reg_32_bit:Y
- 33. Parameter Settings for User Entity Instance: reg_32_bit:HI_reg
- 34. Parameter Settings for User Entity Instance: reg_32_bit:LO_reg
- 35. Parameter Settings for User Entity Instance: reg_32_bit:ZHigh_reg
- 36. Parameter Settings for User Entity Instance: reg_32_bit:ZLow_reg
- 37. Parameter Settings for User Entity Instance: reg_32_bit:IR
- 38. Parameter Settings for User Entity Instance: IncPC_32_bit:PC_reg
- 39. Parameter Settings for User Entity Instance: reg_32_bit:OutPort
- 40. Parameter Settings for User Entity Instance: reg_32_bit:InPort
- 41. Parameter Settings for User Entity Instance: reg_32_bit:MDR
- 42. Parameter Settings for User Entity Instance: reg_32_bit:MAR
- 43. Parameter Settings for User Entity Instance: alu:the_alu
+ 12. Registers Packed Into Inferred Megafunctions
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated
+ 15. Parameter Settings for User Entity Instance: reg_32_bit:R0
+ 16. Parameter Settings for User Entity Instance: reg_32_bit:R1
+ 17. Parameter Settings for User Entity Instance: reg_32_bit:R2
+ 18. Parameter Settings for User Entity Instance: reg_32_bit:R3
+ 19. Parameter Settings for User Entity Instance: reg_32_bit:R4
+ 20. Parameter Settings for User Entity Instance: reg_32_bit:R5
+ 21. Parameter Settings for User Entity Instance: reg_32_bit:R6
+ 22. Parameter Settings for User Entity Instance: reg_32_bit:R7
+ 23. Parameter Settings for User Entity Instance: reg_32_bit:R8
+ 24. Parameter Settings for User Entity Instance: reg_32_bit:R9
+ 25. Parameter Settings for User Entity Instance: reg_32_bit:R10
+ 26. Parameter Settings for User Entity Instance: reg_32_bit:R11
+ 27. Parameter Settings for User Entity Instance: reg_32_bit:R12
+ 28. Parameter Settings for User Entity Instance: reg_32_bit:R13
+ 29. Parameter Settings for User Entity Instance: reg_32_bit:R14
+ 30. Parameter Settings for User Entity Instance: reg_32_bit:R15
+ 31. Parameter Settings for User Entity Instance: reg_32_bit:Y
+ 32. Parameter Settings for User Entity Instance: reg_32_bit:HI_reg
+ 33. Parameter Settings for User Entity Instance: reg_32_bit:LO_reg
+ 34. Parameter Settings for User Entity Instance: reg_32_bit:ZHigh_reg
+ 35. Parameter Settings for User Entity Instance: reg_32_bit:ZLow_reg
+ 36. Parameter Settings for User Entity Instance: reg_32_bit:IR
+ 37. Parameter Settings for User Entity Instance: IncPC_32_bit:PC_reg
+ 38. Parameter Settings for User Entity Instance: reg_32_bit:OutPort
+ 39. Parameter Settings for User Entity Instance: reg_32_bit:InPort
+ 40. Parameter Settings for User Entity Instance: reg_32_bit:MDR
+ 41. Parameter Settings for User Entity Instance: reg_32_bit:MAR
+ 42. Parameter Settings for User Entity Instance: alu:the_alu
+ 43. Parameter Settings for User Entity Instance: control_unit:controlUnit
  44. Parameter Settings for Inferred Entity Instance: ram:ramModule|altsyncram:RAM_rtl_0
  45. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2
  46. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add4
@@ -80,16 +80,16 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
  72. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add56
  73. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add58
  74. altsyncram Parameter Settings by Entity Instance
- 75. Port Connectivity Checks: "alu:the_alu|rotate_right_32_bit:rotateR"
- 76. Port Connectivity Checks: "alu:the_alu|rotate_left_32_bit:rotateL"
- 77. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD"
- 78. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction"
- 79. Port Connectivity Checks: "alu:the_alu|adder_32_bit:adder"
- 80. Port Connectivity Checks: "alu:the_alu"
- 81. Port Connectivity Checks: "mux_32_to_1:BusMux"
- 82. Port Connectivity Checks: "ram:ramModule"
- 83. Port Connectivity Checks: "reg_32_bit:MAR"
- 84. Port Connectivity Checks: "selectencodelogic:selEn"
+ 75. Port Connectivity Checks: "control_unit:controlUnit"
+ 76. Port Connectivity Checks: "alu:the_alu|rotate_right_32_bit:rotateR"
+ 77. Port Connectivity Checks: "alu:the_alu|rotate_left_32_bit:rotateL"
+ 78. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD"
+ 79. Port Connectivity Checks: "alu:the_alu|sub_32_bit:subtraction"
+ 80. Port Connectivity Checks: "alu:the_alu|adder_32_bit:adder"
+ 81. Port Connectivity Checks: "alu:the_alu"
+ 82. Port Connectivity Checks: "mux_32_to_1:BusMux"
+ 83. Port Connectivity Checks: "ram:ramModule"
+ 84. Port Connectivity Checks: "reg_32_bit:MAR"
  85. Port Connectivity Checks: "reg_32_bit:InPort"
  86. Port Connectivity Checks: "encoder_32_to_5:encoder"
  87. Elapsed Time Per Partition
@@ -120,16 +120,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar 20 22:35:00 2023            ;
+; Analysis & Synthesis Status        ; Successful - Wed Mar 22 17:48:40 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
-; Total logic elements               ; 7,139                                            ;
-;     Total combinational functions  ; 6,560                                            ;
+; Total logic elements               ; 7,364                                            ;
+;     Total combinational functions  ; 6,748                                            ;
 ;     Dedicated logic registers      ; 808                                              ;
 ; Total registers                    ; 808                                              ;
-; Total pins                         ; 196                                              ;
+; Total pins                         ; 104                                              ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 8,192                                            ;
 ; Embedded Multiplier 9-bit elements ; 0                                                ;
@@ -246,7 +246,7 @@ applicable agreement for further details.
 +--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path           ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                                                     ; Library ;
 +--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
-; testing.mif                                ; yes             ; User Memory Initialization File                       ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/testing.mif                                ;         ;
+; control_unit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/control_unit.v                             ;         ;
 ; sub_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v                               ;         ;
 ; rotate_right_32_bit.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v                      ;         ;
 ; rotate_left_32_bit.v                       ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v                       ;         ;
@@ -267,6 +267,7 @@ applicable agreement for further details.
 ; CONFF_logic.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CONFF_logic.v                              ;         ;
 ; ram.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/ram.v                                      ;         ;
 ; selectencodelogic.v                        ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/selectencodelogic.v                        ;         ;
+; controlunit.mif                            ; yes             ; Auto-Found Memory Initialization File                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/controlunit.mif                            ;         ;
 ; altsyncram.tdf                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                                                 ;         ;
 ; stratix_ram_block.inc                      ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                          ;         ;
 ; lpm_mux.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                                    ;         ;
@@ -293,29 +294,29 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 7,139     ;
+; Estimated Total logic elements              ; 7,364     ;
 ;                                             ;           ;
-; Total combinational functions               ; 6560      ;
+; Total combinational functions               ; 6748      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 2466      ;
-;     -- 3 input functions                    ; 2173      ;
-;     -- <=2 input functions                  ; 1921      ;
+;     -- 4 input functions                    ; 2651      ;
+;     -- 3 input functions                    ; 2210      ;
+;     -- <=2 input functions                  ; 1887      ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 4826      ;
+;     -- normal mode                          ; 5014      ;
 ;     -- arithmetic mode                      ; 1734      ;
 ;                                             ;           ;
 ; Total registers                             ; 808       ;
 ;     -- Dedicated logic registers            ; 808       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 196       ;
+; I/O pins                                    ; 104       ;
 ; Total memory bits                           ; 8192      ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 840       ;
-; Total fan-out                               ; 23222     ;
-; Average fan-out                             ; 2.98      ;
+; Total fan-out                               ; 24048     ;
+; Average fan-out                             ; 3.08      ;
 +---------------------------------------------+-----------+
 
 
@@ -324,10 +325,10 @@ applicable agreement for further details.
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Library Name ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
-; |CPUDesignProject                           ; 6560 (52)         ; 808 (0)      ; 8192        ; 0            ; 0       ; 0         ; 196  ; 0            ; |CPUDesignProject                                                                                                ; work         ;
+; |CPUDesignProject                           ; 6748 (35)         ; 808 (0)      ; 8192        ; 0            ; 0       ; 0         ; 104  ; 0            ; |CPUDesignProject                                                                                                ; work         ;
 ;    |CONFF_logic:conff|                      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|CONFF_logic:conff                                                                              ; work         ;
-;    |IncPC_32_bit:PC_reg|                    ; 35 (35)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|IncPC_32_bit:PC_reg                                                                            ; work         ;
-;    |alu:the_alu|                            ; 5656 (771)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                                    ; work         ;
+;    |IncPC_32_bit:PC_reg|                    ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|IncPC_32_bit:PC_reg                                                                            ; work         ;
+;    |alu:the_alu|                            ; 5655 (768)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                                    ; work         ;
 ;       |adder_32_bit:adder|                  ; 69 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder                                                                 ; work         ;
 ;          |CLA16:adder1|                     ; 28 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1                                                    ; work         ;
 ;             |CLA4:adder1|                   ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1                                        ; work         ;
@@ -411,7 +412,7 @@ applicable agreement for further details.
 ;                |CLA4:adder2|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2                   ; work         ;
 ;                |CLA4:adder3|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3                   ; work         ;
 ;                |CLA4:adder4|                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4                   ; work         ;
-;       |rotate_left_32_bit:rotateL|          ; 132 (132)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                                         ; work         ;
+;       |rotate_left_32_bit:rotateL|          ; 134 (134)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                                         ; work         ;
 ;       |rotate_right_32_bit:rotateR|         ; 128 (128)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                                        ; work         ;
 ;       |sub_32_bit:subtraction|              ; 86 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction                                                             ; work         ;
 ;          |adder_32_bit:ADD|                 ; 61 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD                                            ; work         ;
@@ -436,38 +437,38 @@ applicable agreement for further details.
 ;                   |CLA4:adder2|             ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2 ; work         ;
 ;                   |CLA4:adder3|             ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3 ; work         ;
 ;                   |CLA4:adder4|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|negate_32_bit:NEG|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4 ; work         ;
-;    |encoder_32_to_5:encoder|                ; 72 (72)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|encoder_32_to_5:encoder                                                                        ; work         ;
-;    |mux_2_to_1:MDMux|                       ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|mux_2_to_1:MDMux                                                                               ; work         ;
+;    |control_unit:controlUnit|               ; 330 (330)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|control_unit:controlUnit                                                                       ; work         ;
+;    |encoder_32_to_5:encoder|                ; 74 (74)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|encoder_32_to_5:encoder                                                                        ; work         ;
 ;    |mux_32_to_1:BusMux|                     ; 517 (517)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|mux_32_to_1:BusMux                                                                             ; work         ;
 ;    |ram:ramModule|                          ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule                                                                                  ; work         ;
 ;       |altsyncram:RAM_rtl_0|                ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0                                                             ; work         ;
 ;          |altsyncram_rd91:auto_generated|   ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated                              ; work         ;
-;    |reg_32_bit:HI_reg|                      ; 7 (7)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:HI_reg                                                                              ; work         ;
-;    |reg_32_bit:IR|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:IR                                                                                  ; work         ;
-;    |reg_32_bit:LO_reg|                      ; 18 (18)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:LO_reg                                                                              ; work         ;
-;    |reg_32_bit:MAR|                         ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MAR                                                                                 ; work         ;
-;    |reg_32_bit:MDR|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MDR                                                                                 ; work         ;
-;    |reg_32_bit:OutPort|                     ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:OutPort                                                                             ; work         ;
-;    |reg_32_bit:R0|                          ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R0                                                                                  ; work         ;
-;    |reg_32_bit:R10|                         ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R10                                                                                 ; work         ;
-;    |reg_32_bit:R11|                         ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R11                                                                                 ; work         ;
-;    |reg_32_bit:R12|                         ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R12                                                                                 ; work         ;
-;    |reg_32_bit:R13|                         ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R13                                                                                 ; work         ;
-;    |reg_32_bit:R14|                         ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R14                                                                                 ; work         ;
-;    |reg_32_bit:R15|                         ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R15                                                                                 ; work         ;
-;    |reg_32_bit:R1|                          ; 3 (3)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R1                                                                                  ; work         ;
-;    |reg_32_bit:R2|                          ; 7 (7)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R2                                                                                  ; work         ;
-;    |reg_32_bit:R3|                          ; 4 (4)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R3                                                                                  ; work         ;
-;    |reg_32_bit:R4|                          ; 7 (7)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R4                                                                                  ; work         ;
-;    |reg_32_bit:R5|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R5                                                                                  ; work         ;
-;    |reg_32_bit:R6|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R6                                                                                  ; work         ;
-;    |reg_32_bit:R7|                          ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R7                                                                                  ; work         ;
-;    |reg_32_bit:R8|                          ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R8                                                                                  ; work         ;
-;    |reg_32_bit:R9|                          ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R9                                                                                  ; work         ;
-;    |reg_32_bit:Y|                           ; 1 (1)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:Y                                                                                   ; work         ;
-;    |reg_32_bit:ZHigh_reg|                   ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZHigh_reg                                                                           ; work         ;
-;    |reg_32_bit:ZLow_reg|                    ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZLow_reg                                                                            ; work         ;
-;    |selectencodelogic:selEn|                ; 29 (29)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|selectencodelogic:selEn                                                                        ; work         ;
+;    |reg_32_bit:HI_reg|                      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:HI_reg                                                                              ; work         ;
+;    |reg_32_bit:IR|                          ; 25 (25)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:IR                                                                                  ; work         ;
+;    |reg_32_bit:LO_reg|                      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:LO_reg                                                                              ; work         ;
+;    |reg_32_bit:MAR|                         ; 9 (9)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MAR                                                                                 ; work         ;
+;    |reg_32_bit:MDR|                         ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MDR                                                                                 ; work         ;
+;    |reg_32_bit:OutPort|                     ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:OutPort                                                                             ; work         ;
+;    |reg_32_bit:R0|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R0                                                                                  ; work         ;
+;    |reg_32_bit:R10|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R10                                                                                 ; work         ;
+;    |reg_32_bit:R11|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R11                                                                                 ; work         ;
+;    |reg_32_bit:R12|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R12                                                                                 ; work         ;
+;    |reg_32_bit:R13|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R13                                                                                 ; work         ;
+;    |reg_32_bit:R14|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R14                                                                                 ; work         ;
+;    |reg_32_bit:R15|                         ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R15                                                                                 ; work         ;
+;    |reg_32_bit:R1|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R1                                                                                  ; work         ;
+;    |reg_32_bit:R2|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R2                                                                                  ; work         ;
+;    |reg_32_bit:R3|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R3                                                                                  ; work         ;
+;    |reg_32_bit:R4|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R4                                                                                  ; work         ;
+;    |reg_32_bit:R5|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R5                                                                                  ; work         ;
+;    |reg_32_bit:R6|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R6                                                                                  ; work         ;
+;    |reg_32_bit:R7|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R7                                                                                  ; work         ;
+;    |reg_32_bit:R8|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R8                                                                                  ; work         ;
+;    |reg_32_bit:R9|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R9                                                                                  ; work         ;
+;    |reg_32_bit:Y|                           ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:Y                                                                                   ; work         ;
+;    |reg_32_bit:ZHigh_reg|                   ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZHigh_reg                                                                           ; work         ;
+;    |reg_32_bit:ZLow_reg|                    ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:ZLow_reg                                                                            ; work         ;
+;    |selectencodelogic:selEn|                ; 35 (35)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|selectencodelogic:selEn                                                                        ; work         ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -481,110 +482,114 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                     ;
-+-----------------------------------------------------+--------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal      ; Free of Timing Hazards ;
-+-----------------------------------------------------+--------------------------+------------------------+
-; mux_32_to_1:BusMux|BusMuxOut[0]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[1]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[2]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[3]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[4]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[5]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[6]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[7]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[8]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[9]                     ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[10]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[11]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[12]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[13]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[14]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[15]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[16]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[17]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[18]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[19]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[20]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[21]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[22]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[23]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[24]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[25]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[26]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[27]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[28]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[29]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[30]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[31]                    ; mux_32_to_1:BusMux|Mux32 ; yes                    ;
-; alu:the_alu|C[32]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[0]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[33]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[1]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[34]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[2]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[35]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[3]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[36]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[4]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[37]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[5]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[38]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[6]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[39]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[7]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[40]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[8]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[41]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[9]                                    ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[42]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[10]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[43]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[11]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[44]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[12]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[45]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[13]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[46]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[14]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[47]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[15]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[48]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[16]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[49]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[17]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[50]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[18]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[51]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[19]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[52]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[20]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[53]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[21]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[54]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[22]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[55]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[23]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[56]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[24]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[57]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[25]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[58]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[26]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[59]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[27]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[60]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[28]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[61]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[29]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[62]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[30]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[63]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; alu:the_alu|C[31]                                   ; alu:the_alu|Mux64        ; yes                    ;
-; Number of user-specified and inferred latches = 96  ;                          ;                        ;
-+-----------------------------------------------------+--------------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
++---------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                 ;
++------------------------------------------------------+-------------------------------------+------------------------+
+; Latch Name                                           ; Latch Enable Signal                 ; Free of Timing Hazards ;
++------------------------------------------------------+-------------------------------------+------------------------+
+; mux_32_to_1:BusMux|BusMuxOut[0]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[1]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[2]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[3]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[4]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[5]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[6]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[7]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[8]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[9]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[10]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[11]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[12]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[13]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[14]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[15]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[16]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[17]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[18]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[19]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[20]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[21]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[22]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[23]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[24]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[25]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[26]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[27]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[28]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[29]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[30]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[31]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; control_unit:controlUnit|OutPort_enable              ; control_unit:controlUnit|WideOr75   ; yes                    ;
+; control_unit:controlUnit|BAout                       ; control_unit:controlUnit|WideOr99   ; yes                    ;
+; control_unit:controlUnit|Rout                        ; control_unit:controlUnit|WideOr111  ; yes                    ;
+; control_unit:controlUnit|Gra                         ; control_unit:controlUnit|WideOr90   ; yes                    ;
+; control_unit:controlUnit|Grb                         ; control_unit:controlUnit|WideOr93   ; yes                    ;
+; control_unit:controlUnit|Grc                         ; control_unit:controlUnit|WideOr96   ; yes                    ;
+; control_unit:controlUnit|Cout                        ; control_unit:controlUnit|WideOr102  ; yes                    ;
+; control_unit:controlUnit|InPortout                   ; control_unit:controlUnit|WideOr104  ; yes                    ;
+; control_unit:controlUnit|ZHighout                    ; control_unit:controlUnit|WideOr107  ; yes                    ;
+; control_unit:controlUnit|LOout                       ; control_unit:controlUnit|WideOr105  ; yes                    ;
+; control_unit:controlUnit|HIout                       ; control_unit:controlUnit|WideOr106  ; yes                    ;
+; control_unit:controlUnit|MDRout                      ; control_unit:controlUnit|WideOr63   ; yes                    ;
+; control_unit:controlUnit|ZLowout                     ; control_unit:controlUnit|WideOr61   ; yes                    ;
+; control_unit:controlUnit|PCout                       ; control_unit:controlUnit|WideOr59   ; yes                    ;
+; control_unit:controlUnit|IRin                        ; control_unit:controlUnit|WideOr82   ; yes                    ;
+; control_unit:controlUnit|present_state.out3_1304     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.halt3_1284    ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.br7_1254      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.fetch3_1264   ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.fetch2a_1274  ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.in3_1314      ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.mflo3_1324    ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.mfhi3_1334    ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.jal4_1344     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.jal3_1354     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.jr3_1364      ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.br6_1374      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.br5_1384      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.br4_1394      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.br3_1404      ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.ori5_1414     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ori4_1424     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ori3_1434     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.andi5_1444    ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.andi4_1454    ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.andi3_1464    ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.addi5_1474    ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.addi4_1484    ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.addi3_1494    ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.st7_1504      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.st6_1514      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.st5_1524      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.st4_1534      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.st3_1544      ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.ldi5_1554     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ldi4_1564     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ldi3_1574     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.ld7_1584      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ld6_1594      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ld5_1604      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ld4_1614      ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ld3_1624      ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.not4_1634     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.not3_1644     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.neg4_1654     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.neg3_1664     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.ror5_1674     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ror4_1684     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.ror3_1694     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.rol5_1704     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.rol4_1714     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.rol3_1724     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.shr5_1734     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.shr4_1744     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.shr3_1754     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; control_unit:controlUnit|present_state.shl5_1764     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.shl4_1774     ; control_unit:controlUnit|Selector98 ; yes                    ;
+; control_unit:controlUnit|present_state.shl3_1784     ; control_unit:controlUnit|Selector65 ; yes                    ;
+; Number of user-specified and inferred latches = 202  ;                                     ;                        ;
++------------------------------------------------------+-------------------------------------+------------------------+
+Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +--------------------------------------------------------------------------------+
@@ -603,61 +608,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 808   ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Synchronous Clear  ; 32    ;
+; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 808   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
-
-
-+---------------------------------------------------+
-; Inverted Register Statistics                      ;
-+-----------------------------------------+---------+
-; Inverted Register                       ; Fan out ;
-+-----------------------------------------+---------+
-; IncPC_32_bit:PC_reg|newPC[0]            ; 1       ;
-; reg_32_bit:LO_reg|q[0]                  ; 1       ;
-; reg_32_bit:R2|q[0]                      ; 1       ;
-; reg_32_bit:R4|q[0]                      ; 1       ;
-; IncPC_32_bit:PC_reg|newPC[1]            ; 1       ;
-; reg_32_bit:LO_reg|q[1]                  ; 1       ;
-; reg_32_bit:R1|q[1]                      ; 1       ;
-; reg_32_bit:R2|q[1]                      ; 1       ;
-; reg_32_bit:R4|q[1]                      ; 1       ;
-; reg_32_bit:HI_reg|q[2]                  ; 1       ;
-; reg_32_bit:R2|q[2]                      ; 1       ;
-; reg_32_bit:R4|q[2]                      ; 1       ;
-; reg_32_bit:HI_reg|q[3]                  ; 1       ;
-; reg_32_bit:R2|q[4]                      ; 1       ;
-; reg_32_bit:R3|q[4]                      ; 1       ;
-; reg_32_bit:LO_reg|q[5]                  ; 1       ;
-; reg_32_bit:HI_reg|q[5]                  ; 1       ;
-; reg_32_bit:R1|q[5]                      ; 1       ;
-; reg_32_bit:R2|q[5]                      ; 1       ;
-; reg_32_bit:R3|q[5]                      ; 1       ;
-; reg_32_bit:R4|q[5]                      ; 1       ;
-; reg_32_bit:LO_reg|q[6]                  ; 1       ;
-; reg_32_bit:R4|q[6]                      ; 1       ;
-; reg_32_bit:LO_reg|q[7]                  ; 1       ;
-; reg_32_bit:LO_reg|q[8]                  ; 1       ;
-; reg_32_bit:LO_reg|q[10]                 ; 1       ;
-; reg_32_bit:LO_reg|q[12]                 ; 1       ;
-; reg_32_bit:HI_reg|q[12]                 ; 1       ;
-; reg_32_bit:LO_reg|q[13]                 ; 1       ;
-; reg_32_bit:HI_reg|q[14]                 ; 1       ;
-; reg_32_bit:LO_reg|q[15]                 ; 1       ;
-; reg_32_bit:HI_reg|q[15]                 ; 1       ;
-; reg_32_bit:LO_reg|q[16]                 ; 1       ;
-; reg_32_bit:LO_reg|q[17]                 ; 1       ;
-; reg_32_bit:LO_reg|q[18]                 ; 1       ;
-; reg_32_bit:LO_reg|q[19]                 ; 1       ;
-; reg_32_bit:LO_reg|q[22]                 ; 1       ;
-; reg_32_bit:LO_reg|q[24]                 ; 1       ;
-; reg_32_bit:LO_reg|q[25]                 ; 1       ;
-; Total number of inverted registers = 39 ;         ;
-+-----------------------------------------+---------+
 
 
 +----------------------------------------------------------------------+
@@ -674,67 +631,41 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:OutPort|q[0]                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R7|q[26]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R6|q[15]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R5|q[1]                                          ;
-; 3:1                ; 27 bits   ; 54 LEs        ; 27 LEs               ; 27 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R4|q[20]                                         ;
-; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R3|q[20]                                         ;
-; 3:1                ; 27 bits   ; 54 LEs        ; 27 LEs               ; 27 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R2|q[22]                                         ;
-; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R1|q[27]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R0|q[29]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R15|q[26]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R14|q[28]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R13|q[26]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R12|q[1]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R11|q[24]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R10|q[26]                                        ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R9|q[29]                                         ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:R8|q[20]                                         ;
-; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |CPUDesignProject|IncPC_32_bit:PC_reg|newPC[30]                               ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:ZLow_reg|q[5]                                    ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:ZHigh_reg|q[13]                                  ;
-; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:LO_reg|q[26]                                     ;
-; 3:1                ; 26 bits   ; 52 LEs        ; 26 LEs               ; 26 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:HI_reg|q[10]                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:Y|q[15]                                          ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R4|q[1]                                          ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R3|q[4]                                          ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R2|q[0]                                          ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:R1|q[5]                                          ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |CPUDesignProject|IncPC_32_bit:PC_reg|newPC[0]                                ;
-; 3:1                ; 17 bits   ; 34 LEs        ; 17 LEs               ; 17 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:LO_reg|q[0]                                      ;
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:HI_reg|q[15]                                     ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector1   ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|reg_32_bit:IR|q[22]                                         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPUDesignProject|IncPC_32_bit:PC_reg|newPC[17]                               ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:MAR|q[1]                                         ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |CPUDesignProject|reg_32_bit:MDR|q[30]                                        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector0   ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector30  ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
 ; 4:1                ; 29 bits   ; 58 LEs        ; 58 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector15  ;
 ; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector30  ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
 ; 5:1                ; 5 bits    ; 15 LEs        ; 15 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|ShiftLeft0                                      ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector55  ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector78  ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector116 ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL|ShiftRight0          ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector54  ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector72  ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector105 ;
 ; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector156 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector181 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector209 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector237 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector278 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector315 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector357 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector376 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector409 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector450 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector485 ;
-; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector506 ;
-; 24:1               ; 17 bits   ; 272 LEs       ; 255 LEs              ; 17 LEs                 ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux8                                     ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector183 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector214 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector261 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector295 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector319 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector354 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector383 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector404 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector440 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector465 ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 93 LEs               ; 31 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|multiplication_32_bit:mutlipication|Selector501 ;
+; 24:1               ; 17 bits   ; 272 LEs       ; 255 LEs              ; 17 LEs                 ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux0                                     ;
 ; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR|ShiftLeft0          ;
-; 21:1               ; 31 bits   ; 434 LEs       ; 93 LEs               ; 341 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux57                                           ;
-; 26:1               ; 16 bits   ; 272 LEs       ; 160 LEs              ; 112 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux26                                           ;
-; 26:1               ; 13 bits   ; 221 LEs       ; 143 LEs              ; 78 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux4                                            ;
-; 23:1               ; 15 bits   ; 225 LEs       ; 225 LEs              ; 0 LEs                  ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux27                                    ;
+; 21:1               ; 31 bits   ; 434 LEs       ; 93 LEs               ; 341 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux61                                           ;
+; 26:1               ; 16 bits   ; 272 LEs       ; 160 LEs              ; 112 LEs                ; No         ; |CPUDesignProject|alu:the_alu|Mux27                                           ;
+; 26:1               ; 13 bits   ; 221 LEs       ; 143 LEs              ; 78 LEs                 ; No         ; |CPUDesignProject|alu:the_alu|Mux13                                           ;
+; 23:1               ; 15 bits   ; 225 LEs       ; 225 LEs              ; 0 LEs                  ; No         ; |CPUDesignProject|mux_32_to_1:BusMux|Mux31                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 
 
@@ -757,13 +688,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: reg_32_bit:R1          ;
-+----------------+----------------------------------+-----------------+
-; Parameter Name ; Value                            ; Type            ;
-+----------------+----------------------------------+-----------------+
-; qInitial       ; 00000000000000000000000000100010 ; Unsigned Binary ;
-+----------------+----------------------------------+-----------------+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg_32_bit:R1 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; qInitial       ; 0     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -772,28 +703,28 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------+
 ; Parameter Name ; Value ; Type                              ;
 +----------------+-------+-----------------------------------+
-; qInitial       ; 55    ; Signed Integer                    ;
+; qInitial       ; 0     ; Signed Integer                    ;
 +----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: reg_32_bit:R3          ;
-+----------------+----------------------------------+-----------------+
-; Parameter Name ; Value                            ; Type            ;
-+----------------+----------------------------------+-----------------+
-; qInitial       ; 00000000000000000000000000110000 ; Unsigned Binary ;
-+----------------+----------------------------------+-----------------+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg_32_bit:R3 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; qInitial       ; 0     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: reg_32_bit:R4          ;
-+----------------+----------------------------------+-----------------+
-; Parameter Name ; Value                            ; Type            ;
-+----------------+----------------------------------+-----------------+
-; qInitial       ; 00000000000000000000000001100111 ; Unsigned Binary ;
-+----------------+----------------------------------+-----------------+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg_32_bit:R4 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; qInitial       ; 0     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -922,18 +853,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; qInitial       ; 53292 ; Signed Integer                        ;
+; qInitial       ; 0     ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +----------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: reg_32_bit:LO_reg ;
-+----------------+----------+------------------------------------+
-; Parameter Name ; Value    ; Type                               ;
-+----------------+----------+------------------------------------+
-; qInitial       ; 55555555 ; Signed Integer                     ;
-+----------------+----------+------------------------------------+
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; qInitial       ; 0     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -972,7 +903,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------+
 ; Parameter Name ; Value ; Type                                    ;
 +----------------+-------+-----------------------------------------+
-; qInitial       ; 3     ; Signed Integer                          ;
+; qInitial       ; 0     ; Signed Integer                          ;
 +----------------+-------+-----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -989,11 +920,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +----------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: reg_32_bit:InPort ;
-+----------------+--------+--------------------------------------+
-; Parameter Name ; Value  ; Type                                 ;
-+----------------+--------+--------------------------------------+
-; qInitial       ; -42010 ; Signed Integer                       ;
-+----------------+--------+--------------------------------------+
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; qInitial       ; 0     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1051,6 +982,95 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; loadi          ; 00001 ; Unsigned Binary                 ;
 ; store          ; 00010 ; Unsigned Binary                 ;
 +----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: control_unit:controlUnit ;
++----------------+----------+-------------------------------------------+
+; Parameter Name ; Value    ; Type                                      ;
++----------------+----------+-------------------------------------------+
+; reset_state    ; 00000000 ; Unsigned Binary                           ;
+; fetch0         ; 00000001 ; Unsigned Binary                           ;
+; fetch1         ; 00000010 ; Unsigned Binary                           ;
+; fetch2         ; 00000011 ; Unsigned Binary                           ;
+; add3           ; 00000100 ; Unsigned Binary                           ;
+; add4           ; 00000101 ; Unsigned Binary                           ;
+; add5           ; 00000110 ; Unsigned Binary                           ;
+; sub3           ; 00000111 ; Unsigned Binary                           ;
+; sub4           ; 00001000 ; Unsigned Binary                           ;
+; sub5           ; 00001001 ; Unsigned Binary                           ;
+; mul3           ; 00001010 ; Unsigned Binary                           ;
+; mul4           ; 00001011 ; Unsigned Binary                           ;
+; mul5           ; 00001100 ; Unsigned Binary                           ;
+; mul6           ; 00001101 ; Unsigned Binary                           ;
+; div3           ; 00001110 ; Unsigned Binary                           ;
+; div4           ; 00001111 ; Unsigned Binary                           ;
+; div5           ; 00010000 ; Unsigned Binary                           ;
+; div6           ; 00010001 ; Unsigned Binary                           ;
+; or3            ; 00010010 ; Unsigned Binary                           ;
+; or4            ; 00010011 ; Unsigned Binary                           ;
+; or5            ; 00010100 ; Unsigned Binary                           ;
+; and3           ; 00010101 ; Unsigned Binary                           ;
+; and4           ; 00010110 ; Unsigned Binary                           ;
+; and5           ; 00010111 ; Unsigned Binary                           ;
+; shl3           ; 00011000 ; Unsigned Binary                           ;
+; shl4           ; 00011001 ; Unsigned Binary                           ;
+; shl5           ; 00011010 ; Unsigned Binary                           ;
+; shr3           ; 00011011 ; Unsigned Binary                           ;
+; shr4           ; 00011100 ; Unsigned Binary                           ;
+; shr5           ; 00011101 ; Unsigned Binary                           ;
+; rol3           ; 00011110 ; Unsigned Binary                           ;
+; rol4           ; 00011111 ; Unsigned Binary                           ;
+; rol5           ; 00100000 ; Unsigned Binary                           ;
+; ror3           ; 00100001 ; Unsigned Binary                           ;
+; ror4           ; 00100010 ; Unsigned Binary                           ;
+; ror5           ; 00100011 ; Unsigned Binary                           ;
+; neg3           ; 00100100 ; Unsigned Binary                           ;
+; neg4           ; 00100101 ; Unsigned Binary                           ;
+; neg5           ; 00100110 ; Unsigned Binary                           ;
+; not3           ; 00100111 ; Unsigned Binary                           ;
+; not4           ; 00101000 ; Unsigned Binary                           ;
+; not5           ; 00101001 ; Unsigned Binary                           ;
+; ld3            ; 00101010 ; Unsigned Binary                           ;
+; ld4            ; 00101011 ; Unsigned Binary                           ;
+; ld5            ; 00101100 ; Unsigned Binary                           ;
+; ld6            ; 00101101 ; Unsigned Binary                           ;
+; ld7            ; 00101110 ; Unsigned Binary                           ;
+; ldi3           ; 00101111 ; Unsigned Binary                           ;
+; ldi4           ; 00110000 ; Unsigned Binary                           ;
+; ldi5           ; 00110001 ; Unsigned Binary                           ;
+; st3            ; 00110010 ; Unsigned Binary                           ;
+; st4            ; 00110011 ; Unsigned Binary                           ;
+; st5            ; 00110100 ; Unsigned Binary                           ;
+; st6            ; 00110101 ; Unsigned Binary                           ;
+; st7            ; 00110110 ; Unsigned Binary                           ;
+; addi3          ; 00110111 ; Unsigned Binary                           ;
+; addi4          ; 00111000 ; Unsigned Binary                           ;
+; addi5          ; 00111001 ; Unsigned Binary                           ;
+; andi3          ; 00111010 ; Unsigned Binary                           ;
+; andi4          ; 00111011 ; Unsigned Binary                           ;
+; andi5          ; 00111100 ; Unsigned Binary                           ;
+; ori3           ; 00111101 ; Unsigned Binary                           ;
+; ori4           ; 00111110 ; Unsigned Binary                           ;
+; ori5           ; 00111111 ; Unsigned Binary                           ;
+; br3            ; 01000000 ; Unsigned Binary                           ;
+; br4            ; 01000001 ; Unsigned Binary                           ;
+; br5            ; 01000010 ; Unsigned Binary                           ;
+; br6            ; 01000011 ; Unsigned Binary                           ;
+; br7            ; 11111111 ; Unsigned Binary                           ;
+; jr3            ; 01000100 ; Unsigned Binary                           ;
+; jal3           ; 01000101 ; Unsigned Binary                           ;
+; jal4           ; 01000110 ; Unsigned Binary                           ;
+; mfhi3          ; 01000111 ; Unsigned Binary                           ;
+; mflo3          ; 01001000 ; Unsigned Binary                           ;
+; in3            ; 01001001 ; Unsigned Binary                           ;
+; out3           ; 01001010 ; Unsigned Binary                           ;
+; nop3           ; 01001011 ; Unsigned Binary                           ;
+; halt3          ; 01001100 ; Unsigned Binary                           ;
+; fetch2a        ; 10000000 ; Unsigned Binary                           ;
+; fetch3         ; 11000000 ; Unsigned Binary                           ;
++----------------+----------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1947,6 +1967,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+------------------------------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "control_unit:controlUnit"                                                                                ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; run  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                      ;
+; Yout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "alu:the_alu|rotate_right_32_bit:rotateR"                                                                                                                                          ;
 +------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2035,15 +2065,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "selectencodelogic:selEn"                                                                    ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port         ; Type   ; Severity ; Details                                                                             ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; decoderInput ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "reg_32_bit:InPort"                                                                                                                          ;
 +------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2069,7 +2090,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:17     ;
+; Top            ; 00:00:22     ;
 +----------------+--------------+
 
 
@@ -2079,7 +2100,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Mon Mar 20 22:34:35 2023
+    Info: Processing started: Wed Mar 22 17:48:11 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUDesignProject -c CPUDesignProject
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file control_unit.v
@@ -2184,24 +2205,21 @@ Info (12021): Found 1 design units, including 1 entities, in source file out_tb.
     Info (12023): Found entity 1: out_tb
 Info (12021): Found 1 design units, including 1 entities, in source file in_tb.v
     Info (12023): Found entity 1: in_tb
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(80): created implicit net for "rst"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(86): created implicit net for "Inport_data_out"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(86): created implicit net for "BusMuxIn_In_Port"
-Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(90): created implicit net for "CONout"
+Info (12021): Found 1 design units, including 1 entities, in source file phase3_tb.v
+    Info (12023): Found entity 1: phase3_tb
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(63): created implicit net for "clr"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(92): created implicit net for "OutPortIn"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(93): created implicit net for "InPortIn"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(93): created implicit net for "Inport_data_out"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(93): created implicit net for "BusMuxIn_In_Port"
+Warning (10236): Verilog HDL Implicit Net warning at CPUDesignProject.v(98): created implicit net for "CONout"
 Warning (10236): Verilog HDL Implicit Net warning at ALU_tb.v(10): created implicit net for "IncPc"
 Info (12127): Elaborating entity "CPUDesignProject" for the top level hierarchy
 Info (12128): Elaborating entity "encoder_32_to_5" for hierarchy "encoder_32_to_5:encoder"
 Warning (10762): Verilog HDL Case Statement warning at encoder_32_to_5.v(7): can't check case statement for completeness because the case expression has too many possible states
 Info (10264): Verilog HDL Case Statement information at encoder_32_to_5.v(7): all case item expressions in this case statement are onehot
 Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R0"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R1"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R2"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R3"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:R4"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:HI_reg"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:LO_reg"
 Info (12128): Elaborating entity "IncPC_32_bit" for hierarchy "IncPC_32_bit:PC_reg"
-Info (12128): Elaborating entity "reg_32_bit" for hierarchy "reg_32_bit:InPort"
 Info (12128): Elaborating entity "selectencodelogic" for hierarchy "selectencodelogic:selEn"
 Info (12128): Elaborating entity "encoder_4_to_16" for hierarchy "selectencodelogic:selEn|encoder_4_to_16:encoder"
 Info (12128): Elaborating entity "CONFF_logic" for hierarchy "CONFF_logic:conff"
@@ -2332,6 +2350,169 @@ Info (12128): Elaborating entity "rotate_left_32_bit" for hierarchy "alu:the_alu
 Warning (10764): Verilog HDL warning at rotate_left_32_bit.v(9): converting signed shift amount to unsigned
 Info (12128): Elaborating entity "rotate_right_32_bit" for hierarchy "alu:the_alu|rotate_right_32_bit:rotateR"
 Warning (10764): Verilog HDL warning at rotate_right_32_bit.v(9): converting signed shift amount to unsigned
+Info (12128): Elaborating entity "control_unit" for hierarchy "control_unit:controlUnit"
+Warning (10270): Verilog HDL Case Statement warning at control_unit.v(42): incomplete case statement has no default case item
+Warning (10270): Verilog HDL Case Statement warning at control_unit.v(35): incomplete case statement has no default case item
+Info (10264): Verilog HDL Case Statement information at control_unit.v(35): all case item expressions in this case statement are onehot
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(29): inferring latch(es) for variable "present_state", which holds its previous value in one or more paths through the always construct
+Warning (10270): Verilog HDL Case Statement warning at control_unit.v(171): incomplete case statement has no default case item
+Info (10264): Verilog HDL Case Statement information at control_unit.v(171): all case item expressions in this case statement are onehot
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "run", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "R_enableIn", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "PCout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "ZLowout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "MDRout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "MARin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "ZHighIn", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "ZLowIn", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "CONin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "InPort_enable", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "OutPort_enable", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "PCin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "MDRin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "IRin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Yin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "IncPC", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "ramWE", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Gra", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Grb", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Grc", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "BAout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Cout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "InPortout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "ZHighout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "LOout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "HIout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "HIin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "LOin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Rout", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Rin", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at control_unit.v(170): inferring latch(es) for variable "Read", which holds its previous value in one or more paths through the always construct
+Warning (10034): Output port "Yout" at control_unit.v(5) has no driver
+Info (10041): Inferred latch for "Read" at control_unit.v(170)
+Info (10041): Inferred latch for "Rin" at control_unit.v(170)
+Info (10041): Inferred latch for "Rout" at control_unit.v(170)
+Info (10041): Inferred latch for "LOin" at control_unit.v(170)
+Info (10041): Inferred latch for "HIin" at control_unit.v(170)
+Info (10041): Inferred latch for "HIout" at control_unit.v(170)
+Info (10041): Inferred latch for "LOout" at control_unit.v(170)
+Info (10041): Inferred latch for "ZHighout" at control_unit.v(170)
+Info (10041): Inferred latch for "InPortout" at control_unit.v(170)
+Info (10041): Inferred latch for "Cout" at control_unit.v(170)
+Info (10041): Inferred latch for "BAout" at control_unit.v(170)
+Info (10041): Inferred latch for "Grc" at control_unit.v(170)
+Info (10041): Inferred latch for "Grb" at control_unit.v(170)
+Info (10041): Inferred latch for "Gra" at control_unit.v(170)
+Info (10041): Inferred latch for "ramWE" at control_unit.v(170)
+Info (10041): Inferred latch for "IncPC" at control_unit.v(170)
+Info (10041): Inferred latch for "Yin" at control_unit.v(170)
+Info (10041): Inferred latch for "IRin" at control_unit.v(170)
+Info (10041): Inferred latch for "MDRin" at control_unit.v(170)
+Info (10041): Inferred latch for "PCin" at control_unit.v(170)
+Info (10041): Inferred latch for "OutPort_enable" at control_unit.v(170)
+Info (10041): Inferred latch for "InPort_enable" at control_unit.v(170)
+Info (10041): Inferred latch for "CONin" at control_unit.v(170)
+Info (10041): Inferred latch for "ZLowIn" at control_unit.v(170)
+Info (10041): Inferred latch for "ZHighIn" at control_unit.v(170)
+Info (10041): Inferred latch for "MARin" at control_unit.v(170)
+Info (10041): Inferred latch for "MDRout" at control_unit.v(170)
+Info (10041): Inferred latch for "ZLowout" at control_unit.v(170)
+Info (10041): Inferred latch for "PCout" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[0]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[1]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[2]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[3]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[4]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[5]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[6]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[7]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[8]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[9]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[10]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[11]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[12]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[13]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[14]" at control_unit.v(170)
+Info (10041): Inferred latch for "R_enableIn[15]" at control_unit.v(170)
+Info (10041): Inferred latch for "run" at control_unit.v(170)
+Info (10041): Inferred latch for "present_state.br7" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.fetch3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.fetch2a" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.halt3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.nop3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.out3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.in3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.mflo3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.mfhi3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.jal4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.jal3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.jr3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.br6" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.br5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.br4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.br3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ori5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ori4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ori3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.andi5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.andi4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.andi3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.addi5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.addi4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.addi3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.st7" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.st6" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.st5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.st4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.st3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ldi5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ldi4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ldi3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ld7" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ld6" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ld5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ld4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ld3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.not4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.not3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.neg4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.neg3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ror5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ror4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.ror3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.rol5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.rol4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.rol3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.shr5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.shr4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.shr3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.shl5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.shl4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.shl3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.and5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.and4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.and3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.or5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.or4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.or3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.div6" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.div5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.div4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.div3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.mul6" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.mul5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.mul4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.mul3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.sub5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.sub4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.sub3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.add5" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.add4" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.add3" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.fetch2" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.fetch1" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.fetch0" at control_unit.v(35)
+Info (10041): Inferred latch for "present_state.reset_state" at control_unit.v(35)
 Warning (12011): Net is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
@@ -2339,73 +2520,52 @@ Warning (12011): Net is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
+    Warning (12110): Net "clr" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "rst" is missing source, defaulting to GND
+    Warning (12110): Net "clr" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
 Warning (276021): Created node "ram:ramModule|RAM" as a single-port RAM by generating altsyncram megafunction to implement register logic. Power-up values at the outputs of the RAM are different from the original design.
 Info (19000): Inferred 1 megafunctions from design logic
@@ -2472,7 +2632,9 @@ Info (12133): Instantiated megafunction "alu:the_alu|division_32_bit:divison|lpm
     Info (12134): Parameter "ONE_INPUT_IS_CONSTANT" = "NO"
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_gui.tdf
     Info (12023): Found entity 1: add_sub_gui
-Warning (12241): 8 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 9 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "control_unit:controlUnit|HIin" merged with LATCH primitive "control_unit:controlUnit|ZHighout"
 Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[0] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal encoder_32_to_5:encoder|WideOr0
 Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[1] has unsafe behavior
@@ -2537,10 +2699,212 @@ Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[30] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal encoder_32_to_5:encoder|WideOr0
 Warning (13012): Latch mux_32_to_1:BusMux|BusMuxOut[31] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal encoder_32_to_5:encoder|WideOr0
+Warning (13012): Latch control_unit:controlUnit|OutPort_enable has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.out3_1304
+Warning (13012): Latch control_unit:controlUnit|BAout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.st3_1544
+Warning (13012): Latch control_unit:controlUnit|Rout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.out3_1304
+Warning (13012): Latch control_unit:controlUnit|Gra has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.out3_1304
+Warning (13012): Latch control_unit:controlUnit|Grb has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.ori3_1434
+Warning (13012): Latch control_unit:controlUnit|Grc has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.ror4_1684
+Warning (13012): Latch control_unit:controlUnit|Cout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br5_1384
+Warning (13012): Latch control_unit:controlUnit|InPortout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.in3_1314
+Warning (13012): Latch control_unit:controlUnit|ZHighout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.div6_1854
+Warning (13012): Latch control_unit:controlUnit|LOout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.mflo3_1324
+Warning (13012): Latch control_unit:controlUnit|HIout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.mfhi3_1334
+Warning (13012): Latch control_unit:controlUnit|MDRout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.st7_1504
+Warning (13012): Latch control_unit:controlUnit|ZLowout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br6_1374
+Warning (13012): Latch control_unit:controlUnit|PCout has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br7_1254
+Warning (13012): Latch control_unit:controlUnit|IRin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.fetch2_1994
+Warning (13012): Latch control_unit:controlUnit|present_state.out3_1304 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.halt3_1284 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.br7_1254 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.fetch3_1264 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.fetch2a_1274 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.in3_1314 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.mflo3_1324 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.mfhi3_1334 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.jal4_1344 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.jal3_1354 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.jr3_1364 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.br6_1374 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.br5_1384 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.br4_1394 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.br3_1404 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.ori5_1414 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ori4_1424 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ori3_1434 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.andi5_1444 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.andi4_1454 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.andi3_1464 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.addi5_1474 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.addi4_1484 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.addi3_1494 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.st7_1504 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.st6_1514 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.st5_1524 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.st4_1534 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.st3_1544 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.ldi5_1554 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ldi4_1564 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ldi3_1574 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.ld7_1584 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ld6_1594 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ld5_1604 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ld4_1614 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ld3_1624 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.not4_1634 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.not3_1644 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.neg4_1654 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.neg3_1664 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.ror5_1674 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ror4_1684 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.ror3_1694 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.rol5_1704 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.rol4_1714 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.rol3_1724 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.shr5_1734 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.shr4_1744 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.shr3_1754 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.shl5_1764 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.shl4_1774 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.shl3_1784 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.and5_1794 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.and4_1804 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.and3_1814 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.or5_1824 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.or4_1834 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.or3_1844 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.div6_1854 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.div5_1864 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.div4_1874 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.div3_1884 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.mul6_1894 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.mul5_1904 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.mul4_1914 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.mul3_1924 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.sub5_1934 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.sub4_1944 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.sub3_1954 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.add5_1964 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.add4_1974 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.add3_1984 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|present_state.fetch2_1994 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.fetch1_2004 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.fetch0_2014 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|present_state.reset_state_2024 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal rst
+Warning (13012): Latch control_unit:controlUnit|Rin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.in3_1314
+Warning (13012): Latch control_unit:controlUnit|R_enableIn[15] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.jal3_1354
+Warning (13012): Latch control_unit:controlUnit|Read has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.ld6_1594
+Warning (13012): Latch control_unit:controlUnit|MDRin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.st6_1514
+Warning (13012): Latch control_unit:controlUnit|IncPC has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.fetch3_1264
+Warning (13012): Latch control_unit:controlUnit|PCin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.fetch3_1264
 Warning (13012): Latch alu:the_alu|C[32] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
+Warning (13012): Latch control_unit:controlUnit|ZHighIn has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br5_1384
+Warning (13012): Latch control_unit:controlUnit|LOin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.div6_1854
 Warning (13012): Latch alu:the_alu|C[0] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
+Warning (13012): Latch control_unit:controlUnit|ZLowIn has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br5_1384
 Warning (13012): Latch alu:the_alu|C[33] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[1] has unsafe behavior
@@ -2665,46 +3029,20 @@ Warning (13012): Latch alu:the_alu|C[63] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
 Warning (13012): Latch alu:the_alu|C[31] has unsafe behavior
     Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[31]
+Warning (13012): Latch control_unit:controlUnit|present_state.nop3_1294 has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal reg_32_bit:IR|q[27]
+Warning (13012): Latch control_unit:controlUnit|ramWE has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.st7_1504
+Warning (13012): Latch control_unit:controlUnit|MARin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br7_1254
+Warning (13012): Latch control_unit:controlUnit|Yin has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal control_unit:controlUnit|present_state.br4_1394
 Info (286030): Timing-Driven Synthesis is running
 Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated|ALTSYNCRAM"
 Info (144001): Generated suppressed messages file C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/output_files/CPUDesignProject.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 66 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CONin"
-    Warning (15610): No output dependent on input pin "InPortIn"
-    Warning (15610): No output dependent on input pin "MDatain[0]"
-    Warning (15610): No output dependent on input pin "MDatain[1]"
-    Warning (15610): No output dependent on input pin "MDatain[2]"
-    Warning (15610): No output dependent on input pin "MDatain[3]"
-    Warning (15610): No output dependent on input pin "MDatain[4]"
-    Warning (15610): No output dependent on input pin "MDatain[5]"
-    Warning (15610): No output dependent on input pin "MDatain[6]"
-    Warning (15610): No output dependent on input pin "MDatain[7]"
-    Warning (15610): No output dependent on input pin "MDatain[8]"
-    Warning (15610): No output dependent on input pin "MDatain[9]"
-    Warning (15610): No output dependent on input pin "MDatain[10]"
-    Warning (15610): No output dependent on input pin "MDatain[11]"
-    Warning (15610): No output dependent on input pin "MDatain[12]"
-    Warning (15610): No output dependent on input pin "MDatain[13]"
-    Warning (15610): No output dependent on input pin "MDatain[14]"
-    Warning (15610): No output dependent on input pin "MDatain[15]"
-    Warning (15610): No output dependent on input pin "MDatain[16]"
-    Warning (15610): No output dependent on input pin "MDatain[17]"
-    Warning (15610): No output dependent on input pin "MDatain[18]"
-    Warning (15610): No output dependent on input pin "MDatain[19]"
-    Warning (15610): No output dependent on input pin "MDatain[20]"
-    Warning (15610): No output dependent on input pin "MDatain[21]"
-    Warning (15610): No output dependent on input pin "MDatain[22]"
-    Warning (15610): No output dependent on input pin "MDatain[23]"
-    Warning (15610): No output dependent on input pin "MDatain[24]"
-    Warning (15610): No output dependent on input pin "MDatain[25]"
-    Warning (15610): No output dependent on input pin "MDatain[26]"
-    Warning (15610): No output dependent on input pin "MDatain[27]"
-    Warning (15610): No output dependent on input pin "MDatain[28]"
-    Warning (15610): No output dependent on input pin "MDatain[29]"
-    Warning (15610): No output dependent on input pin "MDatain[30]"
-    Warning (15610): No output dependent on input pin "MDatain[31]"
+Warning (21074): Design contains 32 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "inport_data_in[0]"
     Warning (15610): No output dependent on input pin "inport_data_in[1]"
     Warning (15610): No output dependent on input pin "inport_data_in[2]"
@@ -2737,16 +3075,16 @@ Warning (21074): Design contains 66 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "inport_data_in[29]"
     Warning (15610): No output dependent on input pin "inport_data_in[30]"
     Warning (15610): No output dependent on input pin "inport_data_in[31]"
-Info (21057): Implemented 7431 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 127 input pins
+Info (21057): Implemented 7604 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 35 input pins
     Info (21059): Implemented 69 output pins
-    Info (21061): Implemented 7203 logic cells
+    Info (21061): Implemented 7468 logic cells
     Info (21064): Implemented 32 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 358 warnings
-    Info: Peak virtual memory: 4649 megabytes
-    Info: Processing ended: Mon Mar 20 22:35:00 2023
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:23
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 551 warnings
+    Info: Peak virtual memory: 4661 megabytes
+    Info: Processing ended: Wed Mar 22 17:48:41 2023
+    Info: Elapsed time: 00:00:30
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +------------------------------------------+
