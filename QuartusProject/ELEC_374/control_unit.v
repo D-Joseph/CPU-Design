@@ -36,9 +36,9 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
 	reset_state : present_state = #40 fetch0;
 	fetch0 : #40 present_state = fetch1;
 	fetch1 : #40 present_state = fetch2;
-	fetch2			:	#20 present_state = fetch2a;
-			fetch2a			:	#20 present_state = fetch3;
-			fetch3			:	begin	
+	fetch2			:	#40 present_state = fetch2a;
+			fetch2a			:	#40 present_state = fetch3;
+			fetch3			: #20	begin	
 					case (IR[31:27]) // inst. decoding based on the opcode to set the next state
 						5'b00011 : present_state = add3; // this is the add instruction
 						5'b00100 : present_state = sub3;
@@ -70,106 +70,106 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
 						5'b11011 : present_state = halt3;
 					endcase
 				end
-			add3				: 	present_state = add4;
-			add4				:	present_state = add5;
-			add5 				:	present_state = reset_state;
+			add3				: 	#40 present_state = add4;
+			add4				:	#40 present_state = add5;
+			add5 				:	#40 present_state = reset_state;
 			
-			addi3				: 	present_state = addi4;
-			addi4				:	present_state = addi5;
-			addi5 			:	present_state = reset_state;
+			addi3				: 	#40 present_state = addi4;
+			addi4				:	#40 present_state = addi5;
+			addi5 			:	#40 present_state = reset_state;
 			
-			sub3				: 	present_state = sub4;
-			sub4				: 	present_state = sub5;
-			sub5				:	present_state = reset_state;
+			sub3				: 	#40 present_state = sub4;
+			sub4				: 	#40 present_state = sub5;
+			sub5				:	#40 present_state = reset_state;
 			
-			mul3				: 	present_state = mul4;
-			mul4				: 	present_state = mul5;
-			mul5				: 	present_state = mul6;
-			mul6           :	present_state = reset_state; 
+			mul3				: 	#40 present_state = mul4;
+			mul4				: 	#40 present_state = mul5;
+			mul5				: 	#40 present_state = mul6;
+			mul6           :	#40 present_state = reset_state; 
 			
-			div3				: 	present_state = div4;
-			div4				: 	present_state = div5;
-			div5				: 	present_state = div6;
-			div6				:	present_state = reset_state;
+			div3				: 	#40 present_state = div4;
+			div4				: 	#40 present_state = div5;
+			div5				: 	#40 present_state = div6;
+			div6				:	#40 present_state = reset_state;
 			
-			or3				: 	present_state = or4;
-			or4				: 	present_state = or5;
-			or5				:	present_state = reset_state;
+			or3				: 	#40 present_state = or4;
+			or4				: 	#40 present_state = or5;
+			or5				:	#40 present_state = reset_state;
 			
-			and3				: 	present_state = and4;
-			and4				: 	present_state = and5;
-			and5   			:	present_state = reset_state;
+			and3				: 	#40 present_state = and4;
+			and4				: 	#40 present_state = and5;
+			and5   			:	#40 present_state = reset_state;
 			
-			shl3				: 	present_state = shl4;
-			shl4				: 	present_state = shl5;
-			shl5 				:	present_state = reset_state;
+			shl3				: 	#40 present_state = shl4;
+			shl4				: 	#40 present_state = shl5;
+			shl5 				:	#40 present_state = reset_state;
 			
-			shr3				: 	present_state = shr4;
-			shr4				: 	present_state = shr5;
-			shr5 				:	present_state = reset_state;
+			shr3				: 	#40 present_state = shr4;
+			shr4				: 	#40 present_state = shr5;
+			shr5 				:	#40 present_state = reset_state;
 			
-			shra3				: 	present_state = shra4;
-			shra4				: 	present_state = shra5;
-			shra5 				:	present_state = reset_state;
+			shra3				: 	#40 present_state = shra4;
+			shra4				: 	#40 present_state = shra5;
+			shra5 				:	#40 present_state = reset_state;
 			
-			rol3				: 	present_state = rol4;
-			rol4				: 	present_state = rol5;
-			rol5 				:	present_state = reset_state;
+			rol3				: 	#40 present_state = rol4;
+			rol4				: 	#40 present_state = rol5;
+			rol5 				:	#40 present_state = reset_state;
 			
-			ror3				: 	present_state = ror4;
-			ror4				: 	present_state = ror5;
-			ror5 				:	present_state = reset_state;
+			ror3				:  #40 present_state = ror4;
+			ror4				: 	#40 present_state = ror5;
+			ror5 				:	#40 present_state = reset_state;
 			
-			neg3				: 	present_state = neg4;
-			neg4				: 	present_state = reset_state;
+			neg3				: 	#40 present_state = neg4;
+			neg4				: 	#40 present_state = reset_state;
 			
-			not3				: 	present_state = not4;
-			not4				: 	present_state = reset_state;
+			not3				: 	#40 present_state = not4;
+			not4				: 	#40 present_state = reset_state;
 			
 			ld3				: 	#40 present_state = ld4;
 			ld4				:  #40 present_state = ld5;
 			ld5				: 	#40 present_state = ld6;
 			ld6				: 	#40 present_state = ld7;
-			ld7				:  #45 present_state = reset_state;
+			ld7				:  #40  present_state = reset_state;
 			
-			ldi3				: 	present_state = ldi4;
-			ldi4				: 	present_state = ldi5;
-			ldi5 				:	present_state = reset_state;
+			ldi3				: 	#40 present_state = ldi4;
+			ldi4				: 	#40 present_state = ldi5;
+			ldi5 				:	#40 present_state = reset_state;
 			
-			st3				: 	present_state = st4;
-			st4				: 	present_state = st5;
-			st5				: 	present_state = st6;
-			st6				: 	present_state = st7;
-			st7 				:	present_state = reset_state;
+			st3				: 	#40 present_state = st4;
+			st4				: 	#40 present_state = st5;
+			st5				: 	#40 present_state = st6;
+			st6				: 	#40 present_state = st7;
+			st7 				:	#40 present_state = reset_state;
 			
-			andi3				: 	present_state = andi4;
-			andi4				: 	present_state = andi5;
-			andi5 			:	present_state = reset_state;
+			andi3				: 	#40 present_state = andi4;
+			andi4				: 	#40 present_state = andi5;
+			andi5 			:	#40 present_state = reset_state;
 			
-			ori3				: 	present_state = ori4;
-			ori4				: 	present_state = ori5;
-			ori5 				:	present_state = reset_state;
+			ori3				: 	#40 present_state = ori4;
+			ori4				: 	#40 present_state = ori5;
+			ori5 				:	#40 present_state = reset_state;
 			
-			jal3				: 	present_state = jal4;
-			jal4 				:	present_state = reset_state;
+			jal3				: 	#40 present_state = jal4;
+			jal4 				:	#40 present_state = reset_state;
 			
-			jr3 				:	present_state = reset_state;
+			jr3 				:	#40 present_state = reset_state;
 			
-			br3				: 	present_state = br4;
-			br4				: 	present_state = br5;
-			br5				: 	present_state = br6;
-			br6  				:	present_state = br7;
-			br7  				:	present_state = reset_state;
+			br3				: 	#40 present_state = br4;
+			br4				: 	#40 present_state = br5;
+			br5				: 	#40 present_state = br6;
+			br6  				:	#40 present_state = br7;
+			br7  				:	#40 present_state = reset_state;
 			
-			out3 				:	present_state = reset_state;
+			out3 				:	#40 present_state = reset_state;
 			
-			in3 				:	present_state = reset_state;
+			in3 				:	#40 present_state = reset_state;
 			
-			mflo3 			:	present_state = reset_state;
+			mflo3 			:	#40 present_state = reset_state;
 			
-			mfhi3 			:	present_state = reset_state;
+			mfhi3 			:	#40 present_state = reset_state;
 			
-			nop3 				:	present_state = reset_state;
+			nop3 				:	#40 present_state = reset_state;
 	endcase
  end
 always @(present_state) begin // do the job for each state
@@ -188,7 +188,7 @@ always @(present_state) begin // do the job for each state
 			
 		end
       fetch0: begin                                                                                  // see if you need to de-assert these signals 
-				PCout <= 1; MARin <= 1; 
+				#5 PCout <= 1; MARin <= 1; 
       end 
 		fetch1: begin
 				PCout <= 0; MARin <= 0; ZLowIn <= 0; 
@@ -196,7 +196,7 @@ always @(present_state) begin // do the job for each state
       end
       fetch2: begin
             ZLowout <= 0; Read <= 0; MDRin <= 0;
-            MDRout <= 1; IRin <= 1; 
+            #5 MDRout <= 1; IRin <= 1; 
 		end		
 		fetch2a : begin
 		
@@ -253,11 +253,11 @@ always @(present_state) begin // do the job for each state
 		end
 		
       not3,neg3: begin
-             PCin <= 0; IncPC <= 0;  
+            PCin <= 0; IncPC <= 0;  
 				Grb <= 1; Rout <= 1; ZLowIn <= 1;
       end
       not4,neg4: begin
-            Grb <= 0; Rout <= 0;Yin <= 0;
+            Grb <= 0; Rout <= 0; ZLowIn <= 10;
 				ZLowout<= 1; Gra <= 1; Rin <= 1; 
 	   end
 		

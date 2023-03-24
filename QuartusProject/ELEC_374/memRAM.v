@@ -40,12 +40,14 @@ module memRAM (
 	address,
 	clock,
 	data,
+	rden,
 	wren,
 	q);
 
 	input	[8:0]  address;
 	input	  clock;
 	input	[31:0]  data;
+	input	  rden;
 	input	  wren;
 	output	[31:0]  q;
 `ifndef ALTERA_RESERVED_QIS
@@ -65,6 +67,7 @@ module memRAM (
 				.clock0 (clock),
 				.data_a (data),
 				.wren_a (wren),
+				.rden_a (rden),
 				.q_a (sub_wire0),
 				.aclr0 (1'b0),
 				.aclr1 (1'b0),
@@ -125,7 +128,7 @@ endmodule
 // Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 // Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 // Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
-// Retrieval info: PRIVATE: MIFfilename STRING "testing.mif"
+// Retrieval info: PRIVATE: MIFfilename STRING "ramTest.mif"
 // Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "512"
 // Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 // Retrieval info: PRIVATE: READ_DURING_WRITE_MODE_PORT_A NUMERIC "3"
@@ -142,7 +145,7 @@ endmodule
 // Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 // Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
-// Retrieval info: CONSTANT: INIT_FILE STRING "testing.mif"
+// Retrieval info: CONSTANT: INIT_FILE STRING "ramTest.mif"
 // Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 // Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
@@ -171,6 +174,6 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL memRAM.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL memRAM.cmp FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL memRAM.bsf FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL memRAM_inst.v FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL memRAM_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL memRAM_bb.v TRUE
 // Retrieval info: LIB_FILE: altera_mf

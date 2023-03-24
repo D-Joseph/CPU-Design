@@ -108,8 +108,8 @@ module CPUDesignProject(
 	reg_32_bit MAR(clk,rst,MARin, bus_contents, MAR_data_out_32);
 	assign MAR_data_out = MAR_data_out_32[8:0];
 
-	//memRAM ramModule(MAR_data_out,clk,MDR_data_out,ramWE,RAM_data_out);
-	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
+	memRAM ramModule(MAR_data_out,clk,MDR_data_out,Read,ramWE,RAM_data_out);
+	//ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
 
 	// Multiplexer to select which data to send out on the bus
 	mux_32_to_1 BusMux(

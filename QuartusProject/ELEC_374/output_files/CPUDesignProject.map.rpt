@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPUDesignProject
-Thu Mar 23 22:24:59 2023
+Fri Mar 24 11:25:38 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -14,11 +14,11 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
-  9. User-Specified and Inferred Latches
- 10. General Register Statistics
- 11. Registers Packed Into Inferred Megafunctions
+  9. Analysis & Synthesis IP Cores Summary
+ 10. User-Specified and Inferred Latches
+ 11. General Register Statistics
  12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Source assignments for ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated
+ 13. Source assignments for memRAM:ramModule|altsyncram:altsyncram_component|altsyncram_p8i1:auto_generated
  14. Parameter Settings for User Entity Instance: reg_32_bit:R0
  15. Parameter Settings for User Entity Instance: reg_32_bit:R1
  16. Parameter Settings for User Entity Instance: reg_32_bit:R2
@@ -46,9 +46,9 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
  38. Parameter Settings for User Entity Instance: reg_32_bit:InPort
  39. Parameter Settings for User Entity Instance: reg_32_bit:MDR
  40. Parameter Settings for User Entity Instance: reg_32_bit:MAR
- 41. Parameter Settings for User Entity Instance: alu:the_alu
- 42. Parameter Settings for User Entity Instance: control_unit:controlUnit
- 43. Parameter Settings for Inferred Entity Instance: ram:ramModule|altsyncram:RAM_rtl_0
+ 41. Parameter Settings for User Entity Instance: memRAM:ramModule|altsyncram:altsyncram_component
+ 42. Parameter Settings for User Entity Instance: alu:the_alu
+ 43. Parameter Settings for User Entity Instance: control_unit:controlUnit
  44. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2
  45. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add4
  46. Parameter Settings for Inferred Entity Instance: alu:the_alu|division_32_bit:divison|lpm_add_sub:Add6
@@ -118,13 +118,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 23 22:24:59 2023            ;
+; Analysis & Synthesis Status        ; Successful - Fri Mar 24 11:25:38 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
-; Total logic elements               ; 7,349                                            ;
-;     Total combinational functions  ; 6,732                                            ;
+; Total logic elements               ; 7,344                                            ;
+;     Total combinational functions  ; 6,727                                            ;
 ;     Dedicated logic registers      ; 809                                              ;
 ; Total registers                    ; 809                                              ;
 ; Total pins                         ; 104                                              ;
@@ -239,52 +239,51 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                            ;
-+--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path           ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                                                     ; Library ;
-+--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
-; control_unit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/control_unit.v                             ;         ;
-; sub_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v                               ;         ;
-; rotate_right_32_bit.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v                      ;         ;
-; rotate_left_32_bit.v                       ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v                       ;         ;
-; reg_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v                               ;         ;
-; not_32_bit.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v                               ;         ;
-; negate_32_bit.v                            ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v                            ;         ;
-; mux_32_to_1.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v                              ;         ;
-; mux_2_to_1.v                               ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v                               ;         ;
-; multiplication_32_bit.v                    ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v                    ;         ;
-; encoder_32_to_5.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v                          ;         ;
-; division_32_bit.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v                          ;         ;
-; CPUDesignProject.v                         ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v                         ;         ;
-; alu.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v                                      ;         ;
-; adder_32_bit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v                             ;         ;
-; IncPC_32_bit.v                             ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v                             ;         ;
-; 2_to_4_encoder.v                           ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/2_to_4_encoder.v                           ;         ;
-; 4_to_16_encoder.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/4_to_16_encoder.v                          ;         ;
-; CONFF_logic.v                              ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CONFF_logic.v                              ;         ;
-; ram.v                                      ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/ram.v                                      ;         ;
-; selectencodelogic.v                        ; yes             ; User Verilog HDL File                                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/selectencodelogic.v                        ;         ;
-; controlunit.mif                            ; yes             ; Auto-Found Memory Initialization File                 ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/controlunit.mif                            ;         ;
-; altsyncram.tdf                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                                                 ;         ;
-; stratix_ram_block.inc                      ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                          ;         ;
-; lpm_mux.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                                    ;         ;
-; lpm_decode.inc                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                                                 ;         ;
-; aglobal130.inc                             ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                                                 ;         ;
-; a_rdenreg.inc                              ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                                                  ;         ;
-; altrom.inc                                 ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                                                     ;         ;
-; altram.inc                                 ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                                                     ;         ;
-; altdpram.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                                                   ;         ;
-; db/altsyncram_rd91.tdf                     ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/altsyncram_rd91.tdf                     ;         ;
-; db/cpudesignproject.ram0_ram_1d0cf.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/cpudesignproject.ram0_ram_1d0cf.hdl.mif ;         ;
-; lpm_add_sub.tdf                            ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                                                ;         ;
-; addcore.inc                                ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc                                                                    ;         ;
-; look_add.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc                                                                   ;         ;
-; bypassff.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                                   ;         ;
-; altshift.inc                               ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                                   ;         ;
-; alt_stratix_add_sub.inc                    ; yes             ; Megafunction                                          ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                                                        ;         ;
-; db/add_sub_gui.tdf                         ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/add_sub_gui.tdf                         ;         ;
-+--------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                          ;
++----------------------------------+-----------------+----------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                        ; File Name with Absolute Path                                                                                  ; Library ;
++----------------------------------+-----------------+----------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
+; control_unit.v                   ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/control_unit.v          ;         ;
+; sub_32_bit.v                     ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/sub_32_bit.v            ;         ;
+; rotate_right_32_bit.v            ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_right_32_bit.v   ;         ;
+; rotate_left_32_bit.v             ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/rotate_left_32_bit.v    ;         ;
+; reg_32_bit.v                     ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/reg_32_bit.v            ;         ;
+; not_32_bit.v                     ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/not_32_bit.v            ;         ;
+; negate_32_bit.v                  ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/negate_32_bit.v         ;         ;
+; mux_32_to_1.v                    ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_32_to_1.v           ;         ;
+; mux_2_to_1.v                     ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/mux_2_to_1.v            ;         ;
+; multiplication_32_bit.v          ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/multiplication_32_bit.v ;         ;
+; encoder_32_to_5.v                ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/encoder_32_to_5.v       ;         ;
+; division_32_bit.v                ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/division_32_bit.v       ;         ;
+; CPUDesignProject.v               ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CPUDesignProject.v      ;         ;
+; alu.v                            ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/alu.v                   ;         ;
+; adder_32_bit.v                   ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/adder_32_bit.v          ;         ;
+; IncPC_32_bit.v                   ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/IncPC_32_bit.v          ;         ;
+; 2_to_4_encoder.v                 ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/2_to_4_encoder.v        ;         ;
+; 4_to_16_encoder.v                ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/4_to_16_encoder.v       ;         ;
+; CONFF_logic.v                    ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CONFF_logic.v           ;         ;
+; selectencodelogic.v              ; yes             ; User Verilog HDL File            ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/selectencodelogic.v     ;         ;
+; ramTest.mif                      ; yes             ; User Memory Initialization File  ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/ramTest.mif             ;         ;
+; memRAM.v                         ; yes             ; User Wizard-Generated File       ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/memRAM.v                ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                              ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                       ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                 ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                              ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                              ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                               ;         ;
+; altrom.inc                       ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                                  ;         ;
+; altram.inc                       ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                                  ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                                ;         ;
+; db/altsyncram_p8i1.tdf           ; yes             ; Auto-Generated Megafunction      ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/altsyncram_p8i1.tdf  ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                             ;         ;
+; addcore.inc                      ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/addcore.inc                                                 ;         ;
+; look_add.inc                     ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/look_add.inc                                                ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                ;         ;
+; altshift.inc                     ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                     ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                                     ;         ;
+; db/add_sub_gui.tdf               ; yes             ; Auto-Generated Megafunction      ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/db/add_sub_gui.tdf      ;         ;
++----------------------------------+-----------------+----------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -292,16 +291,16 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 7,349     ;
+; Estimated Total logic elements              ; 7,344     ;
 ;                                             ;           ;
-; Total combinational functions               ; 6732      ;
+; Total combinational functions               ; 6727      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 2655      ;
-;     -- 3 input functions                    ; 2184      ;
-;     -- <=2 input functions                  ; 1893      ;
+;     -- 4 input functions                    ; 2649      ;
+;     -- 3 input functions                    ; 2191      ;
+;     -- <=2 input functions                  ; 1887      ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 4998      ;
+;     -- normal mode                          ; 4993      ;
 ;     -- arithmetic mode                      ; 1734      ;
 ;                                             ;           ;
 ; Total registers                             ; 809       ;
@@ -313,7 +312,7 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 841       ;
-; Total fan-out                               ; 24033     ;
+; Total fan-out                               ; 24050     ;
 ; Average fan-out                             ; 3.09      ;
 +---------------------------------------------+-----------+
 
@@ -323,10 +322,10 @@ applicable agreement for further details.
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                ; Library Name ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------+--------------+
-; |CPUDesignProject                           ; 6732 (34)         ; 809 (0)      ; 16384       ; 0            ; 0       ; 0         ; 104  ; 0            ; |CPUDesignProject                                                                                  ; work         ;
+; |CPUDesignProject                           ; 6727 (34)         ; 809 (0)      ; 16384       ; 0            ; 0       ; 0         ; 104  ; 0            ; |CPUDesignProject                                                                                  ; work         ;
 ;    |CONFF_logic:conff|                      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|CONFF_logic:conff                                                                ; work         ;
 ;    |IncPC_32_bit:PC_reg|                    ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|IncPC_32_bit:PC_reg                                                              ; work         ;
-;    |alu:the_alu|                            ; 5632 (764)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                      ; work         ;
+;    |alu:the_alu|                            ; 5634 (766)        ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu                                                                      ; work         ;
 ;       |adder_32_bit:adder|                  ; 70 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder                                                   ; work         ;
 ;          |CLA16:adder1|                     ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1                                      ; work         ;
 ;             |CLA4:adder1|                   ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|adder_32_bit:adder|CLA16:adder1|CLA4:adder1                          ; work         ;
@@ -409,8 +408,8 @@ applicable agreement for further details.
 ;                |CLA4:adder2|                ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2     ; work         ;
 ;                |CLA4:adder3|                ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3     ; work         ;
 ;                |CLA4:adder4|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|negate_32_bit:negation|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4     ; work         ;
-;       |rotate_left_32_bit:rotateL|          ; 135 (135)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                           ; work         ;
-;       |rotate_right_32_bit:rotateR|         ; 126 (126)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                          ; work         ;
+;       |rotate_left_32_bit:rotateL|          ; 134 (134)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_left_32_bit:rotateL                                           ; work         ;
+;       |rotate_right_32_bit:rotateR|         ; 127 (127)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|rotate_right_32_bit:rotateR                                          ; work         ;
 ;       |sub_32_bit:subtraction|              ; 61 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction                                               ; work         ;
 ;          |adder_32_bit:ADD|                 ; 61 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD                              ; work         ;
 ;             |CLA16:adder1|                  ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder1                 ; work         ;
@@ -423,16 +422,16 @@ applicable agreement for further details.
 ;                |CLA4:adder2|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder2     ; work         ;
 ;                |CLA4:adder3|                ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder3     ; work         ;
 ;                |CLA4:adder4|                ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|alu:the_alu|sub_32_bit:subtraction|adder_32_bit:ADD|CLA16:adder2|CLA4:adder4     ; work         ;
-;    |control_unit:controlUnit|               ; 337 (337)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|control_unit:controlUnit                                                         ; work         ;
-;    |encoder_32_to_5:encoder|                ; 75 (75)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|encoder_32_to_5:encoder                                                          ; work         ;
+;    |control_unit:controlUnit|               ; 331 (331)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|control_unit:controlUnit                                                         ; work         ;
+;    |encoder_32_to_5:encoder|                ; 74 (74)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|encoder_32_to_5:encoder                                                          ; work         ;
+;    |memRAM:ramModule|                       ; 0 (0)             ; 0 (0)        ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|memRAM:ramModule                                                                 ; work         ;
+;       |altsyncram:altsyncram_component|     ; 0 (0)             ; 0 (0)        ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|memRAM:ramModule|altsyncram:altsyncram_component                                 ; work         ;
+;          |altsyncram_p8i1:auto_generated|   ; 0 (0)             ; 0 (0)        ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|memRAM:ramModule|altsyncram:altsyncram_component|altsyncram_p8i1:auto_generated  ; work         ;
 ;    |mux_32_to_1:BusMux|                     ; 517 (517)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|mux_32_to_1:BusMux                                                               ; work         ;
-;    |ram:ramModule|                          ; 0 (0)             ; 0 (0)        ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule                                                                    ; work         ;
-;       |altsyncram:RAM_rtl_0|                ; 0 (0)             ; 0 (0)        ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0                                               ; work         ;
-;          |altsyncram_rd91:auto_generated|   ; 0 (0)             ; 0 (0)        ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated                ; work         ;
 ;    |reg_32_bit:HI_reg|                      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:HI_reg                                                                ; work         ;
-;    |reg_32_bit:IR|                          ; 24 (24)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:IR                                                                    ; work         ;
+;    |reg_32_bit:IR|                          ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:IR                                                                    ; work         ;
 ;    |reg_32_bit:LO_reg|                      ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:LO_reg                                                                ; work         ;
-;    |reg_32_bit:MAR|                         ; 10 (10)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MAR                                                                   ; work         ;
+;    |reg_32_bit:MAR|                         ; 1 (1)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MAR                                                                   ; work         ;
 ;    |reg_32_bit:MDR|                         ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:MDR                                                                   ; work         ;
 ;    |reg_32_bit:OutPort|                     ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:OutPort                                                               ; work         ;
 ;    |reg_32_bit:R0|                          ; 0 (0)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPUDesignProject|reg_32_bit:R0                                                                    ; work         ;
@@ -459,122 +458,131 @@ applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                   ;
-+------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
-; Name                                                                         ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                                        ;
-+------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
-; ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 512          ; 32           ; --           ; --           ; 16384 ; db/CPUDesignProject.ram0_ram_1d0cf.hdl.mif ;
-+------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                  ;
++--------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+-------------+
+; Name                                                                                       ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF         ;
++--------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+-------------+
+; memRAM:ramModule|altsyncram:altsyncram_component|altsyncram_p8i1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 512          ; 32           ; --           ; --           ; 16384 ; ramTest.mif ;
++--------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                                  ;
-+------------------------------------------------------+--------------------------------------+------------------------+
-; Latch Name                                           ; Latch Enable Signal                  ; Free of Timing Hazards ;
-+------------------------------------------------------+--------------------------------------+------------------------+
-; mux_32_to_1:BusMux|BusMuxOut[0]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[1]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[2]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[3]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[4]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[5]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[6]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[7]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[8]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[9]                      ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[10]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[11]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[12]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[13]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[14]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[15]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[16]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[17]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[18]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[19]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[20]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[21]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[22]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[23]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[24]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[25]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[26]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[27]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[28]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[29]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[30]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; mux_32_to_1:BusMux|BusMuxOut[31]                     ; mux_32_to_1:BusMux|Mux32             ; yes                    ;
-; control_unit:controlUnit|OutPort_enable              ; control_unit:controlUnit|WideOr76    ; yes                    ;
-; control_unit:controlUnit|BAout                       ; control_unit:controlUnit|WideOr100   ; yes                    ;
-; control_unit:controlUnit|Rout                        ; control_unit:controlUnit|WideOr112   ; yes                    ;
-; control_unit:controlUnit|Gra                         ; control_unit:controlUnit|WideOr91    ; yes                    ;
-; control_unit:controlUnit|Grb                         ; control_unit:controlUnit|WideOr94    ; yes                    ;
-; control_unit:controlUnit|Grc                         ; control_unit:controlUnit|WideOr97    ; yes                    ;
-; control_unit:controlUnit|Cout                        ; control_unit:controlUnit|WideOr103   ; yes                    ;
-; control_unit:controlUnit|InPortout                   ; control_unit:controlUnit|WideOr105   ; yes                    ;
-; control_unit:controlUnit|ZHighout                    ; control_unit:controlUnit|WideOr108   ; yes                    ;
-; control_unit:controlUnit|LOout                       ; control_unit:controlUnit|WideOr106   ; yes                    ;
-; control_unit:controlUnit|HIout                       ; control_unit:controlUnit|WideOr107   ; yes                    ;
-; control_unit:controlUnit|MDRout                      ; control_unit:controlUnit|WideOr64    ; yes                    ;
-; control_unit:controlUnit|ZLowout                     ; control_unit:controlUnit|WideOr62    ; yes                    ;
-; control_unit:controlUnit|PCout                       ; control_unit:controlUnit|WideOr60    ; yes                    ;
-; control_unit:controlUnit|IRin                        ; control_unit:controlUnit|WideOr83    ; yes                    ;
-; control_unit:controlUnit|present_state.out3_1311     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.halt3_1291    ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.br7_1231      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.shra5_1241    ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.shra4_1251    ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.shra3_1261    ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.fetch3_1271   ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.fetch2a_1281  ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.nop3_1301     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.in3_1321      ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.mflo3_1331    ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.mfhi3_1341    ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.jal4_1351     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.jal3_1361     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.jr3_1371      ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.br6_1381      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.br5_1391      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.br4_1401      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.br3_1411      ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.ori5_1421     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ori4_1431     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ori3_1441     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.andi5_1451    ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.andi4_1461    ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.andi3_1471    ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.addi5_1481    ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.addi4_1491    ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.addi3_1501    ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.st7_1511      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.st6_1521      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.st5_1531      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.st4_1541      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.st3_1551      ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.ldi5_1561     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ldi4_1571     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ldi3_1581     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.ld7_1591      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ld6_1601      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ld5_1611      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ld4_1621      ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ld3_1631      ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.not4_1641     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.not3_1651     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.neg4_1661     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.neg3_1671     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.ror5_1681     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ror4_1691     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.ror3_1701     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.rol5_1711     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.rol4_1721     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.rol3_1731     ; control_unit:controlUnit|Selector70  ; yes                    ;
-; control_unit:controlUnit|present_state.shr5_1741     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; control_unit:controlUnit|present_state.shr4_1751     ; control_unit:controlUnit|Selector103 ; yes                    ;
-; Number of user-specified and inferred latches = 205  ;                                      ;                        ;
-+------------------------------------------------------+--------------------------------------+------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                               ;
++--------+--------------+---------+--------------+--------------+------------------------------------+------------------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                    ; IP Include File                                                                                ;
++--------+--------------+---------+--------------+--------------+------------------------------------+------------------------------------------------------------------------------------------------+
+; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |CPUDesignProject|memRAM:ramModule ; C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/memRAM.v ;
++--------+--------------+---------+--------------+--------------+------------------------------------+------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                 ;
++------------------------------------------------------+-------------------------------------+------------------------+
+; Latch Name                                           ; Latch Enable Signal                 ; Free of Timing Hazards ;
++------------------------------------------------------+-------------------------------------+------------------------+
+; mux_32_to_1:BusMux|BusMuxOut[0]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[1]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[2]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[3]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[4]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[5]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[6]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[7]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[8]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[9]                      ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[10]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[11]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[12]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[13]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[14]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[15]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[16]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[17]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[18]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[19]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[20]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[21]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[22]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[23]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[24]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[25]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[26]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[27]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[28]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[29]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[30]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; mux_32_to_1:BusMux|BusMuxOut[31]                     ; mux_32_to_1:BusMux|Mux32            ; yes                    ;
+; control_unit:controlUnit|OutPort_enable              ; control_unit:controlUnit|WideOr76   ; yes                    ;
+; control_unit:controlUnit|BAout                       ; control_unit:controlUnit|WideOr100  ; yes                    ;
+; control_unit:controlUnit|Rout                        ; control_unit:controlUnit|WideOr112  ; yes                    ;
+; control_unit:controlUnit|Gra                         ; control_unit:controlUnit|WideOr91   ; yes                    ;
+; control_unit:controlUnit|Grb                         ; control_unit:controlUnit|WideOr94   ; yes                    ;
+; control_unit:controlUnit|Grc                         ; control_unit:controlUnit|WideOr97   ; yes                    ;
+; control_unit:controlUnit|Cout                        ; control_unit:controlUnit|WideOr103  ; yes                    ;
+; control_unit:controlUnit|InPortout                   ; control_unit:controlUnit|WideOr105  ; yes                    ;
+; control_unit:controlUnit|ZHighout                    ; control_unit:controlUnit|WideOr108  ; yes                    ;
+; control_unit:controlUnit|LOout                       ; control_unit:controlUnit|WideOr106  ; yes                    ;
+; control_unit:controlUnit|HIout                       ; control_unit:controlUnit|WideOr107  ; yes                    ;
+; control_unit:controlUnit|MDRout                      ; control_unit:controlUnit|WideOr64   ; yes                    ;
+; control_unit:controlUnit|ZLowout                     ; control_unit:controlUnit|WideOr62   ; yes                    ;
+; control_unit:controlUnit|PCout                       ; control_unit:controlUnit|WideOr60   ; yes                    ;
+; control_unit:controlUnit|IRin                        ; control_unit:controlUnit|WideOr83   ; yes                    ;
+; control_unit:controlUnit|present_state.out3_1311     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.halt3_1291    ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.br7_1231      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.shra5_1241    ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.shra4_1251    ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.shra3_1261    ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.fetch3_1271   ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.fetch2a_1281  ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.nop3_1301     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.in3_1321      ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.mflo3_1331    ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.mfhi3_1341    ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.jal4_1351     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.jal3_1361     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.jr3_1371      ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.br6_1381      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.br5_1391      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.br4_1401      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.br3_1411      ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.ori5_1421     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ori4_1431     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ori3_1441     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.andi5_1451    ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.andi4_1461    ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.andi3_1471    ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.addi5_1481    ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.addi4_1491    ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.addi3_1501    ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.st7_1511      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.st6_1521      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.st5_1531      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.st4_1541      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.st3_1551      ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.ldi5_1561     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ldi4_1571     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ldi3_1581     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.ld7_1591      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ld6_1601      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ld5_1611      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ld4_1621      ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ld3_1631      ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.not4_1641     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.not3_1651     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.neg4_1661     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.neg3_1671     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.ror5_1681     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ror4_1691     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.ror3_1701     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.rol5_1711     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.rol4_1721     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.rol3_1731     ; control_unit:controlUnit|Selector70 ; yes                    ;
+; control_unit:controlUnit|present_state.shr5_1741     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; control_unit:controlUnit|present_state.shr4_1751     ; control_unit:controlUnit|Selector59 ; yes                    ;
+; Number of user-specified and inferred latches = 205  ;                                     ;                        ;
++------------------------------------------------------+-------------------------------------+------------------------+
 Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -591,15 +599,6 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 ; Number of registers using Clock Enable       ; 809   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
-
-
-+----------------------------------------------------------------------+
-; Registers Packed Into Inferred Megafunctions                         ;
-+-------------------------------------+-------------------------+------+
-; Register Name                       ; Megafunction            ; Type ;
-+-------------------------------------+-------------------------+------+
-; ram:ramModule|addressRegister[0..8] ; ram:ramModule|RAM_rtl_0 ; RAM  ;
-+-------------------------------------+-------------------------+------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -645,13 +644,13 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Source assignments for ram:ramModule|altsyncram:RAM_rtl_0|altsyncram_rd91:auto_generated ;
-+---------------------------------+--------------------+------+----------------------------+
-; Assignment                      ; Value              ; From ; To                         ;
-+---------------------------------+--------------------+------+----------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                          ;
-+---------------------------------+--------------------+------+----------------------------+
++--------------------------------------------------------------------------------------------------------+
+; Source assignments for memRAM:ramModule|altsyncram:altsyncram_component|altsyncram_p8i1:auto_generated ;
++---------------------------------+--------------------+------+------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                       ;
++---------------------------------+--------------------+------+------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                        ;
++---------------------------------+--------------------+------+------------------------------------------+
 
 
 +------------------------------------------------------------+
@@ -924,6 +923,67 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memRAM:ramModule|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+-----------------------------------+
+; Parameter Name                     ; Value                ; Type                              ;
++------------------------------------+----------------------+-----------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                           ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                        ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                      ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                      ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                    ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                           ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                           ;
+; WIDTH_A                            ; 32                   ; Signed Integer                    ;
+; WIDTHAD_A                          ; 9                    ; Signed Integer                    ;
+; NUMWORDS_A                         ; 512                  ; Signed Integer                    ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                           ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                           ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                           ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                           ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                           ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                           ;
+; WIDTH_B                            ; 1                    ; Untyped                           ;
+; WIDTHAD_B                          ; 1                    ; Untyped                           ;
+; NUMWORDS_B                         ; 1                    ; Untyped                           ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                           ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                           ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                           ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                           ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                           ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                           ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                           ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                           ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                           ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                           ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                           ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                           ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                    ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                           ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                           ;
+; BYTE_SIZE                          ; 8                    ; Untyped                           ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                           ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                           ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                           ;
+; INIT_FILE                          ; ramTest.mif          ; Untyped                           ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                           ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                           ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                           ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                           ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                           ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                           ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                           ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                           ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                           ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                           ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                           ;
+; DEVICE_FAMILY                      ; Cyclone III          ; Untyped                           ;
+; CBXI_PARAMETER                     ; altsyncram_p8i1      ; Untyped                           ;
++------------------------------------+----------------------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: alu:the_alu ;
 +----------------+-------+---------------------------------+
@@ -1050,67 +1110,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; shra4          ; 11000010 ; Unsigned Binary                           ;
 ; shra5          ; 11000011 ; Unsigned Binary                           ;
 +----------------+----------+-------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: ram:ramModule|altsyncram:RAM_rtl_0              ;
-+------------------------------------+--------------------------------------------+----------------+
-; Parameter Name                     ; Value                                      ; Type           ;
-+------------------------------------+--------------------------------------------+----------------+
-; BYTE_SIZE_BLOCK                    ; 8                                          ; Untyped        ;
-; AUTO_CARRY_CHAINS                  ; ON                                         ; AUTO_CARRY     ;
-; IGNORE_CARRY_BUFFERS               ; OFF                                        ; IGNORE_CARRY   ;
-; AUTO_CASCADE_CHAINS                ; ON                                         ; AUTO_CASCADE   ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                                        ; IGNORE_CASCADE ;
-; WIDTH_BYTEENA                      ; 1                                          ; Untyped        ;
-; OPERATION_MODE                     ; SINGLE_PORT                                ; Untyped        ;
-; WIDTH_A                            ; 32                                         ; Untyped        ;
-; WIDTHAD_A                          ; 9                                          ; Untyped        ;
-; NUMWORDS_A                         ; 512                                        ; Untyped        ;
-; OUTDATA_REG_A                      ; UNREGISTERED                               ; Untyped        ;
-; ADDRESS_ACLR_A                     ; NONE                                       ; Untyped        ;
-; OUTDATA_ACLR_A                     ; NONE                                       ; Untyped        ;
-; WRCONTROL_ACLR_A                   ; NONE                                       ; Untyped        ;
-; INDATA_ACLR_A                      ; NONE                                       ; Untyped        ;
-; BYTEENA_ACLR_A                     ; NONE                                       ; Untyped        ;
-; WIDTH_B                            ; 1                                          ; Untyped        ;
-; WIDTHAD_B                          ; 1                                          ; Untyped        ;
-; NUMWORDS_B                         ; 1                                          ; Untyped        ;
-; INDATA_REG_B                       ; CLOCK1                                     ; Untyped        ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                     ; Untyped        ;
-; RDCONTROL_REG_B                    ; CLOCK1                                     ; Untyped        ;
-; ADDRESS_REG_B                      ; CLOCK1                                     ; Untyped        ;
-; OUTDATA_REG_B                      ; UNREGISTERED                               ; Untyped        ;
-; BYTEENA_REG_B                      ; CLOCK1                                     ; Untyped        ;
-; INDATA_ACLR_B                      ; NONE                                       ; Untyped        ;
-; WRCONTROL_ACLR_B                   ; NONE                                       ; Untyped        ;
-; ADDRESS_ACLR_B                     ; NONE                                       ; Untyped        ;
-; OUTDATA_ACLR_B                     ; NONE                                       ; Untyped        ;
-; RDCONTROL_ACLR_B                   ; NONE                                       ; Untyped        ;
-; BYTEENA_ACLR_B                     ; NONE                                       ; Untyped        ;
-; WIDTH_BYTEENA_A                    ; 1                                          ; Untyped        ;
-; WIDTH_BYTEENA_B                    ; 1                                          ; Untyped        ;
-; RAM_BLOCK_TYPE                     ; AUTO                                       ; Untyped        ;
-; BYTE_SIZE                          ; 8                                          ; Untyped        ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                  ; Untyped        ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                       ; Untyped        ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                       ; Untyped        ;
-; INIT_FILE                          ; db/CPUDesignProject.ram0_ram_1d0cf.hdl.mif ; Untyped        ;
-; INIT_FILE_LAYOUT                   ; PORT_A                                     ; Untyped        ;
-; MAXIMUM_DEPTH                      ; 0                                          ; Untyped        ;
-; CLOCK_ENABLE_INPUT_A               ; NORMAL                                     ; Untyped        ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL                                     ; Untyped        ;
-; CLOCK_ENABLE_OUTPUT_A              ; NORMAL                                     ; Untyped        ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                     ; Untyped        ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                            ; Untyped        ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                            ; Untyped        ;
-; ENABLE_ECC                         ; FALSE                                      ; Untyped        ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                      ; Untyped        ;
-; WIDTH_ECCSTATUS                    ; 3                                          ; Untyped        ;
-; DEVICE_FAMILY                      ; Cyclone III                                ; Untyped        ;
-; CBXI_PARAMETER                     ; altsyncram_rd91                            ; Untyped        ;
-+------------------------------------+--------------------------------------------+----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1926,24 +1925,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                               ;
-+-------------------------------------------+------------------------------------+
-; Name                                      ; Value                              ;
-+-------------------------------------------+------------------------------------+
-; Number of entity instances                ; 1                                  ;
-; Entity Instance                           ; ram:ramModule|altsyncram:RAM_rtl_0 ;
-;     -- OPERATION_MODE                     ; SINGLE_PORT                        ;
-;     -- WIDTH_A                            ; 32                                 ;
-;     -- NUMWORDS_A                         ; 512                                ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                       ;
-;     -- WIDTH_B                            ; 1                                  ;
-;     -- NUMWORDS_B                         ; 1                                  ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                             ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                       ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                               ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                          ;
-+-------------------------------------------+------------------------------------+
++----------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                             ;
++-------------------------------------------+--------------------------------------------------+
+; Name                                      ; Value                                            ;
++-------------------------------------------+--------------------------------------------------+
+; Number of entity instances                ; 1                                                ;
+; Entity Instance                           ; memRAM:ramModule|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                      ;
+;     -- WIDTH_A                            ; 32                                               ;
+;     -- NUMWORDS_A                         ; 512                                              ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                           ;
+;     -- WIDTH_B                            ; 1                                                ;
+;     -- NUMWORDS_B                         ; 1                                                ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                           ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                     ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                             ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                        ;
++-------------------------------------------+--------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
@@ -2060,7 +2059,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:20     ;
+; Top            ; 00:00:24     ;
 +----------------+--------------+
 
 
@@ -2070,7 +2069,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Thu Mar 23 22:24:31 2023
+    Info: Processing started: Fri Mar 24 11:25:04 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPUDesignProject -c CPUDesignProject
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file control_unit.v
@@ -2198,7 +2197,28 @@ Info (12128): Elaborating entity "CONFF_logic" for hierarchy "CONFF_logic:conff"
 Warning (10235): Verilog HDL Always Construct warning at CONFF_logic.v(25): variable "brFlag" is read inside the Always Construct but isn't in the Always Construct's Event Control
 Info (12128): Elaborating entity "encoder_2_to_4" for hierarchy "CONFF_logic:conff|encoder_2_to_4:encoder"
 Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "mux_2_to_1:MDMux"
-Info (12128): Elaborating entity "ram" for hierarchy "ram:ramModule"
+Info (12128): Elaborating entity "memRAM" for hierarchy "memRAM:ramModule"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "memRAM:ramModule|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "memRAM:ramModule|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "memRAM:ramModule|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "ramTest.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone III"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "512"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "widthad_a" = "9"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_p8i1.tdf
+    Info (12023): Found entity 1: altsyncram_p8i1
+Info (12128): Elaborating entity "altsyncram_p8i1" for hierarchy "memRAM:ramModule|altsyncram:altsyncram_component|altsyncram_p8i1:auto_generated"
 Info (12128): Elaborating entity "mux_32_to_1" for hierarchy "mux_32_to_1:BusMux"
 Warning (10270): Verilog HDL Case Statement warning at mux_32_to_1.v(31): incomplete case statement has no default case item
 Warning (10240): Verilog HDL Always Construct warning at mux_32_to_1.v(31): inferring latch(es) for variable "BusMuxOut", which holds its previous value in one or more paths through the always construct
@@ -2327,6 +2347,7 @@ Warning (10270): Verilog HDL Case Statement warning at control_unit.v(42): incom
 Warning (10270): Verilog HDL Case Statement warning at control_unit.v(35): incomplete case statement has no default case item
 Info (10264): Verilog HDL Case Statement information at control_unit.v(35): all case item expressions in this case statement are onehot
 Warning (10240): Verilog HDL Always Construct warning at control_unit.v(29): inferring latch(es) for variable "present_state", which holds its previous value in one or more paths through the always construct
+Warning (10230): Verilog HDL assignment warning at control_unit.v(260): truncated value with size 32 to match size of target (1)
 Warning (10240): Verilog HDL Always Construct warning at control_unit.v(175): inferring latch(es) for variable "run", which holds its previous value in one or more paths through the always construct
 Warning (10240): Verilog HDL Always Construct warning at control_unit.v(175): inferring latch(es) for variable "R_enableIn", which holds its previous value in one or more paths through the always construct
 Warning (10240): Verilog HDL Always Construct warning at control_unit.v(175): inferring latch(es) for variable "PCout", which holds its previous value in one or more paths through the always construct
@@ -2540,19 +2561,6 @@ Warning (12011): Net is missing source, defaulting to GND
 Warning (12011): Net is missing source, defaulting to GND
     Warning (12110): Net "clr" is missing source, defaulting to GND
     Warning (12110): Net "Inport_data_out" is missing source, defaulting to GND
-Warning (276021): Created node "ram:ramModule|RAM" as a single-port RAM by generating altsyncram megafunction to implement register logic. Power-up values at the outputs of the RAM are different from the original design.
-Info (19000): Inferred 1 megafunctions from design logic
-    Info (276029): Inferred altsyncram megafunction from the following design logic: "ram:ramModule|RAM_rtl_0" 
-        Info (286033): Parameter OPERATION_MODE set to SINGLE_PORT
-        Info (286033): Parameter WIDTH_A set to 32
-        Info (286033): Parameter WIDTHAD_A set to 9
-        Info (286033): Parameter NUMWORDS_A set to 512
-        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
-        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
-        Info (286033): Parameter OUTDATA_ACLR_A set to NONE
-        Info (286033): Parameter INDATA_ACLR_A set to NONE
-        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to db/CPUDesignProject.ram0_ram_1d0cf.hdl.mif
 Info (278001): Inferred 29 megafunctions from design logic
     Info (278002): Inferred adder/subtractor megafunction ("lpm_add_sub") from the following logic: "alu:the_alu|division_32_bit:divison|Add2"
     Info (278002): Inferred adder/subtractor megafunction ("lpm_add_sub") from the following logic: "alu:the_alu|division_32_bit:divison|Add4"
@@ -2583,20 +2591,6 @@ Info (278001): Inferred 29 megafunctions from design logic
     Info (278002): Inferred adder/subtractor megafunction ("lpm_add_sub") from the following logic: "alu:the_alu|division_32_bit:divison|Add54"
     Info (278002): Inferred adder/subtractor megafunction ("lpm_add_sub") from the following logic: "alu:the_alu|division_32_bit:divison|Add56"
     Info (278002): Inferred adder/subtractor megafunction ("lpm_add_sub") from the following logic: "alu:the_alu|division_32_bit:divison|Add58"
-Info (12130): Elaborated megafunction instantiation "ram:ramModule|altsyncram:RAM_rtl_0"
-Info (12133): Instantiated megafunction "ram:ramModule|altsyncram:RAM_rtl_0" with the following parameter:
-    Info (12134): Parameter "OPERATION_MODE" = "SINGLE_PORT"
-    Info (12134): Parameter "WIDTH_A" = "32"
-    Info (12134): Parameter "WIDTHAD_A" = "9"
-    Info (12134): Parameter "NUMWORDS_A" = "512"
-    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
-    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
-    Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
-    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
-    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
-    Info (12134): Parameter "INIT_FILE" = "db/CPUDesignProject.ram0_ram_1d0cf.hdl.mif"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_rd91.tdf
-    Info (12023): Found entity 1: altsyncram_rd91
 Info (12130): Elaborated megafunction instantiation "alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2"
 Info (12133): Instantiated megafunction "alu:the_alu|division_32_bit:divison|lpm_add_sub:Add2" with the following parameter:
     Info (12134): Parameter "LPM_WIDTH" = "32"
@@ -2999,16 +2993,16 @@ Warning (21074): Design contains 32 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "inport_data_in[29]"
     Warning (15610): No output dependent on input pin "inport_data_in[30]"
     Warning (15610): No output dependent on input pin "inport_data_in[31]"
-Info (21057): Implemented 7590 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 7585 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 35 input pins
     Info (21059): Implemented 69 output pins
-    Info (21061): Implemented 7454 logic cells
+    Info (21061): Implemented 7449 logic cells
     Info (21064): Implemented 32 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 502 warnings
-    Info: Peak virtual memory: 4661 megabytes
-    Info: Processing ended: Thu Mar 23 22:24:59 2023
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 4669 megabytes
+    Info: Processing ended: Fri Mar 24 11:25:38 2023
+    Info: Elapsed time: 00:00:34
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +------------------------------------------+

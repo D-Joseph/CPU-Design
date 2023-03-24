@@ -25,3 +25,30 @@ Exception c0000005 has occurred at address 005c76c2. Traceback:
 # Platform = win32pe
 
 Exception c0000005 has occurred at address 005c76c2. Traceback:
+# Current time Fri Mar 24 10:09:10 2023
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 005c76c2. Traceback:
+# Current time Fri Mar 24 10:10:57 2023
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 005c76c2. Traceback:
+# Current time Fri Mar 24 11:22:50 2023
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 005c76c2. Traceback:
