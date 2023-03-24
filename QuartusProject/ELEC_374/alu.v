@@ -71,7 +71,7 @@ always @(*) begin
     C[31:0] <= neg_out;
   end
   logicalNot : begin
-    C[31:0] <= ~A;
+    C[31:0] <= ~B;
     C[63:32] <= 32'b0;
   end
   load, loadi, store, addi: begin
@@ -100,7 +100,7 @@ adder_32_bit adder(.a(A),.b(B),.cin(1'b0),.cout(adder_cout),.sum(adder_sum));
 sub_32_bit subtraction(.a(A),.b(B),.cin(1'b0),.cout(sub_cout),.sum(sub_sum));
 multiplication_32_bit mutlipication(.a(A), .b(B), .z(mul_out));
 division_32_bit divison(.dividend(A), .divisor(B), .c(div_out));
-negate_32_bit negation(.a(A), .neg_a(neg_out));
+negate_32_bit negation(.a(B), .neg_a(neg_out));
 rotate_left_32_bit rotateL(.in(A),.b(B),.out(rol_out));
 rotate_right_32_bit rotateR(.in(A),.b(B),.out(ror_out));
 //IncPC_32_bit pc_inc(IncPC,RPC,aluPCout);

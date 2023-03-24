@@ -1,6 +1,6 @@
 module ram (
   input [31:0] data_in, 
-  input [7:0] address, 
+  input [8:0] address, 
   input clk, writeEnable, 
   output [31:0] data_out
 );

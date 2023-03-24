@@ -11,3 +11,4 @@ Warning (10268): Verilog HDL information at rol_tb.v(43): always construct conta
 Warning (10268): Verilog HDL information at ror_tb.v(43): always construct contains both blocking and non-blocking assignments
 Warning (10268): Verilog HDL information at not_tb.v(42): always construct contains both blocking and non-blocking assignments
 Warning (10268): Verilog HDL information at neg_tb.v(42): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at clkDivider.v(14): always construct contains both blocking and non-blocking assignments

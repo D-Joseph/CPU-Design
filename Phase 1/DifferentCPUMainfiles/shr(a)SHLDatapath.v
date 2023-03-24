@@ -347,3 +347,4 @@ module selectencodelogic (
 endmodule
 
 do CPUDesignProject_run_msim_rtl_verilog.do
+

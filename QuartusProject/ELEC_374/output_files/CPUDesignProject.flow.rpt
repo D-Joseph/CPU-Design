@@ -1,5 +1,5 @@
 Flow report for CPUDesignProject
-Wed Mar 22 23:01:37 2023
+Thu Mar 23 22:24:59 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,20 +40,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Wed Mar 22 23:01:37 2023            ;
+; Flow Status                        ; Successful - Thu Mar 23 22:24:59 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 7,373                                            ;
-;     Total combinational functions  ; 6,757                                            ;
-;     Dedicated logic registers      ; 808                                              ;
-; Total registers                    ; 808                                              ;
+; Total logic elements               ; 7,349                                            ;
+;     Total combinational functions  ; 6,732                                            ;
+;     Dedicated logic registers      ; 809                                              ;
+; Total registers                    ; 809                                              ;
 ; Total pins                         ; 104                                              ;
 ; Total virtual pins                 ; 0                                                ;
-; Total memory bits                  ; 8,192                                            ;
+; Total memory bits                  ; 16,384                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                                ;
 ; Total PLLs                         ; 0                                                ;
 +------------------------------------+--------------------------------------------------+
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/22/2023 23:01:04 ;
+; Start date & time ; 03/23/2023 22:24:34 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 35281975640218.167954046404208        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123478089144587.167962467421912       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -236,8 +236,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:33     ; 1.0                     ; 4668 MB             ; 00:00:31                           ;
-; Total                ; 00:00:33     ; --                      ; --                  ; 00:00:31                           ;
+; Analysis & Synthesis ; 00:00:27     ; 1.0                     ; 4661 MB             ; 00:00:25                           ;
+; Total                ; 00:00:27     ; --                      ; --                  ; 00:00:25                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -246,7 +246,7 @@ applicable agreement for further details.
 +----------------------+------------------+-----------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis ; LAPTOP-B399UHJN  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis ; LukaDesktop      ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 
