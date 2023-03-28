@@ -1,4 +1,4 @@
-`timescale 1ns/10ps
+`timescale 1ns/100ps
 
 module phase3_tb;
 	reg clk, rst, stop;

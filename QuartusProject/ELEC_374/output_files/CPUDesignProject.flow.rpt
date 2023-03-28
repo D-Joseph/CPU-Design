@@ -1,5 +1,5 @@
 Flow report for CPUDesignProject
-Fri Mar 24 11:25:38 2023
+Mon Mar 27 23:07:18 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Fri Mar 24 11:25:38 2023            ;
+; Flow Status                        ; Successful - Mon Mar 27 23:07:18 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; CPUDesignProject                                 ;
 ; Top-level Entity Name              ; CPUDesignProject                                 ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 7,344                                            ;
-;     Total combinational functions  ; 6,727                                            ;
-;     Dedicated logic registers      ; 809                                              ;
-; Total registers                    ; 809                                              ;
-; Total pins                         ; 104                                              ;
+; Total logic elements               ; 7,364                                            ;
+;     Total combinational functions  ; 6,763                                            ;
+;     Dedicated logic registers      ; 807                                              ;
+; Total registers                    ; 807                                              ;
+; Total pins                         ; 105                                              ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 16,384                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                                ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/24/2023 11:25:07 ;
+; Start date & time ; 03/27/2023 23:06:51 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPUDesignProject    ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 123478089144587.167967150739040       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123478089144587.167997281022668       ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; and_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; add_tb         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; ALU_tb         ;
@@ -214,7 +214,7 @@ applicable agreement for further details.
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; mflo_tb        ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; out_tb         ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --          ; in_tb          ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100000 ns                             ; --            ; --          ; phase3_tb      ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 150000 ns                             ; --            ; --          ; phase3_tb      ;
 ; EDA_TIME_SCALE                       ; 1 ns                                  ; --            ; --          ; eda_simulation ;
 ; IP_TOOL_NAME                         ; RAM: 1-PORT                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                      ; 13.0                                  ; --            ; --          ; --             ;
@@ -237,8 +237,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:31     ; 1.0                     ; 4669 MB             ; 00:00:26                           ;
-; Total                ; 00:00:31     ; --                      ; --                  ; 00:00:26                           ;
+; Analysis & Synthesis ; 00:00:29     ; 1.0                     ; 4661 MB             ; 00:00:26                           ;
+; Total                ; 00:00:29     ; --                      ; --                  ; 00:00:26                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -19,11 +19,11 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add30" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add38" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add56" CBX_FILE_NAME="add_sub_gui.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|memRAM:ramModule|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_p8i1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add22" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add4" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add40" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add48" CBX_FILE_NAME="add_sub_gui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|ram:ramModule|altsyncram:RAM_rtl_0" CBX_FILE_NAME="altsyncram_rd91.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add14" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add32" CBX_FILE_NAME="add_sub_gui.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPUDesignProject|alu:the_alu|division_32_bit:divison|lpm_add_sub:Add50" CBX_FILE_NAME="add_sub_gui.tdf"/>

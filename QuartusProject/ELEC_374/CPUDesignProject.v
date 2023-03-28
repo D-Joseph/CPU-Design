@@ -1,16 +1,16 @@
-`timescale 1ns/10ps
+`timescale 1ns/100ps
 
 module CPUDesignProject(
 	input clk, rst, stop,
 	input wire [31:0] inport_data_in, 
 	output wire [31:0] outport_data_out, bus_contents,
-	output [4:0] operation
+	output [4:0] operation,
+	output wire Run
 );
 
 	wire IncPC, CONin, ramWE, MDRin, MDRout, MARin, IRin,Read, R_in, R_out, Gra, Grb, Grc, 
 	HIin, LOin, ZHighIn, ZLowIn, Yin, PCin, InPort_enable, OutPort_enable,
-	InPortout, PCout, ZLowout, ZHighout, LOout, HIout, BAout, Cout, Run;
-
+	InPortout, PCout, ZLowout, ZHighout, LOout, HIout, BAout, Cout;
 	
 	reg [15:0] regEnable; //which register is enabled
 	reg [15:0] regOut; //Which register to output
@@ -36,15 +36,12 @@ module CPUDesignProject(
 		else 
 			regOut <= 16'b0;
 	end 
-	/*
-	Signal and wire declarations to be used in the Datapath
-	*/ 
-
+	
     //These are the inputs to the bus multiplexer
 	wire [31:0] R0_data_out, R1_data_out,R2_data_out,R3_data_out, R4_data_out, R5_data_out, R6_data_out, R7_data_out, R8_data_out, R9_data_out;
 	wire [31:0] R10_data_out, R11_data_out, R12_data_out, R13_data_out, R14_data_out, R15_data_out, HI_data_out, LO_data_out;
 	wire [31:0] ZHigh_data_out, ZLow_data_out, IR_data_out;
-	wire [31:0] PC_data_out, MDR_data_out, RAM_data_out, MAR_data_out_32, C_Sign_extend, Y_data_out ,pcData;
+	wire [31:0] PC_data_out, MDR_data_out, RAM_data_out, MAR_data_out_32, C_Sign_extend, Y_data_out, Inport_data_out;
 	wire [63:0] C_data_out;
 	wire [8:0] MAR_data_out;
 
@@ -63,6 +60,7 @@ module CPUDesignProject(
 	reg_32_bit R0(clk, clr, regEnable[0] , bus_contents, r0_out); 
 	assign R0_data_out = {32{!BAout}} & r0_out; //revision to R0
 	
+	//Registers
 	reg_32_bit R1(clk, clr, regEnable[1], bus_contents, R1_data_out);
 	reg_32_bit R2(clk, clr, regEnable[2], bus_contents, R2_data_out);
 	reg_32_bit R3(clk, clr, regEnable[3], bus_contents, R3_data_out);
@@ -86,11 +84,17 @@ module CPUDesignProject(
 
 	reg_32_bit IR(clk, rst, IRin, bus_contents, IR_data_out);
 
-	//reg_32_bit PC_reg(clk, clr,PCin, bus_contents, PC_data_out);
-    IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
+   IncPC_32_bit PC_reg(clk, IncPC, PCin, bus_contents, PC_data_out);
 	
-	reg_32_bit OutPort(clk, clr, OutPortIn, bus_contents, outport_data_out);
-	reg_32_bit InPort(clk, clr, InPortIn, Inport_data_out, BusMuxIn_In_Port);
+	wire [7:0] display1_data_out, display2_data_out;
+	seven_seg_display_out display1(display1_data_out,clk,bus_contents[3:0]);
+	seven_seg_display_out display2(display2_data_out,clk,bus_contents[7:4]);
+	
+	wire [32:0] outport_contents;
+	assign outport_contents = {display2_data_out,display1_data_out};
+	
+	reg_32_bit OutPort(clk, clr, OutPortIn, outport_contents, outport_data_out);
+	reg_32_bit #(32'h88) InPort(clk, clr, InPortIn, inport_data_in, Inport_data_out);
 
 	//Select and encode Logic and CON FF
 	selectencodelogic selEn(IR_data_out, Gra, Grb, Grc, R_in, R_out, BAout, C_Sign_extend,
@@ -108,8 +112,8 @@ module CPUDesignProject(
 	reg_32_bit MAR(clk,rst,MARin, bus_contents, MAR_data_out_32);
 	assign MAR_data_out = MAR_data_out_32[8:0];
 
-	memRAM ramModule(MAR_data_out,clk,MDR_data_out,Read,ramWE,RAM_data_out);
-	//ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
+	//memRAM ramModule(MAR_data_out,clk,MDR_data_out,Read,ramWE,RAM_data_out);
+	ram ramModule(MDR_data_out,MAR_data_out,clk,ramWE,RAM_data_out);
 
 	// Multiplexer to select which data to send out on the bus
 	mux_32_to_1 BusMux(
@@ -168,7 +172,7 @@ module CPUDesignProject(
 		.IR(IR_data_out),
 		.clk(clk),
 		.rst(rst),
-		.stop(stop)
+		.stop(stop),
 	);
 
 endmodule

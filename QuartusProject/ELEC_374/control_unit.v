@@ -1,4 +1,4 @@
-`timescale 1ns/10ps
+`timescale 1ns/100ps
 module control_unit (
 	output reg IncPC, CONin, ramWE, MDRin, MDRout, MARin, IRin,Read, Rin, Rout, Gra, Grb, Grc, 
 	HIin, LOin, ZHighIn, ZLowIn, Yin, PCin, InPort_enable, OutPort_enable,
@@ -20,9 +20,10 @@ parameter reset_state= 8'b00000000, fetch0 = 8'b00000001, fetch1 = 8'b00000010, 
 			 ld7 = 8'b00101110, ldi3 = 8'b00101111, ldi4 = 8'b00110000, ldi5 = 8'b00110001, st3 = 8'b00110010, st4 = 8'b00110011,
 			 st5 = 8'b00110100, st6 = 8'b00110101, st7 = 8'b00110110, addi3 = 8'b00110111, addi4 = 8'b00111000, addi5 = 8'b00111001,
 			 andi3 = 8'b00111010, andi4 = 8'b00111011, andi5 = 8'b00111100, ori3 = 8'b00111101, ori4 = 8'b00111110, ori5 = 8'b00111111,
-			 br3 = 8'b01000000, br4 = 8'b01000001, br5 = 8'b01000010, br6 = 8'b01000011, br7 = 8'b11111111, jr3 = 8'b01000100, jal3 = 8'b01000101, 
-			 jal4 = 8'b01000110, mfhi3 = 8'b01000111, mflo3 = 8'b01001000, in3 = 8'b01001001, out3 = 8'b01001010, nop3 = 8'b01001011, 
-			 halt3 = 8'b01001100,fetch2a = 8'b10000000, fetch3 = 8'b11000000, shra3 = 8'b11000001, shra4 = 8'b11000010, shra5 = 8'b11000011;
+			 br3 = 8'b01000000, br4 = 8'b01000001, br5 = 8'b01000010, br6 = 8'b01000011, br7 = 8'b11111111, jr3 = 8'b01000100, 
+			 jal3 = 8'b01000101, jal4 = 8'b01000110, mfhi3 = 8'b01000111, mflo3 = 8'b01001000, in3 = 8'b01001001, out3 = 8'b01001010, 
+			 nop3 = 8'b01001011, halt3 = 8'b01001100,fetch2a = 8'b10000000, fetch3 = 8'b11000000, shra3 = 8'b11000001, 
+          shra4 = 8'b11000010, shra5 = 8'b11000011;
  
 reg [7:0] present_state = reset_state;  // adjust the bit pattern based on the number of states
 
@@ -187,12 +188,12 @@ always @(present_state) begin // do the job for each state
 				HIin<=0; LOin<=0; Rout<=0; Rin<=0; Read<=0; 
 			
 		end
-      fetch0: begin                                                                                  // see if you need to de-assert these signals 
+      fetch0: begin                                                                                  
 				#5 PCout <= 1; MARin <= 1; 
       end 
 		fetch1: begin
 				PCout <= 0; MARin <= 0; ZLowIn <= 0; 
-            Read <= 1; MDRin <= 1; //This is essentially (copy zlow back into pc)
+            Read <= 1; MDRin <= 1; 
       end
       fetch2: begin
             ZLowout <= 0; Read <= 0; MDRin <= 0;
@@ -219,7 +220,7 @@ always @(present_state) begin // do the job for each state
 			 ZLowout<= 1; Gra <= 1; Rin <= 1; 
 			//#40 Zlowout<= 0; Gra <= 0; Rin <= 0; 
 		end
-		
+		//MUL AND DIVIDE
 		mul3, div3 : begin
 			  PCin <= 0; IncPC <= 0;  
 			 Gra <= 1; Rout <= 1;Yin <= 1;
@@ -237,7 +238,7 @@ always @(present_state) begin // do the job for each state
 			 ZHighout <= 1; HIin <= 1;
 			 //#40 Zhighout <= 0; HIin <= 0;
 		end
-		
+		//Intermediate Inst
 		andi3,ori3,addi3: begin
             PCin <= 0; IncPC <= 0;  
            Grb <= 1; Rout <= 1; Yin <= 1;     
@@ -251,7 +252,7 @@ always @(present_state) begin // do the job for each state
             ZLowout<= 1; Gra <= 1; Rin <= 1; 
 			   //#40 ZLowout<= 0; Gra <= 0; Rin <= 0; 
 		end
-		
+		//Not Neg
       not3,neg3: begin
             PCin <= 0; IncPC <= 0;  
 				Grb <= 1; Rout <= 1; ZLowIn <= 1;
@@ -260,7 +261,7 @@ always @(present_state) begin // do the job for each state
             Grb <= 0; Rout <= 0; ZLowIn <= 10;
 				ZLowout<= 1; Gra <= 1; Rin <= 1; 
 	   end
-		
+		//LOAD
 		ld3: begin
              PCin <= 0; IncPC <= 0; 
             Grb <= 1; BAout <= 1; Yin <= 1;   
@@ -282,7 +283,7 @@ always @(present_state) begin // do the job for each state
             MDRout <= 1; Gra <= 1; Rin <= 1; 
 				//#40 MDRout <=0; Gra<=0; Rin<=0; 
 		end
-		
+		//Load Intermediate
 		ldi3: begin
             PCin <= 0; IncPC <= 0; 
             Grb <= 1; BAout <= 1; Yin <= 1;   
@@ -295,7 +296,7 @@ always @(present_state) begin // do the job for each state
             Cout <= 0; ZHighIn <= 0; ZLowIn <= 0;
             ZLowout<= 1; Gra <= 1; Rin <= 1; 
 		end
-		
+		//Store
 		st3: begin
             PCin <= 0; IncPC <= 0; 
            Grb <= 1; BAout <= 1; Yin <= 1;  
@@ -316,12 +317,12 @@ always @(present_state) begin // do the job for each state
            Gra <= 0; Rout <= 0;  MDRin <= 0; MDRout <= 1;
 			  ramWE <= 1;
 		end
-		
+		//Jump
 		jr3: begin
            PCin <= 0; IncPC <= 0; 
            Gra <= 1; Rout <= 1; PCin <= 1;
       end
-		
+		//Jump and Link
 		jal3: begin
             PCin <= 0; IncPC <= 0; 
             PCout <= 1; R_enableIn <= 16'h8000;
@@ -330,27 +331,27 @@ always @(present_state) begin // do the job for each state
            PCout <= 0; R_enableIn <= 16'h0;
            Gra <= 1; Rout <= 1; PCin <= 1;
       end
-		
+		//Outport
 		out3: begin
             PCin <= 0; IncPC <= 0; 
-           Gra <= 1; Rout <= 1; OutPort_enable <= 1;
+            Gra <= 1; Rout <= 1; OutPort_enable <= 1;
       end
-		
+		//Inport
 		in3: begin
            PCin <= 0; IncPC <= 0; 
            Gra <= 1; Rin <= 1; InPortout <= 1;
 	   end
-		
+		//Move from HI
 		mfhi3: begin
             PCin <= 0; IncPC <= 0; 
            Gra <= 1; Rin <= 1; HIout <= 1;
       end
-		
+		//Move from LO
 		mflo3: begin
             PCin <= 0; IncPC <= 0; 
            Gra <= 1; Rin <= 1; LOout <= 1;
       end
-		
+		//Branch
 		br3: begin
            PCin <= 0; IncPC <= 0; 
            Gra <= 1; Rout <= 1; CONin <= 1;
@@ -371,9 +372,11 @@ always @(present_state) begin // do the job for each state
            ZLowout<=0; PCin<=0;
 			  PCout<=1; MARin <= 1;
 		end
+		//No OP
 		nop3 : begin
 			PCin <= 0; IncPC <= 0;
 		end	
+		//Halt
 		halt3: begin
 		  PCin <= 0; IncPC <= 0;
 		  run <= 0;
