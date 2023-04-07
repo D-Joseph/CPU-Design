@@ -93,7 +93,7 @@ module CPUDesignProject(
 	wire [32:0] outport_contents;
 	assign outport_contents = {display2_data_out,display1_data_out};
 	
-	reg_32_bit OutPort(clk, clr, OutPortIn, outport_contents, outport_data_out);
+	reg_32_bit OutPort(clk, clr, OutPortIn, bus_contents, outport_data_out);
 	reg_32_bit #(32'h88) InPort(clk, clr, InPortIn, inport_data_in, Inport_data_out);
 
 	//Select and encode Logic and CON FF
@@ -172,7 +172,7 @@ module CPUDesignProject(
 		.IR(IR_data_out),
 		.clk(clk),
 		.rst(rst),
-		.stop(stop),
+		.stop(stop)
 	);
 
 endmodule

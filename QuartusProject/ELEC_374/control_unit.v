@@ -37,9 +37,7 @@ always @(posedge clk, posedge rst, posedge stop) // finite state machine; if clo
 	reset_state : present_state = #40 fetch0;
 	fetch0 : #40 present_state = fetch1;
 	fetch1 : #40 present_state = fetch2;
-	fetch2			:	#40 present_state = fetch2a;
-			fetch2a			:	#40 present_state = fetch3;
-			fetch3			: #20	begin	
+	fetch2 : #40	begin	
 					case (IR[31:27]) // inst. decoding based on the opcode to set the next state
 						5'b00011 : present_state = add3; // this is the add instruction
 						5'b00100 : present_state = sub3;
@@ -189,26 +187,19 @@ always @(present_state) begin // do the job for each state
 			
 		end
       fetch0: begin                                                                                  
-				#5 PCout <= 1; MARin <= 1; 
+				#5 PCout <= 1; MARin <= 1; PCin <= 1; IncPC <= 1;  
       end 
 		fetch1: begin
-				PCout <= 0; MARin <= 0; ZLowIn <= 0; 
+				PCout <= 0; MARin <= 0; ZLowIn <= 0; PCin <= 0; IncPC <= 0;  
             Read <= 1; MDRin <= 1; 
       end
       fetch2: begin
             ZLowout <= 0; Read <= 0; MDRin <= 0;
             #5 MDRout <= 1; IRin <= 1; 
 		end		
-		fetch2a : begin
-		
-		end
-		fetch3 : begin
-				MDRout <= 0; IRin <= 0;
-				PCin <= 1; IncPC <= 1;   
-		end
 		//END OF FETCH
 		add3, sub3, or3, and3, shl3, shr3, shra3, rol3, ror3: begin
-			 PCin <= 0; IncPC <= 0;  
+			 MDRout <= 0; IRin <= 0;  
 			 Grb <= 1; Rout <= 1;Yin <= 1;
 		end
 		add4, sub4, or4, and4, shl4, shr4, shra4, rol4, ror4: begin
@@ -222,7 +213,7 @@ always @(present_state) begin // do the job for each state
 		end
 		//MUL AND DIVIDE
 		mul3, div3 : begin
-			  PCin <= 0; IncPC <= 0;  
+			  MDRout <= 0; IRin <= 0;
 			 Gra <= 1; Rout <= 1;Yin <= 1;
 	   end
 		mul4, div4: begin
@@ -240,7 +231,7 @@ always @(present_state) begin // do the job for each state
 		end
 		//Intermediate Inst
 		andi3,ori3,addi3: begin
-            PCin <= 0; IncPC <= 0;  
+           MDRout <= 0; IRin <= 0;
            Grb <= 1; Rout <= 1; Yin <= 1;     
       end
       andi4,ori4,addi4: begin
@@ -254,7 +245,7 @@ always @(present_state) begin // do the job for each state
 		end
 		//Not Neg
       not3,neg3: begin
-            PCin <= 0; IncPC <= 0;  
+            MDRout <= 0; IRin <= 0; 
 				Grb <= 1; Rout <= 1; ZLowIn <= 1;
       end
       not4,neg4: begin
@@ -263,7 +254,7 @@ always @(present_state) begin // do the job for each state
 	   end
 		//LOAD
 		ld3: begin
-             PCin <= 0; IncPC <= 0; 
+            MDRout <= 0; IRin <= 0;
             Grb <= 1; BAout <= 1; Yin <= 1;   
       end
       ld4: begin
@@ -285,7 +276,7 @@ always @(present_state) begin // do the job for each state
 		end
 		//Load Intermediate
 		ldi3: begin
-            PCin <= 0; IncPC <= 0; 
+            MDRout <= 0; IRin <= 0;
             Grb <= 1; BAout <= 1; Yin <= 1;   
       end
       ldi4: begin
@@ -298,7 +289,7 @@ always @(present_state) begin // do the job for each state
 		end
 		//Store
 		st3: begin
-            PCin <= 0; IncPC <= 0; 
+            MDRout <= 0; IRin <= 0; 
            Grb <= 1; BAout <= 1; Yin <= 1;  
       end
 		st4: begin
@@ -319,12 +310,12 @@ always @(present_state) begin // do the job for each state
 		end
 		//Jump
 		jr3: begin
-           PCin <= 0; IncPC <= 0; 
+           MDRout <= 0; IRin <= 0;
            Gra <= 1; Rout <= 1; PCin <= 1;
       end
 		//Jump and Link
 		jal3: begin
-            PCin <= 0; IncPC <= 0; 
+            MDRout <= 0; IRin <= 0;
             PCout <= 1; R_enableIn <= 16'h8000;
       end
 		jal4: begin
@@ -333,27 +324,27 @@ always @(present_state) begin // do the job for each state
       end
 		//Outport
 		out3: begin
-            PCin <= 0; IncPC <= 0; 
+            MDRout <= 0; IRin <= 0;
             Gra <= 1; Rout <= 1; OutPort_enable <= 1;
       end
 		//Inport
 		in3: begin
-           PCin <= 0; IncPC <= 0; 
+          MDRout <= 0; IRin <= 0; 
            Gra <= 1; Rin <= 1; InPortout <= 1;
 	   end
 		//Move from HI
 		mfhi3: begin
-            PCin <= 0; IncPC <= 0; 
+            MDRout <= 0; IRin <= 0; 
            Gra <= 1; Rin <= 1; HIout <= 1;
       end
 		//Move from LO
 		mflo3: begin
-            PCin <= 0; IncPC <= 0; 
+           MDRout <= 0; IRin <= 0; 
            Gra <= 1; Rin <= 1; LOout <= 1;
       end
 		//Branch
 		br3: begin
-           PCin <= 0; IncPC <= 0; 
+           MDRout <= 0; IRin <= 0;
            Gra <= 1; Rout <= 1; CONin <= 1;
       end
       br4: begin
@@ -374,11 +365,11 @@ always @(present_state) begin // do the job for each state
 		end
 		//No OP
 		nop3 : begin
-			PCin <= 0; IncPC <= 0;
+			MDRout <= 0; IRin <= 0;
 		end	
 		//Halt
 		halt3: begin
-		  PCin <= 0; IncPC <= 0;
+		  MDRout <= 0; IRin <= 0;
 		  run <= 0;
 		end
 	endcase

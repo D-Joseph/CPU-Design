@@ -25,6 +25,7 @@ vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year
 vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/4_to_16_encoder.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/CONFF_logic.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/selectencodelogic.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/seven_seg_display_out.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/ram.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/Luka/Documents/Queens/Third\ Year/ELEC\ 374/CPU-Design/QuartusProject/ELEC_374 {C:/Users/Luka/Documents/Queens/Third Year/ELEC 374/CPU-Design/QuartusProject/ELEC_374/phase3_tb.v}

@@ -103,6 +103,5 @@ division_32_bit divison(.dividend(A), .divisor(B), .c(div_out));
 negate_32_bit negation(.a(B), .neg_a(neg_out));
 rotate_left_32_bit rotateL(.in(A),.b(B),.out(rol_out));
 rotate_right_32_bit rotateR(.in(A),.b(B),.out(ror_out));
-//IncPC_32_bit pc_inc(IncPC,RPC,aluPCout);
 
 endmodule
